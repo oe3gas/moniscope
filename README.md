@@ -17,6 +17,67 @@ library.
 > firmware V02.74. Linux operation (including Raspberry Pi) works in practice
 > but is not yet documented.
 
+![The D-SCAN waterfall on :8000, 88–108 MHz, with the frequency catalogue
+strip naming the transmitters and the marker list open](bilder/moniscope-8000.png)
+
+<sub>The D-SCAN waterfall across the FM broadcast band. The strip under the
+spectrum comes from the frequency catalogue and names what you are looking at;
+the panel on the right is the marker list, filling as the sweep runs.</sub>
+
+<details>
+<summary><b>More of the interface</b> — IFPAN zoom, spectrum analysis, signal
+analysis, recordings, M-SCAN, sessions</summary>
+
+### IFPAN zoom
+
+![IFPAN zoom on a single FM carrier at 95.093736 MHz](bilder/moniscope-8000-2.png)
+
+Zoomed onto one carrier with the EB200SU IF panorama — 200 kHz span, the
+demodulation and bandwidth controls on the left, and the catalogue naming the
+station (ČRo Radiožurnál). Recording of audio or spectrum starts from the same
+panel.
+
+### Spectrum analysis (`:8040`)
+
+![Spectrum analysis of a 146–180 MHz recording with the findings navigator](bilder/moniscope-8040.png)
+
+A recorded sweep, analysed. The findings navigator on the left sorts what was
+found into continuous carriers, bursty channels, strongest events, comb
+structures and periodicities; clicking an entry jumps the waterfall there.
+
+### Signal analysis (`:8070`)
+
+![Signal analysis of an IQ recording with two markers set in the spectrogram](bilder/moniscope-8070.png)
+
+An IQ recording opened for measurement: FFT size, contrast and two markers
+whose difference is read off directly — here 11 248 Hz between two carriers of
+a suspected DAB signal. The metadata above comes from the recording's sidecar.
+
+### Recordings and jobs (`:8050`)
+
+![The recordings table with 185 entries, filtered by kind](bilder/moniscope-8050.png)
+
+Every recording from every source in one table — D-SCAN sessions, IFPAN
+spectra, audio, IQ — with labels, state, size, storage location, and the SigMF
+export buttons on IQ rows.
+
+### M-SCAN scan definitions
+
+![The M-SCAN scan definitions tab](bilder/moniscope-8050-2.png)
+
+Channel scans are stored as named definitions with an ID, a mode
+(surveillance or inventory) and their channel list, and keep a record of how
+often they have run.
+
+### Session analysis (`:8020`)
+
+![The session list with waterfall thumbnails](bilder/moniscope-8020.png)
+
+Recorded D-SCAN sessions with a thumbnail of the whole run, its frequency
+span, duration and sweep count.
+
+</details>
+
 ---
 
 ## Requirements
