@@ -154,6 +154,16 @@ individual catalogue files from the display.
 
 ## Documentation
 
+**[`handbuch/handbuch.md`](handbuch/handbuch.md) — the user manual, in German.**
+Twenty-three chapters: setup, the frequency catalogue, the monitoring modes,
+D-SCAN, IFPAN, M-SCAN, recordings, IQ signal analysis, workflows, the data and
+file formats, the HTTP interfaces, device knowledge, troubleshooting and a
+glossary. Frozen at the `de-final` state of 2026-09-20; a few chapters are
+marked as drafts. An English edition is planned but not started — until then
+this is the fullest description of what the suite does and why.
+
+Everything else:
+
 - `docs/EB200_Geraeteprofil.md` — hardware findings: SCPI quirks of firmware
   V02.74, AFC behaviour, M-SCAN datagram structure, device limits. Useful even
   if you never run this software.
@@ -165,8 +175,7 @@ individual catalogue files from the display.
 - `bugs/` — known defects.
 
 Source comments, docstrings and log output are **German**; the user interface
-is **English**. A German user manual exists and is planned for a later
-release.
+is **English**.
 
 ---
 
