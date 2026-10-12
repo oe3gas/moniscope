@@ -1,0 +1,13 @@
+# MoniScope - Abhaengigkeiten (Entscheidungslog PLAN.md 2026-09-03, T-610/T-611)
+#
+# PFLICHT: CPython und numpy. Ohne numpy startet :8000 nicht, weil waterfall.py
+# den Auto-Marker aus eb200_core/signal_detect.py laedt (T-505).
+#   Windows:  pip install -r requirements.txt
+#   Pi OS:    sudo apt install python3-numpy
+#             (Distributionspaket bevorzugt; venv dann mit --system-site-packages)
+numpy
+
+# KUER, absichtlich nicht installiert: matplotlib wird ausschliesslich von
+# session_analyze.py --plots gebraucht und ist dort per try/except gekapselt.
+# Ohne matplotlib laeuft die komplette Analyse samt JSON/Textreport weiter.
+# matplotlib

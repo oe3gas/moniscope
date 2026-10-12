@@ -1,0 +1,103 @@
+{
+  "version": 1,
+  "meta": {
+    "service": "Amateurfunk 70 cm",
+    "region": "IARU Region 1 / OE",
+    "source": "IARU-R1-Bandplan 430-440 MHz (vereinfacht); OE-Relais: Ablage -7,6 MHz",
+    "notes": "ISM 433,05-434,79 MHz ueberlappt (Funkfernbedienungen, LoRa); OE-Relais bitte ergaenzen.",
+    "maintainer": "OE3GAS",
+    "color": "#123a8c"
+  },
+  "defaults": {
+    "demod": "FM",
+    "bw_hz": 15000,
+    "squelch_dbuv": 15.0,
+    "antenna": "discone",
+    "tags": [
+      "ham",
+      "70cm"
+    ]
+  },
+  "bands": [
+    {
+      "id": "ham-70cm",
+      "title": "Amateurfunk 70 cm",
+      "start_hz": 430000000,
+      "stop_hz": 440000000,
+      "segments": [
+        {
+          "title": "Relais-Eingabe (OE)",
+          "start_hz": 431050000,
+          "stop_hz": 431825000
+        },
+        {
+          "title": "CW",
+          "start_hz": 432000000,
+          "stop_hz": 432100000
+        },
+        {
+          "title": "SSB",
+          "start_hz": 432100000,
+          "stop_hz": 432400000
+        },
+        {
+          "title": "Baken",
+          "start_hz": 432400000,
+          "stop_hz": 432490000
+        },
+        {
+          "title": "FM Simplex",
+          "start_hz": 433400000,
+          "stop_hz": 433575000
+        },
+        {
+          "title": "Satellit",
+          "start_hz": 435000000,
+          "stop_hz": 438000000
+        },
+        {
+          "title": "Relais-Ausgabe (OE)",
+          "start_hz": 438650000,
+          "stop_hz": 439425000
+        }
+      ]
+    }
+  ],
+  "entries": [
+    {
+      "kind": "channel",
+      "id": "ham-70cm-cw-anruf",
+      "label": "CW Anruf",
+      "freq_hz": 432050000,
+      "demod": "CW",
+      "bw_hz": 600
+    },
+    {
+      "kind": "channel",
+      "id": "ham-70cm-ssb-anruf",
+      "label": "SSB Anruf",
+      "freq_hz": 432200000,
+      "demod": "USB",
+      "bw_hz": 2400
+    },
+    {
+      "kind": "channel",
+      "id": "ham-70cm-fm-anruf",
+      "label": "FM Anruf",
+      "freq_hz": 433500000
+    },
+    {
+      "kind": "raster",
+      "id_prefix": "ham-70cm-rpt",
+      "start_hz": 438650000,
+      "stop_hz": 439425000,
+      "step_hz": 12500,
+      "label_template": "RU{n}",
+      "tags": [
+        "ham",
+        "70cm",
+        "relais"
+      ]
+    }
+  ]
+}

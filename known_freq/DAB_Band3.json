@@ -1,0 +1,295 @@
+{
+  "version": 1,
+  "meta": {
+    "service": "DAB+ Band III",
+    "source": "ETSI EN 300 401 / DAB+ Kanalraster Band III (Bloecke 5A-12D)",
+    "note": "Mittenfrequenzen der 32 DAB+-Bloecke in Band III (174-230 MHz). Kanal-Bandbreite 1,536 MHz (OFDM-Ensemble); das EB200 kann DAB nicht demodulieren (max. ZF 150 kHz), die Eintraege dienen der Pegel-/Belegungserkennung und der Beschriftung im Wasserfall. Welche Bloecke in Wien/Ostoesterreich belegt sind, ist bewusst nicht eingetragen (eigene Beobachtung/Tag pflegen).",
+    "color": "#f0604a"
+  },
+  "defaults": {
+    "demod": "IQ",
+    "bw_hz": 150000,
+    "antenna": "discone",
+    "tags": [
+      "dab",
+      "broadcast",
+      "band3"
+    ]
+  },
+  "bands": [
+    {
+      "id": "dab-band3",
+      "title": "DAB+ Band III",
+      "start_hz": 174000000,
+      "stop_hz": 230000000,
+      "segments": [
+        {
+          "title": "Block 5A-5D",
+          "start_hz": 174160000,
+          "stop_hz": 180832000
+        },
+        {
+          "title": "Block 6A-6D",
+          "start_hz": 181168000,
+          "stop_hz": 187840000
+        },
+        {
+          "title": "Block 7A-7D",
+          "start_hz": 188160000,
+          "stop_hz": 194832000
+        },
+        {
+          "title": "Block 8A-8D",
+          "start_hz": 195168000,
+          "stop_hz": 201840000
+        },
+        {
+          "title": "Block 9A-9D",
+          "start_hz": 202160000,
+          "stop_hz": 208832000
+        },
+        {
+          "title": "Block 10A-10D",
+          "start_hz": 209168000,
+          "stop_hz": 215840000
+        },
+        {
+          "title": "Block 11A-11D",
+          "start_hz": 216160000,
+          "stop_hz": 222832000
+        },
+        {
+          "title": "Block 12A-12D",
+          "start_hz": 223168000,
+          "stop_hz": 229840000
+        }
+      ]
+    }
+  ],
+  "entries": [
+    {
+      "kind": "channel",
+      "id": "dab-5a",
+      "label": "5A",
+      "freq_hz": 174928000,
+      "notes": "DAB+ Block 5A, Ensemble 174.160-175.696 MHz"
+    },
+    {
+      "kind": "channel",
+      "id": "dab-5b",
+      "label": "5B",
+      "freq_hz": 176640000,
+      "notes": "DAB+ Block 5B, Ensemble 175.872-177.408 MHz"
+    },
+    {
+      "kind": "channel",
+      "id": "dab-5c",
+      "label": "5C",
+      "freq_hz": 178352000,
+      "notes": "DAB+ Block 5C, Ensemble 177.584-179.120 MHz"
+    },
+    {
+      "kind": "channel",
+      "id": "dab-5d",
+      "label": "5D",
+      "freq_hz": 180064000,
+      "notes": "DAB+ Block 5D, Ensemble 179.296-180.832 MHz"
+    },
+    {
+      "kind": "channel",
+      "id": "dab-6a",
+      "label": "6A",
+      "freq_hz": 181936000,
+      "notes": "DAB+ Block 6A, Ensemble 181.168-182.704 MHz"
+    },
+    {
+      "kind": "channel",
+      "id": "dab-6b",
+      "label": "6B",
+      "freq_hz": 183648000,
+      "notes": "DAB+ Block 6B, Ensemble 182.880-184.416 MHz"
+    },
+    {
+      "kind": "channel",
+      "id": "dab-6c",
+      "label": "6C",
+      "freq_hz": 185360000,
+      "notes": "DAB+ Block 6C, Ensemble 184.592-186.128 MHz"
+    },
+    {
+      "kind": "channel",
+      "id": "dab-6d",
+      "label": "6D",
+      "freq_hz": 187072000,
+      "notes": "DAB+ Block 6D, Ensemble 186.304-187.840 MHz"
+    },
+    {
+      "kind": "channel",
+      "id": "dab-7a",
+      "label": "7A",
+      "freq_hz": 188928000,
+      "notes": "DAB+ Block 7A, Ensemble 188.160-189.696 MHz"
+    },
+    {
+      "kind": "channel",
+      "id": "dab-7b",
+      "label": "7B",
+      "freq_hz": 190640000,
+      "notes": "DAB+ Block 7B, Ensemble 189.872-191.408 MHz"
+    },
+    {
+      "kind": "channel",
+      "id": "dab-7c",
+      "label": "7C",
+      "freq_hz": 192352000,
+      "notes": "DAB+ Block 7C, Ensemble 191.584-193.120 MHz"
+    },
+    {
+      "kind": "channel",
+      "id": "dab-7d",
+      "label": "7D",
+      "freq_hz": 194064000,
+      "notes": "DAB+ Block 7D, Ensemble 193.296-194.832 MHz"
+    },
+    {
+      "kind": "channel",
+      "id": "dab-8a",
+      "label": "8A",
+      "freq_hz": 195936000,
+      "notes": "DAB+ Block 8A, Ensemble 195.168-196.704 MHz"
+    },
+    {
+      "kind": "channel",
+      "id": "dab-8b",
+      "label": "8B",
+      "freq_hz": 197648000,
+      "notes": "DAB+ Block 8B, Ensemble 196.880-198.416 MHz"
+    },
+    {
+      "kind": "channel",
+      "id": "dab-8c",
+      "label": "8C",
+      "freq_hz": 199360000,
+      "notes": "DAB+ Block 8C, Ensemble 198.592-200.128 MHz"
+    },
+    {
+      "kind": "channel",
+      "id": "dab-8d",
+      "label": "8D",
+      "freq_hz": 201072000,
+      "notes": "DAB+ Block 8D, Ensemble 200.304-201.840 MHz"
+    },
+    {
+      "kind": "channel",
+      "id": "dab-9a",
+      "label": "9A",
+      "freq_hz": 202928000,
+      "notes": "DAB+ Block 9A, Ensemble 202.160-203.696 MHz"
+    },
+    {
+      "kind": "channel",
+      "id": "dab-9b",
+      "label": "9B",
+      "freq_hz": 204640000,
+      "notes": "DAB+ Block 9B, Ensemble 203.872-205.408 MHz"
+    },
+    {
+      "kind": "channel",
+      "id": "dab-9c",
+      "label": "9C",
+      "freq_hz": 206352000,
+      "notes": "DAB+ Block 9C, Ensemble 205.584-207.120 MHz"
+    },
+    {
+      "kind": "channel",
+      "id": "dab-9d",
+      "label": "9D",
+      "freq_hz": 208064000,
+      "notes": "DAB+ Block 9D, Ensemble 207.296-208.832 MHz"
+    },
+    {
+      "kind": "channel",
+      "id": "dab-10a",
+      "label": "10A",
+      "freq_hz": 209936000,
+      "notes": "DAB+ Block 10A, Ensemble 209.168-210.704 MHz"
+    },
+    {
+      "kind": "channel",
+      "id": "dab-10b",
+      "label": "10B",
+      "freq_hz": 211648000,
+      "notes": "DAB+ Block 10B, Ensemble 210.880-212.416 MHz"
+    },
+    {
+      "kind": "channel",
+      "id": "dab-10c",
+      "label": "10C",
+      "freq_hz": 213360000,
+      "notes": "DAB+ Block 10C, Ensemble 212.592-214.128 MHz"
+    },
+    {
+      "kind": "channel",
+      "id": "dab-10d",
+      "label": "10D",
+      "freq_hz": 215072000,
+      "notes": "DAB+ Block 10D, Ensemble 214.304-215.840 MHz"
+    },
+    {
+      "kind": "channel",
+      "id": "dab-11a",
+      "label": "11A",
+      "freq_hz": 216928000,
+      "notes": "DAB+ Block 11A, Ensemble 216.160-217.696 MHz"
+    },
+    {
+      "kind": "channel",
+      "id": "dab-11b",
+      "label": "11B",
+      "freq_hz": 218640000,
+      "notes": "DAB+ Block 11B, Ensemble 217.872-219.408 MHz"
+    },
+    {
+      "kind": "channel",
+      "id": "dab-11c",
+      "label": "11C",
+      "freq_hz": 220352000,
+      "notes": "DAB+ Block 11C, Ensemble 219.584-221.120 MHz"
+    },
+    {
+      "kind": "channel",
+      "id": "dab-11d",
+      "label": "11D",
+      "freq_hz": 222064000,
+      "notes": "DAB+ Block 11D, Ensemble 221.296-222.832 MHz"
+    },
+    {
+      "kind": "channel",
+      "id": "dab-12a",
+      "label": "12A",
+      "freq_hz": 223936000,
+      "notes": "DAB+ Block 12A, Ensemble 223.168-224.704 MHz"
+    },
+    {
+      "kind": "channel",
+      "id": "dab-12b",
+      "label": "12B",
+      "freq_hz": 225648000,
+      "notes": "DAB+ Block 12B, Ensemble 224.880-226.416 MHz"
+    },
+    {
+      "kind": "channel",
+      "id": "dab-12c",
+      "label": "12C",
+      "freq_hz": 227360000,
+      "notes": "DAB+ Block 12C, Ensemble 226.592-228.128 MHz"
+    },
+    {
+      "kind": "channel",
+      "id": "dab-12d",
+      "label": "12D",
+      "freq_hz": 229072000,
+      "notes": "DAB+ Block 12D, Ensemble 228.304-229.840 MHz"
+    }
+  ]
+}

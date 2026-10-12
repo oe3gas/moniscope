@@ -1,0 +1,107 @@
+{
+  "version": 1,
+  "meta": {
+    "service": "UKW Wien (nicht-ORS)",
+    "region": "Wien / Kahlenberg",
+    "source": "Wiener Privatsender ohne ORS-Abstrahlung; ORS-Standorte siehe ORS_UKW_AT.json",
+    "notes": "Sender belegen real ~200 kHz; 150 kHz ist die groesste EB200-Filterstufe und damit das Maximum.",
+    "maintainer": "OE3GAS",
+    "color": "blau"
+  },
+  "defaults": {
+    "demod": "FM",
+    "bw_hz": 150000,
+    "squelch_dbuv": 30,
+    "antenna": "discone",
+    "tags": [
+      "bc",
+      "fm"
+    ]
+  },
+  "bands": [],
+  "entries": [
+    {
+      "kind": "channel",
+      "id": "bc-wien-886",
+      "label": "Radio 88.6",
+      "freq_hz": 88600000
+    },
+    {
+      "kind": "channel",
+      "id": "bc-wien-arabella",
+      "label": "Radio Arabella",
+      "freq_hz": 92900000
+    },
+    {
+      "kind": "channel",
+      "id": "bc-wien-orange",
+      "label": "Orange 94.0",
+      "freq_hz": 94000000
+    },
+    {
+      "kind": "channel",
+      "id": "bc-wien-energy",
+      "label": "Energy Wien",
+      "freq_hz": 104200000
+    },
+    {
+      "kind": "channel",
+      "id": "bc-wien-klassik",
+      "label": "Radio Klassik",
+      "freq_hz": 107300000
+    },
+    {
+      "kind": "raster",
+      "id_prefix": "bc-raster",
+      "start_hz": 87500000,
+      "stop_hz": 108000000,
+      "step_hz": 100000,
+      "label_template": "{mhz:.1f}",
+      "enabled": false,
+      "notes": "Volles 100-kHz-Raster, standardmaessig aus - nur fuer Bandbelegungsmessungen einschalten."
+    },
+    {
+      "kind": "channel",
+      "id": "radio_886_Haberg_HL",
+      "label": "Radio 88.6",
+      "freq_hz": 104700000
+    },
+    {
+      "kind": "channel",
+      "id": "bc_886",
+      "label": "Radio 88.6",
+      "freq_hz": 100800000
+    },
+    {
+      "kind": "channel",
+      "id": "fm-wien-radieschen",
+      "label": "Radio Radieschen",
+      "freq_hz": 91300000
+    },
+    {
+      "kind": "channel",
+      "id": "fm-wien-loungefm",
+      "label": "LoungeFM",
+      "freq_hz": 93600000
+    },
+    {
+      "kind": "channel",
+      "id": "fm-wien-superfly",
+      "label": "Radio Superfly",
+      "freq_hz": 98300000
+    },
+    {
+      "kind": "channel",
+      "id": "fm-wien-kinderradio",
+      "label": "Mein Kinderradio",
+      "freq_hz": 103200000
+    },
+    {
+      "kind": "channel",
+      "id": "fm-wien-sol",
+      "label": "Radio SOL",
+      "freq_hz": 105100000,
+      "notes": "Vösendorf"
+    }
+  ]
+}

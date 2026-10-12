@@ -1,0 +1,57 @@
+{
+  "version": 1,
+  "meta": {
+    "service": "ISM/SRD",
+    "source": "ITU ISM allocations, ERC/REC 70-03",
+    "note": "40.660-40.700 MHz appears twice on purpose: here as the international ISM band, in fup_30_88_mhz.json as the national FUP segment. Bands above 3 GHz (5.8/24/61/122/245 GHz, WLAN 5/6 GHz, 57-71 GHz) omitted - receive range of the EB200.",
+    "color": "graublau"
+  },
+  "defaults": {
+    "demod": "FM",
+    "bw_hz": 15000,
+    "antenna": "discone",
+    "tags": [
+      "ism"
+    ]
+  },
+  "bands": [
+    {
+      "id": "ism-6780",
+      "title": "ISM 6.78 MHz",
+      "start_hz": 6765000,
+      "stop_hz": 6795000
+    },
+    {
+      "id": "ism-13560",
+      "title": "ISM 13.56 MHz",
+      "start_hz": 13553000,
+      "stop_hz": 13567000
+    },
+    {
+      "id": "ism-27120",
+      "title": "ISM 27.12 MHz",
+      "start_hz": 26957000,
+      "stop_hz": 27283000
+    },
+    {
+      "id": "srd-cb",
+      "title": "CB radio 40 channels",
+      "start_hz": 26965000,
+      "stop_hz": 27405000
+    }
+  ],
+  "entries": [
+    {
+      "kind": "raster",
+      "id_prefix": "pmr",
+      "start_hz": 446006250,
+      "stop_hz": 446193750,
+      "step_hz": 12500,
+      "label_template": "{mhz:.5f}",
+      "demod": "FM",
+      "bw_hz": 9000,
+      "enabled": true,
+      "notes": "analog PMR446 channels 1-16; the digital dPMR channels lie in between and are deliberately not modeled"
+    }
+  ]
+}

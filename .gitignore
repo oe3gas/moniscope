@@ -1,0 +1,82 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+
+# Virtuelle Umgebungen
+.venv/
+venv/
+env/
+
+# Laufzeitdaten (SQLite-Projekt-DB, siehe eb200_core/db.py DEFAULT_DB_PATH)
+data/*.db
+data/*.db-journal
+data/*.db-wal
+
+# Parameter-Memory (siehe eb200_core/param_store.py) - Store-JSON und
+# archivierte EB200-Snapshots sind Laufzeitzustand, nicht Quellcode.
+data/params/
+
+# Job-Store-Index und Job-Definitionen (Laufzeitdaten, siehe
+# eb200_core/job_store.py und eb200_core/mscan_job.py) - werden im Betrieb
+# geschrieben.
+jobs/
+
+# Rohdaten-Session-Aufzeichnung (siehe eb200_core/session_store.py)
+sessions/
+
+# Generierter Quellcode-Export (EB200_Sources2Text.ps1)
+EB200_sources.txt
+
+# Laufzeit-Logs des Sammelstarters (siehe start_eb200.py)
+logs/
+
+# IDE / Editor / OS
+.idea/
+.vscode/
+Thumbs.db
+desktop.ini
+
+# Aufnahmeablage (WAV-Audio, .specbin-Bins, Long-Run-Dateien) - Messdaten,
+# potenziell Gigabytes, nie versionieren.
+records/
+
+# Kurztext-Labels und Notizen der Auswerte-Server
+# (eb200_core/label_store.py) - Laufzeitzustand.
+spectrum_labels.json
+spectrum_notes.json
+session_labels.json
+session_notes.json
+audio_labels.json
+audio_notes.json
+audio_klassen.json
+
+# Atomares Schreiben (os.replace) und Prozess-Sperre von param_store/
+# label_store - bleiben nur nach einem harten Prozessabbruch liegen.
+*.json.tmp
+*.lock
+
+# Betreiberkonfiguration dieser Station. Vorlagen stehen als *.example.json
+# im Repository und bleiben versioniert.
+device.json
+station.json
+catalog_view.json
+storage_roots.json
+
+# Sicherungskopien (:8010 legt bei jedem Speichern eine .bak an)
+*.bak
+
+# Eigene oder abgeleitete Frequenzkataloge. Die mitgelieferten
+# Referenzkataloge in known_freq/ bleiben versioniert; neue Dateien tauchen
+# bewusst in "git status" auf, damit ueber sie entschieden wird.
+known_freq/marker_*.json
+known_freq/altbak/
+
+# Maschinenlokale Konfiguration und Auswertungsergebnisse
+preparation_worker.json
+eval_*.json
+
+# Arbeitsdateien fremder Agenten (CLAUDE.md bleibt versioniert)
+AGENTS.md
+.agents/
+.claude/

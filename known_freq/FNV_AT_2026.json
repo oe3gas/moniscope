@@ -1,0 +1,3291 @@
+{
+  "version": 1,
+  "meta": {
+    "service": "Frequenznutzung Oesterreich (FNV Anlage 2)",
+    "source": "FNV 2023, BGBl. II Nr. 61/2023, Anlage 2 (Frequenznutzungsplan), 30 MHz - 3 GHz",
+    "note": "Je Frequenzbereich der Anlage 2 ein Band (Titel = Frequenznutzungen fuer den ganzen Bereich, mit ' | ' getrennt), je Frequenzteilbereich ein Segment (Titel = Frequenznutzung, nach ' – ' die dienstbezogene Verfeinerung aus der Spalte Nutzungsbedingungen). Einzelfrequenzen der Spalte Frequenzteilbereich sind Kanaleintraege. Rechtsgrundlagen, Leistungs-, Frist- und Zuteilungsbedingungen sowie FSB-Verweise wurden bewusst weggelassen. Bei Teilbereichen nennt die Verordnung die Mittenfrequenzen der Eckkanaele, nicht die Bandkanten. Spalte 2 (ITU-Zuweisung) wurde nicht uebernommen. Zusatzschluessel 'usages' je Band wird vom Loader ignoriert.",
+    "layer": "zuweisung",
+    "color": "gelb"
+  },
+  "defaults": {
+    "demod": "FM",
+    "bw_hz": 15000,
+    "antenna": "discone",
+    "tags": [
+      "fnv",
+      "frequenznutzungsplan",
+      "at"
+    ]
+  },
+  "bands": [
+    {
+      "id": "fnv-30010",
+      "title": "Mobilfunk zivil/nicht-zivil | Short Range Devices – Aktive medizinische Implantate",
+      "start_hz": 30010000,
+      "stop_hz": 37500000,
+      "segments": [
+        {
+          "title": "Personenrufsender",
+          "start_hz": 30025000,
+          "stop_hz": 30075000
+        },
+        {
+          "title": "Personenrufsender",
+          "start_hz": 30125000,
+          "stop_hz": 30175000
+        },
+        {
+          "title": "Personenrufsender",
+          "start_hz": 30225000,
+          "stop_hz": 30275000
+        },
+        {
+          "title": "Personenrufsender",
+          "start_hz": 32350000,
+          "stop_hz": 32450000
+        },
+        {
+          "title": "Mobilfunk",
+          "start_hz": 32200000,
+          "stop_hz": 32475000
+        },
+        {
+          "title": "Mobilfunk",
+          "start_hz": 33200000,
+          "stop_hz": 33575000
+        },
+        {
+          "title": "Mobilfunk zivil/nicht-zivil",
+          "start_hz": 34275000,
+          "stop_hz": 34675000
+        },
+        {
+          "title": "Funkfernsteuerungsanlagen – Nur für Modellflugzeuge",
+          "start_hz": 34995000,
+          "stop_hz": 35225000
+        },
+        {
+          "title": "Funkfernsteuerungsanlagen –  Steuerung von Verkehrssignalanlagen und  Übertragung medizinischer Messwerte",
+          "start_hz": 36555000,
+          "stop_hz": 36615000
+        }
+      ],
+      "usages": [
+        "Mobilfunk zivil/nicht-zivil",
+        "Short Range Devices – Aktive medizinische Implantate"
+      ]
+    },
+    {
+      "id": "fnv-37500",
+      "title": "Mobilfunk zivil/nicht-zivil",
+      "start_hz": 37500000,
+      "stop_hz": 38250000,
+      "segments": [],
+      "usages": [
+        "Mobilfunk zivil/nicht-zivil"
+      ]
+    },
+    {
+      "id": "fnv-38250",
+      "title": "Mobilfunk zivil/nicht-zivil",
+      "start_hz": 38250000,
+      "stop_hz": 39000000,
+      "segments": [],
+      "usages": [
+        "Mobilfunk zivil/nicht-zivil"
+      ]
+    },
+    {
+      "id": "fnv-39000",
+      "title": "Mobilfunk zivil/nicht-zivil",
+      "start_hz": 39000000,
+      "stop_hz": 39500000,
+      "segments": [],
+      "usages": [
+        "Mobilfunk zivil/nicht-zivil"
+      ]
+    },
+    {
+      "id": "fnv-39500",
+      "title": "Mobilfunk zivil/nicht-zivil",
+      "start_hz": 39500000,
+      "stop_hz": 39986000,
+      "segments": [],
+      "usages": [
+        "Mobilfunk zivil/nicht-zivil"
+      ]
+    },
+    {
+      "id": "fnv-39986",
+      "title": "Mobilfunk",
+      "start_hz": 39986000,
+      "stop_hz": 40020000,
+      "segments": [],
+      "usages": [
+        "Mobilfunk"
+      ]
+    },
+    {
+      "id": "fnv-40020",
+      "title": "Mobilfunk zivil/nicht-zivil | sonst. Anwendung: ISM (40,660 - 40,700 MHz)",
+      "start_hz": 40020000,
+      "stop_hz": 40980000,
+      "segments": [
+        {
+          "title": "Short Range Devices",
+          "start_hz": 40660000,
+          "stop_hz": 40700000
+        }
+      ],
+      "usages": [
+        "Mobilfunk zivil/nicht-zivil",
+        "sonst. Anwendung: ISM (40,660 - 40,700 MHz)"
+      ]
+    },
+    {
+      "id": "fnv-40980",
+      "title": "Mobilfunk nicht-zivil",
+      "start_hz": 40980000,
+      "stop_hz": 41015000,
+      "segments": [],
+      "usages": [
+        "Mobilfunk nicht-zivil"
+      ]
+    },
+    {
+      "id": "fnv-41015",
+      "title": "Mobilfunk nicht-zivil",
+      "start_hz": 41015000,
+      "stop_hz": 42000000,
+      "segments": [],
+      "usages": [
+        "Mobilfunk nicht-zivil"
+      ]
+    },
+    {
+      "id": "fnv-42000",
+      "title": "Mobilfunk nicht-zivil",
+      "start_hz": 42000000,
+      "stop_hz": 42500000,
+      "segments": [],
+      "usages": [
+        "Mobilfunk nicht-zivil"
+      ]
+    },
+    {
+      "id": "fnv-42500",
+      "title": "Mobilfunk nicht-zivil",
+      "start_hz": 42500000,
+      "stop_hz": 44000000,
+      "segments": [],
+      "usages": [
+        "Mobilfunk nicht-zivil"
+      ]
+    },
+    {
+      "id": "fnv-44000",
+      "title": "Mobilfunk zivil/nicht-zivil",
+      "start_hz": 44000000,
+      "stop_hz": 47000000,
+      "segments": [],
+      "usages": [
+        "Mobilfunk zivil/nicht-zivil"
+      ]
+    },
+    {
+      "id": "fnv-47000",
+      "title": "Fernsehrundfunk – Band I | bewegl. Landfunk zivil/nicht-zivil",
+      "start_hz": 47000000,
+      "stop_hz": 50000000,
+      "segments": [],
+      "usages": [
+        "Fernsehrundfunk – Band I",
+        "bewegl. Landfunk zivil/nicht-zivil"
+      ]
+    },
+    {
+      "id": "fnv-50000",
+      "title": "Fernsehrundfunk – Band I | bewegl. Landfunk zivil/nicht-zivil | Amateurfunk",
+      "start_hz": 50000000,
+      "stop_hz": 52000000,
+      "segments": [],
+      "usages": [
+        "Fernsehrundfunk – Band I",
+        "bewegl. Landfunk zivil/nicht-zivil",
+        "Amateurfunk"
+      ]
+    },
+    {
+      "id": "fnv-52000",
+      "title": "Fernsehrundfunk – Band I | bewegl. Landfunk zivil/nicht-zivil | Amateurfunk",
+      "start_hz": 52000000,
+      "stop_hz": 68000000,
+      "segments": [],
+      "usages": [
+        "Fernsehrundfunk – Band I",
+        "bewegl. Landfunk zivil/nicht-zivil",
+        "Amateurfunk"
+      ]
+    },
+    {
+      "id": "fnv-68000",
+      "title": "Mobilfunk zivil/nicht-zivil | Mobilfunk außer bewegl. Flugfunk zivil/nicht-zivil | Funkfernsteuerungsanlagen – Für die Forstwirtschaft",
+      "start_hz": 68000000,
+      "stop_hz": 74800000,
+      "segments": [
+        {
+          "title": "Mobilfunk zivil/nicht-zivil",
+          "start_hz": 68000000,
+          "stop_hz": 70450000
+        },
+        {
+          "title": "Mobilfunk außer bewegl. Flugfunk zivil/nicht-zivil",
+          "start_hz": 70450000,
+          "stop_hz": 74800000
+        }
+      ],
+      "usages": [
+        "Mobilfunk zivil/nicht-zivil",
+        "Mobilfunk außer bewegl. Flugfunk zivil/nicht-zivil",
+        "Funkfernsteuerungsanlagen – Für die Forstwirtschaft"
+      ]
+    },
+    {
+      "id": "fnv-74800",
+      "title": "Flugnavigationsanlagen – Markierungsfunkfeuer",
+      "start_hz": 74800000,
+      "stop_hz": 75200000,
+      "segments": [],
+      "usages": [
+        "Flugnavigationsanlagen – Markierungsfunkfeuer"
+      ]
+    },
+    {
+      "id": "fnv-75200",
+      "title": "Mobilfunk außer bewegl. Flugfunk zivil/nicht-zivil",
+      "start_hz": 75200000,
+      "stop_hz": 87500000,
+      "segments": [],
+      "usages": [
+        "Mobilfunk außer bewegl. Flugfunk zivil/nicht-zivil"
+      ]
+    },
+    {
+      "id": "fnv-87500",
+      "title": "Tonrundfunk | Drahtlose Audioanwendungen – Für befristete Übertragung von Audio-Inhalten ausgenommen Rundfunkübertragungen im Sinne des BVG-Rundfunk | Short Range Devices – Drahtlose Audio-Anwendungen",
+      "start_hz": 87500000,
+      "stop_hz": 100000000,
+      "segments": [],
+      "usages": [
+        "Tonrundfunk",
+        "Drahtlose Audioanwendungen – Für befristete Übertragung von Audio-Inhalten ausgenommen Rundfunkübertragungen im Sinne des BVG-Rundfunk",
+        "Short Range Devices – Drahtlose Audio-Anwendungen"
+      ]
+    },
+    {
+      "id": "fnv-100000",
+      "title": "Tonrundfunk | Drahtlose Audioanwendungen – Für befristete Übertragung von Audio-Inhalten ausgenommen Rundfunkübertragungen im Sinne des BVG-Rundfunk | Short Range Devices – Drahtlose Audio-Anwendungen",
+      "start_hz": 100000000,
+      "stop_hz": 108000000,
+      "segments": [],
+      "usages": [
+        "Tonrundfunk – ",
+        "Drahtlose Audioanwendungen – Für befristete Übertragung von Audio-Inhalten ausgenommen Rundfunkübertragungen im Sinne des BVG-Rundfunk",
+        "Short Range Devices – Drahtlose Audio-Anwendungen"
+      ]
+    },
+    {
+      "id": "fnv-108000",
+      "title": "Flugnavigationsanlagen – Drehfunkfeuer (VOR) | Flugnavigationsanlagen – Ground Based Augmentation System (GBAS)",
+      "start_hz": 108000000,
+      "stop_hz": 117975000,
+      "segments": [
+        {
+          "title": "Flugnavigationsanlagen – Landekurssender des Instrumentenlandesystems (ILS) Frequenzen des ILS gekoppelt mit denen der Gleitwegsender (328,6 - 335,4 MHz)",
+          "start_hz": 108000000,
+          "stop_hz": 111975000
+        }
+      ],
+      "usages": [
+        "Flugnavigationsanlagen – Drehfunkfeuer (VOR)",
+        "Flugnavigationsanlagen – Ground Based Augmentation System (GBAS)"
+      ]
+    },
+    {
+      "id": "fnv-117975",
+      "title": "bewegl. Flugfunk – Sprechfunk für Flugsicherungszwecke",
+      "start_hz": 117975000,
+      "stop_hz": 137000000,
+      "segments": [
+        {
+          "title": "Rettungsfunkstellen – ELT (auch Crash-Sender) EPIRB für Homing-Anwendung Personal Locator Beacon (PLB) für Homing-Anwendung Nennfrequenz: 121,5 MHz",
+          "start_hz": 121450000,
+          "stop_hz": 121550000
+        }
+      ],
+      "usages": [
+        "bewegl. Flugfunk – Sprechfunk für Flugsicherungszwecke"
+      ]
+    },
+    {
+      "id": "fnv-137000",
+      "title": "Meteorologische Satellitensysteme | S-PCS<1 GHz",
+      "start_hz": 137000000,
+      "stop_hz": 137025000,
+      "segments": [],
+      "usages": [
+        "Meteorologische Satellitensysteme",
+        "S-PCS<1 GHz"
+      ]
+    },
+    {
+      "id": "fnv-137025",
+      "title": "Meteorologische Satellitensysteme | S-PCS<1 GHz",
+      "start_hz": 137025000,
+      "stop_hz": 137175000,
+      "segments": [],
+      "usages": [
+        "Meteorologische Satellitensysteme",
+        "S-PCS<1 GHz"
+      ]
+    },
+    {
+      "id": "fnv-137175",
+      "title": "Meteorologische Satellitensysteme | Mobilfunk nicht-zivil | S-PCS<1 GHz",
+      "start_hz": 137175000,
+      "stop_hz": 137825000,
+      "segments": [],
+      "usages": [
+        "Meteorologische Satellitensysteme",
+        "Mobilfunk nicht-zivil",
+        "S-PCS<1 GHz"
+      ]
+    },
+    {
+      "id": "fnv-137825",
+      "title": "Meteorologische Satellitensysteme | S-PCS<1 GHz",
+      "start_hz": 137825000,
+      "stop_hz": 138000000,
+      "segments": [],
+      "usages": [
+        "Meteorologische Satellitensysteme",
+        "S-PCS<1 GHz"
+      ]
+    },
+    {
+      "id": "fnv-138000",
+      "title": "bewegl. Flugfunk nicht- zivil | bewegl. Landfunk zivil/nicht-zivil",
+      "start_hz": 138000000,
+      "stop_hz": 143600000,
+      "segments": [
+        {
+          "title": "Short Range Devices",
+          "start_hz": 138200000,
+          "stop_hz": 138450000
+        },
+        {
+          "title": "Funkanlagen  Ortung von Tieren",
+          "start_hz": 142250000,
+          "stop_hz": 142350000
+        }
+      ],
+      "usages": [
+        "bewegl. Flugfunk nicht- zivil",
+        "bewegl. Landfunk zivil/nicht-zivil"
+      ]
+    },
+    {
+      "id": "fnv-143600",
+      "title": "bewegl. Flugfunk nicht- zivil",
+      "start_hz": 143600000,
+      "stop_hz": 143650000,
+      "segments": [],
+      "usages": [
+        "bewegl. Flugfunk nicht- zivil"
+      ]
+    },
+    {
+      "id": "fnv-143650",
+      "title": "bewegl. Flugfunk nicht- zivil",
+      "start_hz": 143650000,
+      "stop_hz": 144000000,
+      "segments": [],
+      "usages": [
+        "bewegl. Flugfunk nicht- zivil"
+      ]
+    },
+    {
+      "id": "fnv-144000",
+      "title": "Amateurfunk | Amateurfunk über Satelliten",
+      "start_hz": 144000000,
+      "stop_hz": 146000000,
+      "segments": [],
+      "usages": [
+        "Amateurfunk",
+        "Amateurfunk über Satelliten"
+      ]
+    },
+    {
+      "id": "fnv-146000",
+      "title": "Mobilfunk außer bewegl. Flugfunk",
+      "start_hz": 146000000,
+      "stop_hz": 148000000,
+      "segments": [],
+      "usages": [
+        "Mobilfunk außer bewegl. Flugfunk"
+      ]
+    },
+    {
+      "id": "fnv-148000",
+      "title": "Mobilfunk außer bewegl. Flugfunk | S-PCS<1 GHz",
+      "start_hz": 148000000,
+      "stop_hz": 149900000,
+      "segments": [],
+      "usages": [
+        "Mobilfunk außer bewegl. Flugfunk",
+        "S-PCS<1 GHz"
+      ]
+    },
+    {
+      "id": "fnv-149900",
+      "title": "S-PCS<1 GHz",
+      "start_hz": 149900000,
+      "stop_hz": 150050000,
+      "segments": [],
+      "usages": [
+        "S-PCS<1 GHz"
+      ]
+    },
+    {
+      "id": "fnv-150050",
+      "title": "Mobilfunk außer bewegl. Flugfunk",
+      "start_hz": 150050000,
+      "stop_hz": 153000000,
+      "segments": [],
+      "usages": [
+        "Mobilfunk außer bewegl. Flugfunk"
+      ]
+    },
+    {
+      "id": "fnv-153000",
+      "title": "Mobilfunk außer bewegl. Flugfunk",
+      "start_hz": 153000000,
+      "stop_hz": 154000000,
+      "segments": [],
+      "usages": [
+        "Mobilfunk außer bewegl. Flugfunk"
+      ]
+    },
+    {
+      "id": "fnv-154000",
+      "title": "Mobilfunk außer bewegl. Flugfunk",
+      "start_hz": 154000000,
+      "stop_hz": 156487500,
+      "segments": [
+        {
+          "title": "See- und Binnenschifffahrtsfunk",
+          "start_hz": 156012500,
+          "stop_hz": 156487500
+        }
+      ],
+      "usages": [
+        "Mobilfunk außer bewegl. Flugfunk – in Abhängigkeit von der"
+      ]
+    },
+    {
+      "id": "fnv-156487",
+      "title": "See- und Binnenschifffahrtsfunk",
+      "start_hz": 156487500,
+      "stop_hz": 156562500,
+      "segments": [
+        {
+          "title": "bewegl. Landfunk",
+          "start_hz": 156487500,
+          "stop_hz": 156512500
+        }
+      ],
+      "usages": [
+        "See- und Binnenschifffahrtsfunk"
+      ]
+    },
+    {
+      "id": "fnv-156562",
+      "title": "Mobilfunk außer bewegl. Flugfunk | See- und Binnenschifffahrtsfunk",
+      "start_hz": 156562500,
+      "stop_hz": 156762500,
+      "segments": [],
+      "usages": [
+        "Mobilfunk außer bewegl. Flugfunk – in Abhängigkeit von der",
+        "See- und Binnenschifffahrtsfunk"
+      ]
+    },
+    {
+      "id": "fnv-156762",
+      "title": "See- und Binnenschifffahrtsfunk",
+      "start_hz": 156762500,
+      "stop_hz": 156787500,
+      "segments": [],
+      "usages": [
+        "See- und Binnenschifffahrtsfunk"
+      ]
+    },
+    {
+      "id": "fnv-156787",
+      "title": "Seefunk – Für Not- und Sicherheitsverkehr im Rahmen des GMDSS Internationale Anruf-, Not- und Sicherheitsfrequenz im Seefunkdienst",
+      "start_hz": 156787500,
+      "stop_hz": 156812500,
+      "segments": [],
+      "usages": [
+        "Seefunk – Für Not- und Sicherheitsverkehr im Rahmen des GMDSS Internationale Anruf-, Not- und Sicherheitsfrequenz im Seefunkdienst"
+      ]
+    },
+    {
+      "id": "fnv-156812",
+      "title": "See- und Binnenschifffahrtsfunk",
+      "start_hz": 156812500,
+      "stop_hz": 156837500,
+      "segments": [],
+      "usages": [
+        "See- und Binnenschifffahrtsfunk"
+      ]
+    },
+    {
+      "id": "fnv-156837",
+      "title": "Mobilfunk außer bewegl. Flugfunk",
+      "start_hz": 156837500,
+      "stop_hz": 157187500,
+      "segments": [],
+      "usages": [
+        "Mobilfunk außer bewegl. Flugfunk – in Abhängigkeit von der"
+      ]
+    },
+    {
+      "id": "fnv-157187",
+      "title": "Mobilfunk außer bewegl. Flugfunk",
+      "start_hz": 157187500,
+      "stop_hz": 157337500,
+      "segments": [],
+      "usages": [
+        "Mobilfunk außer bewegl. Flugfunk – in Abhängigkeit von der"
+      ]
+    },
+    {
+      "id": "fnv-157337",
+      "title": "Mobilfunk außer bewegl. Flugfunk",
+      "start_hz": 157337500,
+      "stop_hz": 161787500,
+      "segments": [
+        {
+          "title": "Seefunk- und Binnenschifffahrtsfunk",
+          "start_hz": 157337500,
+          "stop_hz": 157425000
+        },
+        {
+          "title": "Seefunk- und Binnenschifffahrtsfunk",
+          "start_hz": 160625000,
+          "stop_hz": 160875000
+        },
+        {
+          "title": "Seefunk- und Binnenschifffahrtsfunk",
+          "start_hz": 160925000,
+          "stop_hz": 160950000
+        },
+        {
+          "title": "Seefunk- und Binnenschifffahrtsfunk",
+          "start_hz": 161500000,
+          "stop_hz": 161787500
+        }
+      ],
+      "usages": [
+        "Mobilfunk außer bewegl. Flugfunk – in Abhängigkeit von der"
+      ]
+    },
+    {
+      "id": "fnv-161787",
+      "title": "Mobilfunk außer bewegl. Flugfunk",
+      "start_hz": 161787500,
+      "stop_hz": 161937500,
+      "segments": [],
+      "usages": [
+        "Mobilfunk außer bewegl. Flugfunk – in Abhängigkeit von der"
+      ]
+    },
+    {
+      "id": "fnv-161937",
+      "title": "Mobilfunk außer bewegl. Flugfunk | Seefunk über Satelliten",
+      "start_hz": 161937500,
+      "stop_hz": 161962500,
+      "segments": [
+        {
+          "title": "Seefunk- und Binnenschifffahrtsfunk",
+          "start_hz": 161937500,
+          "stop_hz": 161950000
+        }
+      ],
+      "usages": [
+        "Mobilfunk außer bewegl. Flugfunk",
+        "Seefunk über Satelliten"
+      ]
+    },
+    {
+      "id": "fnv-161962",
+      "title": "Mobilfunk außer bewegl. Flugfunk | Satellitenfunkanlagen – Nur für satellitengestützte Automatic Identification Systeme (AIS)",
+      "start_hz": 161962500,
+      "stop_hz": 161987500,
+      "segments": [],
+      "usages": [
+        "Mobilfunk außer bewegl. Flugfunk",
+        "Satellitenfunkanlagen – Nur für satellitengestützte Automatic Identification Systeme (AIS)"
+      ]
+    },
+    {
+      "id": "fnv-161987",
+      "title": "Mobilfunk außer bewegl. Flugfunk | Seefunk über Satelliten",
+      "start_hz": 161987500,
+      "stop_hz": 162012500,
+      "segments": [],
+      "usages": [
+        "Mobilfunk außer bewegl. Flugfunk",
+        "Seefunk über Satelliten"
+      ]
+    },
+    {
+      "id": "fnv-162012",
+      "title": "Mobilfunk außer bewegl. Flugfunk | Satellitenfunkanlagen – Nur für satellitengestützte Automatic Identification Systeme (AIS)",
+      "start_hz": 162012500,
+      "stop_hz": 162037500,
+      "segments": [],
+      "usages": [
+        "Mobilfunk außer bewegl. Flugfunk",
+        "Satellitenfunkanlagen – Nur für satellitengestützte Automatic Identification Systeme (AIS)"
+      ]
+    },
+    {
+      "id": "fnv-162037",
+      "title": "Mobilfunk außer bewegl. Flugfunk",
+      "start_hz": 162037500,
+      "stop_hz": 174000000,
+      "segments": [
+        {
+          "title": "Short Range Devices",
+          "start_hz": 169400000,
+          "stop_hz": 169812500
+        },
+        {
+          "title": "Short Range Devices – Zählerablesesysteme",
+          "start_hz": 169400000,
+          "stop_hz": 169475000
+        },
+        {
+          "title": "Short Range Devices – Funk-Hörhilfeanlagen",
+          "start_hz": 169400000,
+          "stop_hz": 169475000
+        },
+        {
+          "title": "Short Range Devices – Funk-Hörhilfeanlagen",
+          "start_hz": 169487500,
+          "stop_hz": 169587500
+        },
+        {
+          "title": "Short Range Devices – Personenhilferuf",
+          "start_hz": 169587500,
+          "stop_hz": 169600000
+        },
+        {
+          "title": "Mobilfunksysteme",
+          "start_hz": 169600000,
+          "stop_hz": 169612500
+        },
+        {
+          "title": "Short Range Devices – Funk-Hörhilfeanlagen",
+          "start_hz": 173965000,
+          "stop_hz": 174000000
+        }
+      ],
+      "usages": [
+        "Mobilfunk außer bewegl. Flugfunk"
+      ]
+    },
+    {
+      "id": "fnv-174000",
+      "title": "Digitale Rundfunkanwendungen – T-DAB+ T-DMB DRM+ | Short Range Devices – Funk-Hörhilfeanlagen",
+      "start_hz": 174000000,
+      "stop_hz": 223000000,
+      "segments": [
+        {
+          "title": "Short Range Devices – Drahtlose Mikrofone",
+          "start_hz": 174000000,
+          "stop_hz": 216000000
+        }
+      ],
+      "usages": [
+        "Digitale Rundfunkanwendungen – T-DAB+ T-DMB DRM+",
+        "Short Range Devices – Funk-Hörhilfeanlagen"
+      ]
+    },
+    {
+      "id": "fnv-223000",
+      "title": "Digitale Rundfunkanwendungen – T-DAB+ T-DMB DRM+",
+      "start_hz": 223000000,
+      "stop_hz": 230000000,
+      "segments": [],
+      "usages": [
+        "Digitale Rundfunkanwendungen – T-DAB+ T-DMB DRM+"
+      ]
+    },
+    {
+      "id": "fnv-230000",
+      "title": "Mobilfunk",
+      "start_hz": 230000000,
+      "stop_hz": 235000000,
+      "segments": [],
+      "usages": [
+        "Mobilfunk"
+      ]
+    },
+    {
+      "id": "fnv-235000",
+      "title": "Mobilfunk zivil/nicht-zivil",
+      "start_hz": 235000000,
+      "stop_hz": 267000000,
+      "segments": [
+        {
+          "title": "Funkfernsteuerungsanlagen –  Übertragung medizinischer Messwerte und  Steuerung von Verkehrssignalanlagen",
+          "start_hz": 240025000,
+          "stop_hz": 240325000
+        },
+        {
+          "title": "Funkfernsteuerungs- und Funkmessanlagen",
+          "start_hz": 240337500,
+          "stop_hz": 240662500
+        },
+        {
+          "title": "Funkfernsteuerungsanlagen –  Übertragung medizinischer Messwerte und  Steuerung von Verkehrssignalanlagen",
+          "start_hz": 240675000,
+          "stop_hz": 241950000
+        },
+        {
+          "title": "Rettungsfunkstellen – ELT (auch Crash-Sender) Nennfrequenz: 243 MHz",
+          "start_hz": 242950000,
+          "stop_hz": 243050000
+        }
+      ],
+      "usages": [
+        "Mobilfunk zivil/nicht-zivil"
+      ]
+    },
+    {
+      "id": "fnv-267000",
+      "title": "Mobilfunk nicht-zivil",
+      "start_hz": 267000000,
+      "stop_hz": 272000000,
+      "segments": [],
+      "usages": [
+        "Mobilfunk nicht-zivil"
+      ]
+    },
+    {
+      "id": "fnv-272000",
+      "title": "Mobilfunk nicht-zivil",
+      "start_hz": 272000000,
+      "stop_hz": 273000000,
+      "segments": [],
+      "usages": [
+        "Mobilfunk nicht-zivil"
+      ]
+    },
+    {
+      "id": "fnv-273000",
+      "title": "Mobilfunk zivil/nicht-zivil",
+      "start_hz": 273000000,
+      "stop_hz": 312000000,
+      "segments": [],
+      "usages": [
+        "Mobilfunk zivil/nicht-zivil"
+      ]
+    },
+    {
+      "id": "fnv-312000",
+      "title": "Mobilfunk nicht-zivil",
+      "start_hz": 312000000,
+      "stop_hz": 315000000,
+      "segments": [],
+      "usages": [
+        "Mobilfunk nicht-zivil"
+      ]
+    },
+    {
+      "id": "fnv-315000",
+      "title": "Mobilfunk zivil/nicht-zivil",
+      "start_hz": 315000000,
+      "stop_hz": 322000000,
+      "segments": [],
+      "usages": [
+        "Mobilfunk zivil/nicht-zivil"
+      ]
+    },
+    {
+      "id": "fnv-322000",
+      "title": "Mobilfunk zivil/nicht-zivil",
+      "start_hz": 322000000,
+      "stop_hz": 328600000,
+      "segments": [],
+      "usages": [
+        "Mobilfunk zivil/nicht-zivil"
+      ]
+    },
+    {
+      "id": "fnv-328600",
+      "title": "Flugnavigationsanlagen – Gleitwegsender des Instrumentenlandesystems (ILS) Frequenzen gekoppelt mit denen der Landekurssender (108 - 112 MHz)",
+      "start_hz": 328600000,
+      "stop_hz": 335400000,
+      "segments": [],
+      "usages": [
+        "Flugnavigationsanlagen – Gleitwegsender des Instrumentenlandesystems (ILS) Frequenzen gekoppelt mit denen der Landekurssender (108 - 112 MHz)"
+      ]
+    },
+    {
+      "id": "fnv-335400",
+      "title": "Richtfunk zivil/nicht-zivil – Digital- und Analogsysteme | Mobilfunk zivil/nicht-zivil | Digitale Bündelfunksysteme – Digitales Bündelfunksystem in TETRA-Technologie, ausschließlich für BOS (Emergency Services | Digitale Bündelfunksysteme – Direct Mode-Kanäle in digitalen Bündelfunksystemen in TETRA- Technologie | Digitale Bündelfunksysteme – Air-Ground-Air - Kanäle in digitalen Bündelfunksystemen in TETRA-Technologie | Digitale Bündelfunksysteme – Digitale Bündelfunksysteme für private Nutzer und Anbieter von Mobilfunkdiensten | Mobilfunk – Vorführung von Funkanlagen Mietweise Überlassung von Funkanlagen durch Funkfirmen | Funkfernsteuerungs- und Funkmessanlagen",
+      "start_hz": 335400000,
+      "stop_hz": 387000000,
+      "segments": [
+        {
+          "title": "Richtfunk zivil/nicht-zivil – Digital- und Analogsysteme",
+          "start_hz": 350000000,
+          "stop_hz": 380000000
+        },
+        {
+          "title": "Richtfunk zivil/nicht-zivil – Digital- und Analogsysteme",
+          "start_hz": 335400000,
+          "stop_hz": 350000000
+        },
+        {
+          "title": "Mobilfunk zivil/nicht-zivil",
+          "start_hz": 350000000,
+          "stop_hz": 380000000
+        },
+        {
+          "title": "Mobilfunk zivil/nicht-zivil",
+          "start_hz": 335400000,
+          "stop_hz": 350000000
+        },
+        {
+          "title": "Digitale Bündelfunksysteme – Digitales Bündelfunksystem in TETRA-Technologie, ausschließlich für BOS (Emergency Services",
+          "start_hz": 380000000,
+          "stop_hz": 385000000
+        },
+        {
+          "title": "Digitale Bündelfunksysteme – Direct Mode-Kanäle in digitalen Bündelfunksystemen in TETRA- Technologie",
+          "start_hz": 380000000,
+          "stop_hz": 380150000
+        },
+        {
+          "title": "Digitale Bündelfunksysteme – Air-Ground-Air - Kanäle in digitalen Bündelfunksystemen in TETRA-Technologie",
+          "start_hz": 384800000,
+          "stop_hz": 385000000
+        },
+        {
+          "title": "Digitale Bündelfunksysteme – Digitale Bündelfunksysteme für private Nutzer und Anbieter von Mobilfunkdiensten",
+          "start_hz": 385000000,
+          "stop_hz": 387000000
+        }
+      ],
+      "usages": [
+        "Richtfunk zivil/nicht-zivil – Digital- und Analogsysteme",
+        "Mobilfunk zivil/nicht-zivil",
+        "Digitale Bündelfunksysteme – Digitales Bündelfunksystem in TETRA-Technologie, ausschließlich für BOS (Emergency Services",
+        "Digitale Bündelfunksysteme – Direct Mode-Kanäle in digitalen Bündelfunksystemen in TETRA- Technologie",
+        "Digitale Bündelfunksysteme – Air-Ground-Air - Kanäle in digitalen Bündelfunksystemen in TETRA-Technologie",
+        "Digitale Bündelfunksysteme – Digitale Bündelfunksysteme für private Nutzer und Anbieter von Mobilfunkdiensten",
+        "Mobilfunk – Vorführung von Funkanlagen Mietweise Überlassung von Funkanlagen durch Funkfirmen",
+        "Funkfernsteuerungs- und Funkmessanlagen"
+      ]
+    },
+    {
+      "id": "fnv-387000",
+      "title": "Digitale Bündelfunksysteme – Digitale Bündelfunksysteme für private Nutzer und Anbieter von Mobilfunkdiensten",
+      "start_hz": 387000000,
+      "stop_hz": 390000000,
+      "segments": [],
+      "usages": [
+        "Digitale Bündelfunksysteme – Digitale Bündelfunksysteme für private Nutzer und Anbieter von Mobilfunkdiensten"
+      ]
+    },
+    {
+      "id": "fnv-390000",
+      "title": "Digitale Bündelfunksysteme – Digitales Bündelfunksystem in TETRA-Technologie, ausschließlich für BOS (Emergency Services | Digitale Bündelfunksysteme – Direct Mode-Kanäle in digitalen Bündelfunksystemen in TETRA- Technologie | Digitale Bündelfunksysteme – Air-Ground-Air - Kanäle in digitalen Bündelfunksystemen in TETRA-Technologie | Digitale Bündelfunksysteme – Digitale Bündelfunksysteme für private Nutzer und Anbieter von Mobilfunkdiensten",
+      "start_hz": 390000000,
+      "stop_hz": 399900000,
+      "segments": [
+        {
+          "title": "Digitale Bündelfunksysteme – Digitales Bündelfunksystem in TETRA-Technologie, ausschließlich für BOS (Emergency Services",
+          "start_hz": 390000000,
+          "stop_hz": 395000000
+        },
+        {
+          "title": "Digitale Bündelfunksysteme – Direct Mode-Kanäle in digitalen Bündelfunksystemen in TETRA- Technologie",
+          "start_hz": 390000000,
+          "stop_hz": 390150000
+        },
+        {
+          "title": "Digitale Bündelfunksysteme – Air-Ground-Air - Kanäle in digitalen Bündelfunksystemen in TETRA-Technologie",
+          "start_hz": 394800000,
+          "stop_hz": 395000000
+        },
+        {
+          "title": "Digitale Bündelfunksysteme – Digitale Bündelfunksysteme für private Nutzer und Anbieter von Mobilfunkdiensten",
+          "start_hz": 395000000,
+          "stop_hz": 399900000
+        }
+      ],
+      "usages": [
+        "Digitale Bündelfunksysteme – Digitales Bündelfunksystem in TETRA-Technologie, ausschließlich für BOS (Emergency Services",
+        "Digitale Bündelfunksysteme – Direct Mode-Kanäle in digitalen Bündelfunksystemen in TETRA- Technologie",
+        "Digitale Bündelfunksysteme – Air-Ground-Air - Kanäle in digitalen Bündelfunksystemen in TETRA-Technologie",
+        "Digitale Bündelfunksysteme – Digitale Bündelfunksysteme für private Nutzer und Anbieter von Mobilfunkdiensten"
+      ]
+    },
+    {
+      "id": "fnv-399900",
+      "title": "S-PCS<1 GHz – Auch für Telemetrie, Fernbedienung und Steuerung (TT&C)",
+      "start_hz": 399900000,
+      "stop_hz": 400050000,
+      "segments": [],
+      "usages": [
+        "S-PCS<1 GHz – Auch für Telemetrie, Fernbedienung und Steuerung (TT&C)"
+      ]
+    },
+    {
+      "id": "fnv-400050",
+      "title": "Normalfrequenz- und Zeitzeichenfunk über Satelliten",
+      "start_hz": 400050000,
+      "stop_hz": 400150000,
+      "segments": [],
+      "usages": [
+        "Normalfrequenz- und Zeitzeichenfunk über Satelliten"
+      ]
+    },
+    {
+      "id": "fnv-400150",
+      "title": "Wetterhilfenfunk – Funksonden | S-PCS<1 GHz",
+      "start_hz": 400150000,
+      "stop_hz": 401000000,
+      "segments": [],
+      "usages": [
+        "Wetterhilfenfunk – Funksonden",
+        "S-PCS<1 GHz"
+      ]
+    },
+    {
+      "id": "fnv-401000",
+      "title": "Wetterhilfenfunk – Funksonden | Satellitenfunkanlagen – Telemetrie, Fernbedienung und Steuerung (TT&C) | Short Range Devices – Aktive medizinische Implantate und Zusatzgeräte",
+      "start_hz": 401000000,
+      "stop_hz": 402000000,
+      "segments": [],
+      "usages": [
+        "Wetterhilfenfunk – Funksonden",
+        "Satellitenfunkanlagen – Telemetrie, Fernbedienung und Steuerung (TT&C)",
+        "Short Range Devices – Aktive medizinische Implantate und Zusatzgeräte"
+      ]
+    },
+    {
+      "id": "fnv-402000",
+      "title": "Wetterhilfenfunk – Funksonden | Satellitenfunkanlagen – Telemetrie, Fernbedienung und Steuerung (TT&C) | Short Range Devices – Aktive medizinische Implantate",
+      "start_hz": 402000000,
+      "stop_hz": 403000000,
+      "segments": [],
+      "usages": [
+        "Wetterhilfenfunk – Funksonden",
+        "Satellitenfunkanlagen – Telemetrie, Fernbedienung und Steuerung (TT&C)",
+        "Short Range Devices – Aktive medizinische Implantate"
+      ]
+    },
+    {
+      "id": "fnv-403000",
+      "title": "Wetterhilfenfunk zivil/nicht-zivil – Funksonden",
+      "start_hz": 403000000,
+      "stop_hz": 406000000,
+      "segments": [
+        {
+          "title": "Short Range Devices – Aktive medizinische Implantate",
+          "start_hz": 403000000,
+          "stop_hz": 405000000
+        },
+        {
+          "title": "Short Range Devices – Aktive medizinische Implantate und Zusatzgeräte",
+          "start_hz": 405000000,
+          "stop_hz": 406000000
+        }
+      ],
+      "usages": [
+        "Wetterhilfenfunk zivil/nicht-zivil – Funksonden"
+      ]
+    },
+    {
+      "id": "fnv-406000",
+      "title": "Rettungsfunkstellen – ELT (auch Crash-Sender) EPIRB Notfunksender (PLB) im Notalarmierungssystem COSPAS-SARSAT",
+      "start_hz": 406000000,
+      "stop_hz": 406100000,
+      "segments": [],
+      "usages": [
+        "Rettungsfunkstellen – ELT (auch Crash-Sender) EPIRB Notfunksender (PLB) im Notalarmierungssystem COSPAS-SARSAT"
+      ]
+    },
+    {
+      "id": "fnv-406100",
+      "title": "Richtfunk | bewegl. Landfunk",
+      "start_hz": 406100000,
+      "stop_hz": 410000000,
+      "segments": [],
+      "usages": [
+        "Richtfunk",
+        "bewegl. Landfunk"
+      ]
+    },
+    {
+      "id": "fnv-410000",
+      "title": "Richtfunk – Digital und analog | Mobilfunk außer bewegl. Flugfunk",
+      "start_hz": 410000000,
+      "stop_hz": 420000000,
+      "segments": [],
+      "usages": [
+        "Richtfunk – Digital und analog",
+        "Mobilfunk außer bewegl. Flugfunk"
+      ]
+    },
+    {
+      "id": "fnv-420000",
+      "title": "Richtfunk – Digital und analog | Mobilfunk außer bewegl. Flugfunk",
+      "start_hz": 420000000,
+      "stop_hz": 430000000,
+      "segments": [],
+      "usages": [
+        "Richtfunk – Digital und analog",
+        "Mobilfunk außer bewegl. Flugfunk"
+      ]
+    },
+    {
+      "id": "fnv-430000",
+      "title": "Amateurfunk | Short Range Devices – Medizinischen Kapselendoskopie",
+      "start_hz": 430000000,
+      "stop_hz": 432000000,
+      "segments": [],
+      "usages": [
+        "Amateurfunk",
+        "Short Range Devices – Medizinischen Kapselendoskopie"
+      ]
+    },
+    {
+      "id": "fnv-432000",
+      "title": "Amateurfunk | Short Range Devices – Medizinischen Kapselendoskopie | sonst. Anwendung: ISM (433.05 - 434.79 MHz)",
+      "start_hz": 432000000,
+      "stop_hz": 438000000,
+      "segments": [
+        {
+          "title": "Amateurfunk über Satelliten",
+          "start_hz": 435000000,
+          "stop_hz": 438000000
+        },
+        {
+          "title": "Short Range Devices",
+          "start_hz": 433050000,
+          "stop_hz": 434790000
+        }
+      ],
+      "usages": [
+        "Amateurfunk",
+        "Short Range Devices – Medizinischen Kapselendoskopie",
+        "sonst. Anwendung: ISM (433.05 - 434.79 MHz)"
+      ]
+    },
+    {
+      "id": "fnv-438000",
+      "title": "Short Range Devices – Medizinischen Kapselendoskopie",
+      "start_hz": 438000000,
+      "stop_hz": 440000000,
+      "segments": [
+        {
+          "title": "Amateurfunk",
+          "start_hz": 438000000,
+          "stop_hz": 439100000
+        },
+        {
+          "title": "Personenrufanlagen",
+          "start_hz": 439130000,
+          "stop_hz": 439370000
+        },
+        {
+          "title": "Personenrufanlagen",
+          "start_hz": 439450000,
+          "stop_hz": 439910000
+        },
+        {
+          "title": "Personenrufanlagen",
+          "start_hz": 439950000,
+          "stop_hz": 439990000
+        },
+        {
+          "title": "Amateurfunk",
+          "start_hz": 439100000,
+          "stop_hz": 440000000
+        }
+      ],
+      "usages": [
+        "Short Range Devices – Medizinischen Kapselendoskopie"
+      ]
+    },
+    {
+      "id": "fnv-440000",
+      "title": "Richtfunk – Digital und analog | Mobilfunk außer bewegl. Flugfunk",
+      "start_hz": 440000000,
+      "stop_hz": 450000000,
+      "segments": [
+        {
+          "title": "PMR 446",
+          "start_hz": 446000000,
+          "stop_hz": 446200000
+        },
+        {
+          "title": "Funkfernsteuerungsanlagen –  Übertragung medizinischer Messwerte und  Fernsteuerung von Verkehrssignalanlagen",
+          "start_hz": 449775000,
+          "stop_hz": 449850000
+        }
+      ],
+      "usages": [
+        "Richtfunk – Digital und analog",
+        "Mobilfunk außer bewegl. Flugfunk"
+      ]
+    },
+    {
+      "id": "fnv-450000",
+      "title": "Einkanalrichtfunk | Mobilfunk | Mobilfunk – Digitale breitbandige drahtlose Kommunikationssysteme",
+      "start_hz": 450000000,
+      "stop_hz": 455000000,
+      "segments": [
+        {
+          "title": "Einkanalrichtfunk",
+          "start_hz": 450000000,
+          "stop_hz": 451300000
+        },
+        {
+          "title": "Mobilfunk",
+          "start_hz": 450000000,
+          "stop_hz": 451300000
+        },
+        {
+          "title": "Mobilfunk – Digitale breitbandige drahtlose Kommunikationssysteme",
+          "start_hz": 451300000,
+          "stop_hz": 455000000
+        }
+      ],
+      "usages": [
+        "Einkanalrichtfunk",
+        "Mobilfunk",
+        "Mobilfunk – Digitale breitbandige drahtlose Kommunikationssysteme"
+      ]
+    },
+    {
+      "id": "fnv-455000",
+      "title": "Mobilfunk – Digitale breitbandige drahtlose Kommunikationssysteme | Mobilfunk",
+      "start_hz": 455000000,
+      "stop_hz": 456000000,
+      "segments": [
+        {
+          "title": "Mobilfunk – Digitale breitbandige drahtlose Kommunikationssysteme",
+          "start_hz": 455000000,
+          "stop_hz": 455740000
+        },
+        {
+          "title": "Mobilfunk",
+          "start_hz": 455740000,
+          "stop_hz": 456000000
+        }
+      ],
+      "usages": [
+        "Mobilfunk – Digitale breitbandige drahtlose Kommunikationssysteme",
+        "Mobilfunk"
+      ]
+    },
+    {
+      "id": "fnv-456000",
+      "title": "Mobilfunk",
+      "start_hz": 456000000,
+      "stop_hz": 459000000,
+      "segments": [
+        {
+          "title": "Mobilfunk – Internationaler Zugsfunk",
+          "start_hz": 457450000,
+          "stop_hz": 458300000
+        }
+      ],
+      "usages": [
+        "Mobilfunk"
+      ]
+    },
+    {
+      "id": "fnv-459000",
+      "title": "Mobilfunk",
+      "start_hz": 459000000,
+      "stop_hz": 460000000,
+      "segments": [],
+      "usages": [
+        "Mobilfunk"
+      ]
+    },
+    {
+      "id": "fnv-460000",
+      "title": "Einkanalrichtfunk | Mobilfunk | Mobilfunk – Digitale breitbandige drahtlose Kommunikationssysteme | Mobilfunk – Internationaler Zugsfunk | Mobilfunk – Vorführung von Funkanlagen Mietweise Überlassung von Funkanlagen durch Funkfirmen | Fernauslösung von Wähleinrichtungen – Haus-Notrufsysteme",
+      "start_hz": 460000000,
+      "stop_hz": 470000000,
+      "segments": [
+        {
+          "title": "Einkanalrichtfunk",
+          "start_hz": 460000000,
+          "stop_hz": 461300000
+        },
+        {
+          "title": "Mobilfunk",
+          "start_hz": 460000000,
+          "stop_hz": 461300000
+        },
+        {
+          "title": "Mobilfunk – Digitale breitbandige drahtlose Kommunikationssysteme",
+          "start_hz": 461300000,
+          "stop_hz": 465740000
+        },
+        {
+          "title": "Mobilfunk",
+          "start_hz": 465740000,
+          "stop_hz": 470000000
+        },
+        {
+          "title": "Mobilfunk – Internationaler Zugsfunk",
+          "start_hz": 467445000,
+          "stop_hz": 468300000
+        }
+      ],
+      "usages": [
+        "Einkanalrichtfunk",
+        "Mobilfunk",
+        "Mobilfunk – Digitale breitbandige drahtlose Kommunikationssysteme",
+        "Mobilfunk – Internationaler Zugsfunk",
+        "Mobilfunk – Vorführung von Funkanlagen Mietweise Überlassung von Funkanlagen durch Funkfirmen",
+        "Fernauslösung von Wähleinrichtungen – Haus-Notrufsysteme"
+      ]
+    },
+    {
+      "id": "fnv-470000",
+      "title": "Digitale Rundfunkanwendungen – DVB-T DVB-T2 5G Broadcast | Rundfunkhilfsdienste – Drahtlose Mikrophone Vorwiegend für professionelle Veranstaltungsproduktion",
+      "start_hz": 470000000,
+      "stop_hz": 694000000,
+      "segments": [
+        {
+          "title": "Windprofiler-Radar",
+          "start_hz": 470000000,
+          "stop_hz": 494000000
+        }
+      ],
+      "usages": [
+        "Digitale Rundfunkanwendungen – DVB-T DVB-T2 5G Broadcast",
+        "Rundfunkhilfsdienste – Drahtlose Mikrophone Vorwiegend für professionelle Veranstaltungsproduktion"
+      ]
+    },
+    {
+      "id": "fnv-694000",
+      "title": "sonst. Anwendung: Leitungsgebundene Übertragung von Signalen in Kabel-TV-Netzen",
+      "start_hz": 694000000,
+      "stop_hz": 790000000,
+      "segments": [
+        {
+          "title": "Rundfunkhilfsdienste – Drahtlose Mikrophone PMSE, nur für professionelle Nutzung",
+          "start_hz": 694000000,
+          "stop_hz": 703000000
+        },
+        {
+          "title": "Rundfunkhilfsdienste – Drahtlose Mikrophone PMSE, nur für professionelle Nutzung",
+          "start_hz": 733000000,
+          "stop_hz": 758000000
+        },
+        {
+          "title": "Rundfunkhilfsdienste – Drahtlose Mikrophone PMSE, nur für professionelle Nutzung",
+          "start_hz": 788000000,
+          "stop_hz": 790000000
+        },
+        {
+          "title": "Terrestrische Systeme, die elektronische Kommunikationsdienste erbringen können",
+          "start_hz": 703000000,
+          "stop_hz": 733000000
+        },
+        {
+          "title": "Terrestrische Systeme, die elektronische Kommunikationsdienste erbringen können",
+          "start_hz": 758000000,
+          "stop_hz": 788000000
+        },
+        {
+          "title": "Mobiles Breitband der BOS – Geplant für breitbandige Nutzung durch BOS- Dienste in Verbindung mit einem bundesweiten Ausbau",
+          "start_hz": 698000000,
+          "stop_hz": 703000000
+        },
+        {
+          "title": "Mobiles Breitband der BOS – Geplant für breitbandige Nutzung durch BOS- Dienste in Verbindung mit einem bundesweiten Ausbau",
+          "start_hz": 733000000,
+          "stop_hz": 736000000
+        },
+        {
+          "title": "Mobiles Breitband der BOS – Geplant für breitbandige Nutzung durch BOS- Dienste in Verbindung mit einem bundesweiten Ausbau",
+          "start_hz": 753000000,
+          "stop_hz": 758000000
+        },
+        {
+          "title": "Mobiles Breitband der BOS – Geplant für breitbandige Nutzung durch BOS- Dienste in Verbindung mit einem bundesweiten Ausbau",
+          "start_hz": 788000000,
+          "stop_hz": 790000000
+        }
+      ],
+      "usages": [
+        "sonst. Anwendung: Leitungsgebundene Übertragung von Signalen in Kabel-TV-Netzen"
+      ]
+    },
+    {
+      "id": "fnv-790000",
+      "title": "sonst. Anwendung: Leitungsgebundene Übertragung von Signalen in Kabel-TV-Netzen",
+      "start_hz": 790000000,
+      "stop_hz": 862000000,
+      "segments": [
+        {
+          "title": "Terrestrische Systeme, die elektronische Kommunikationsdienste erbringen können",
+          "start_hz": 791000000,
+          "stop_hz": 821000000
+        },
+        {
+          "title": "Terrestrische Systeme, die elektronische Kommunikationsdienste erbringen können",
+          "start_hz": 832000000,
+          "stop_hz": 862000000
+        },
+        {
+          "title": "Rundfunkhilfsdienste – Drahtlose Mikrophone PMSE, nur für professionelle Nutzung",
+          "start_hz": 821000000,
+          "stop_hz": 832000000
+        },
+        {
+          "title": "Mobiles Breitband der BOS – Geplant für breitbandige Nutzung durch BOS- Dienste in Verbindung mit einem bundesweiten Ausbau",
+          "start_hz": 790000000,
+          "stop_hz": 791000000
+        }
+      ],
+      "usages": [
+        "sonst. Anwendung: Leitungsgebundene Übertragung von Signalen in Kabel-TV-Netzen"
+      ]
+    },
+    {
+      "id": "fnv-862000",
+      "title": "Short Range Devices | Short Range Devices – Datennetze",
+      "start_hz": 862000000,
+      "stop_hz": 890000000,
+      "segments": [
+        {
+          "title": "Short Range Devices",
+          "start_hz": 862000000,
+          "stop_hz": 863000000
+        },
+        {
+          "title": "Short Range Devices – Drahtlose Audio-Anwendungen",
+          "start_hz": 863000000,
+          "stop_hz": 865000000
+        },
+        {
+          "title": "Short Range Devices",
+          "start_hz": 863000000,
+          "stop_hz": 868000000
+        },
+        {
+          "title": "Short Range Devices – Funkidentifizierungssysteme (RFID)",
+          "start_hz": 865000000,
+          "stop_hz": 868000000
+        },
+        {
+          "title": "Short Range Devices",
+          "start_hz": 868000000,
+          "stop_hz": 868600000
+        },
+        {
+          "title": "Short Range Devices",
+          "start_hz": 868700000,
+          "stop_hz": 869200000
+        },
+        {
+          "title": "Short Range Devices – Personenhilferuf",
+          "start_hz": 869200000,
+          "stop_hz": 869250000
+        },
+        {
+          "title": "Short Range Devices – Alarmsysteme",
+          "start_hz": 869250000,
+          "stop_hz": 869300000
+        },
+        {
+          "title": "Short Range Devices",
+          "start_hz": 869400000,
+          "stop_hz": 869650000
+        },
+        {
+          "title": "Short Range Devices – Alarmsysteme",
+          "start_hz": 869300000,
+          "stop_hz": 869400000
+        },
+        {
+          "title": "Short Range Devices – Alarmsysteme",
+          "start_hz": 869650000,
+          "stop_hz": 869700000
+        },
+        {
+          "title": "Short Range Devices",
+          "start_hz": 869700000,
+          "stop_hz": 870000000
+        },
+        {
+          "title": "Short Range Devices",
+          "start_hz": 870000000,
+          "stop_hz": 874400000
+        },
+        {
+          "title": "Digitales Mobilfunksystem – Digitales Mobilfunksystem für Eisenbahnen (R-GSM und Nachfolgesystem FRMCS/RMR)",
+          "start_hz": 874600000,
+          "stop_hz": 880000000
+        },
+        {
+          "title": "Terrestrische Systeme, die europaweite elektronische Kommunikationsdienste erbringen können",
+          "start_hz": 880000000,
+          "stop_hz": 890000000
+        }
+      ],
+      "usages": [
+        "Short Range Devices",
+        "Short Range Devices – Datennetze"
+      ]
+    },
+    {
+      "id": "fnv-890000",
+      "title": "Short Range Devices – Datennetze",
+      "start_hz": 890000000,
+      "stop_hz": 942000000,
+      "segments": [
+        {
+          "title": "Terrestrische Systeme, die europaweite elektronische Kommunikationsdienste erbringen können",
+          "start_hz": 890000000,
+          "stop_hz": 915000000
+        },
+        {
+          "title": "Short Range Devices",
+          "start_hz": 915000000,
+          "stop_hz": 919400000
+        },
+        {
+          "title": "Short Range Devices – Datennetze",
+          "start_hz": 915800000,
+          "stop_hz": 919400000
+        },
+        {
+          "title": "Short Range Devices – Datennetze",
+          "start_hz": 917300000,
+          "stop_hz": 917700000
+        },
+        {
+          "title": "Short Range Devices – Datennetze",
+          "start_hz": 918500000,
+          "stop_hz": 918900000
+        },
+        {
+          "title": "Digitales Mobilfunksystem – Digitales Mobilfunksystem für Eisenbahnen (R-GSM und Nachfolgesystem FRMCS/RMR)",
+          "start_hz": 919600000,
+          "stop_hz": 925000000
+        },
+        {
+          "title": "Terrestrische Systeme, die europaweite elektronische Kommunikationsdienste erbringen können",
+          "start_hz": 925000000,
+          "stop_hz": 935000000
+        },
+        {
+          "title": "Terrestrische Systeme, die europaweite elektronische Kommunikationsdienste erbringen können",
+          "start_hz": 935000000,
+          "stop_hz": 942000000
+        }
+      ],
+      "usages": [
+        "Short Range Devices – Datennetze"
+      ]
+    },
+    {
+      "id": "fnv-942000",
+      "title": "Terrestrische Systeme, die europaweite elektronische Kommunikationsdienste erbringen können",
+      "start_hz": 942000000,
+      "stop_hz": 960000000,
+      "segments": [],
+      "usages": [
+        "Terrestrische Systeme, die europaweite elektronische Kommunikationsdienste erbringen können"
+      ]
+    },
+    {
+      "id": "fnv-960000",
+      "title": "Flugnavigationsanlagen zivil/nicht-zivil – Entfernungsmessgeräte (DME) | Rundfunkhilfsdienste | sonst. Anwendung: Nichtzivile Funkanwendung (JTIDS/MIDS)",
+      "start_hz": 960000000,
+      "stop_hz": 1164000000,
+      "segments": [
+        {
+          "title": "Sekundärradar – Empfangsfrequenzbereich für die Satellitenkomponente",
+          "start_hz": 1087700000,
+          "stop_hz": 1092300000
+        }
+      ],
+      "usages": [
+        "Flugnavigationsanlagen zivil/nicht-zivil – Entfernungsmessgeräte (DME)",
+        "Rundfunkhilfsdienste",
+        "sonst. Anwendung: Nichtzivile Funkanwendung (JTIDS/MIDS)"
+      ]
+    },
+    {
+      "id": "fnv-1164000",
+      "title": "Flugnavigationsanlagen zivil/nicht-zivil – Entfernungsmessgeräte (DME) | Navigationssatellitensysteme – GALILEO GPS BEIDOU | sonst. Anwendung: Nichtzivile Funkanwendung (JTIDS/MIDS)",
+      "start_hz": 1164000000,
+      "stop_hz": 1215000000,
+      "segments": [],
+      "usages": [
+        "Flugnavigationsanlagen zivil/nicht-zivil – Entfernungsmessgeräte (DME)",
+        "Navigationssatellitensysteme – GALILEO GPS BEIDOU",
+        "sonst. Anwendung: Nichtzivile Funkanwendung (JTIDS/MIDS)"
+      ]
+    },
+    {
+      "id": "fnv-1215000",
+      "title": "Radar nicht-zivil | Navigationssatellitensysteme zivil/nicht-zivil – GPS",
+      "start_hz": 1215000000,
+      "stop_hz": 1240000000,
+      "segments": [],
+      "usages": [
+        "Radar nicht-zivil",
+        "Navigationssatellitensysteme zivil/nicht-zivil – GPS"
+      ]
+    },
+    {
+      "id": "fnv-1240000",
+      "title": "Radar zivil/nicht-zivil | Navigationssatellitensysteme – GLONASS GALILEO BEIDOU | Amateurfunk",
+      "start_hz": 1240000000,
+      "stop_hz": 1300000000,
+      "segments": [
+        {
+          "title": "Windprofiler-Radar",
+          "start_hz": 1270000000,
+          "stop_hz": 1295000000
+        },
+        {
+          "title": "Amateurfunk über Satelliten",
+          "start_hz": 1260000000,
+          "stop_hz": 1270000000
+        }
+      ],
+      "usages": [
+        "Radar zivil/nicht-zivil",
+        "Navigationssatellitensysteme – GLONASS GALILEO BEIDOU",
+        "Amateurfunk"
+      ]
+    },
+    {
+      "id": "fnv-1300000",
+      "title": "Radar nicht-zivil",
+      "start_hz": 1300000000,
+      "stop_hz": 1350000000,
+      "segments": [],
+      "usages": [
+        "Radar nicht-zivil"
+      ]
+    },
+    {
+      "id": "fnv-1350000",
+      "title": "Richtfunk | Drahtlose Mikrophone – Für befristete Veranstaltungen",
+      "start_hz": 1350000000,
+      "stop_hz": 1400000000,
+      "segments": [
+        {
+          "title": "Richtfunk – Für private oder im öffentlichen Interesse betriebene Telekommunikationsnetze und/oder Erweiterungen bestehender Funknetze",
+          "start_hz": 1350000000,
+          "stop_hz": 1375000000
+        },
+        {
+          "title": "Richtfunk – Für private oder im öffentlichen Interesse betriebene Telekommunikationsnetze und/oder Erweiterungen bestehender Funknetze",
+          "start_hz": 1375000000,
+          "stop_hz": 1400000000
+        }
+      ],
+      "usages": [
+        "Richtfunk",
+        "Drahtlose Mikrophone – Für befristete Veranstaltungen"
+      ]
+    },
+    {
+      "id": "fnv-1400000",
+      "title": "(keine Frequenznutzung angefuehrt)",
+      "start_hz": 1400000000,
+      "stop_hz": 1427000000,
+      "segments": [],
+      "usages": []
+    },
+    {
+      "id": "fnv-1427000",
+      "title": "Richtfunk – Für private oder im öffentlichen Interesse betriebene Telekommunikationsnetze und/oder Erweiterungen bestehender Funknetze | Terrestrische Systeme, die elektronische Kommunikationsdienste erbringen können",
+      "start_hz": 1427000000,
+      "stop_hz": 1429000000,
+      "segments": [],
+      "usages": [
+        "Richtfunk – Für private oder im öffentlichen Interesse betriebene Telekommunikationsnetze und/oder Erweiterungen bestehender Funknetze",
+        "Terrestrische Systeme, die elektronische Kommunikationsdienste erbringen können"
+      ]
+    },
+    {
+      "id": "fnv-1429000",
+      "title": "Richtfunk – Für private oder im öffentlichen Interesse betriebene Telekommunikationsnetze und/oder Erweiterungen bestehender Funknetze | Terrestrische Systeme, die elektronische Kommunikationsdienste erbringen können",
+      "start_hz": 1429000000,
+      "stop_hz": 1452000000,
+      "segments": [],
+      "usages": [
+        "Richtfunk – Für private oder im öffentlichen Interesse betriebene Telekommunikationsnetze und/oder Erweiterungen bestehender Funknetze",
+        "Terrestrische Systeme, die elektronische Kommunikationsdienste erbringen können"
+      ]
+    },
+    {
+      "id": "fnv-1452000",
+      "title": "Terrestrische Systeme, die elektronische Kommunikationsdienste erbringen können",
+      "start_hz": 1452000000,
+      "stop_hz": 1492000000,
+      "segments": [
+        {
+          "title": "Terrestrische Systeme, die elektronische Kommunikationsdienste erbringen können",
+          "start_hz": 1452000000,
+          "stop_hz": 1492000000
+        }
+      ],
+      "usages": [
+        "Terrestrische Systeme, die elektronische Kommunikationsdienste erbringen können"
+      ]
+    },
+    {
+      "id": "fnv-1492000",
+      "title": "Richtfunk – Für private oder im öffentlichen Interesse betriebene Telekommunikationsnetze und/oder Erweiterungen bestehender Funknetze | Terrestrische Systeme, die elektronische Kommunikationsdienste erbringen können",
+      "start_hz": 1492000000,
+      "stop_hz": 1518000000,
+      "segments": [
+        {
+          "title": "Rundfunkhilfsdienste – Drahtlose Mikrophone",
+          "start_hz": 1517000000,
+          "stop_hz": 1518000000
+        }
+      ],
+      "usages": [
+        "Richtfunk – Für private oder im öffentlichen Interesse betriebene Telekommunikationsnetze und/oder Erweiterungen bestehender Funknetze",
+        "Terrestrische Systeme, die elektronische Kommunikationsdienste erbringen können"
+      ]
+    },
+    {
+      "id": "fnv-1518000",
+      "title": "Drahtlose Mikrophone | Mobilsatellitensysteme",
+      "start_hz": 1518000000,
+      "stop_hz": 1525000000,
+      "segments": [],
+      "usages": [
+        "Drahtlose Mikrophone",
+        "Mobilsatellitensysteme"
+      ]
+    },
+    {
+      "id": "fnv-1525000",
+      "title": "Mobilsatellitensysteme",
+      "start_hz": 1525000000,
+      "stop_hz": 1530000000,
+      "segments": [],
+      "usages": [
+        "Mobilsatellitensysteme"
+      ]
+    },
+    {
+      "id": "fnv-1530000",
+      "title": "Mobilsatellitensysteme – Für Not- und Sicherheitsverkehr im Rahmen des GMDSS",
+      "start_hz": 1530000000,
+      "stop_hz": 1535000000,
+      "segments": [],
+      "usages": [
+        "Mobilsatellitensysteme – Für Not- und Sicherheitsverkehr im Rahmen des GMDSS"
+      ]
+    },
+    {
+      "id": "fnv-1535000",
+      "title": "Mobilsatellitensysteme – Für Not- und Sicherheitsverkehr im Rahmen des GMDSS | Mobilsatellitensysteme – Für Not- und Sicherheitsverkehr im Rahmen des GMDSS Search-and-Rescue Empfangsfrequenzbereich für Navigationssatellitensystem GALILEO | Mobilsatellitensysteme",
+      "start_hz": 1535000000,
+      "stop_hz": 1559000000,
+      "segments": [
+        {
+          "title": "Mobilsatellitensysteme – Für Not- und Sicherheitsverkehr im Rahmen des GMDSS",
+          "start_hz": 1535000000,
+          "stop_hz": 1544000000
+        },
+        {
+          "title": "Mobilsatellitensysteme – Für Not- und Sicherheitsverkehr im Rahmen des GMDSS Search-and-Rescue Empfangsfrequenzbereich für Navigationssatellitensystem GALILEO",
+          "start_hz": 1544000000,
+          "stop_hz": 1545000000
+        },
+        {
+          "title": "Mobilsatellitensysteme",
+          "start_hz": 1545000000,
+          "stop_hz": 1555000000
+        },
+        {
+          "title": "Mobilsatellitensysteme",
+          "start_hz": 1555000000,
+          "stop_hz": 1559000000
+        }
+      ],
+      "usages": [
+        "Mobilsatellitensysteme – Für Not- und Sicherheitsverkehr im Rahmen des GMDSS",
+        "Mobilsatellitensysteme – Für Not- und Sicherheitsverkehr im Rahmen des GMDSS Search-and-Rescue Empfangsfrequenzbereich für Navigationssatellitensystem GALILEO",
+        "Mobilsatellitensysteme"
+      ]
+    },
+    {
+      "id": "fnv-1559000",
+      "title": "Navigationssatellitensysteme – GALILEO GPS GLONASS EGNOS BEIDOU",
+      "start_hz": 1559000000,
+      "stop_hz": 1610000000,
+      "segments": [],
+      "usages": [
+        "Navigationssatellitensysteme – GALILEO GPS GLONASS EGNOS BEIDOU"
+      ]
+    },
+    {
+      "id": "fnv-1610000",
+      "title": "Mobilsatellitensysteme – S-PCS",
+      "start_hz": 1610000000,
+      "stop_hz": 1610600000,
+      "segments": [],
+      "usages": [
+        "Mobilsatellitensysteme – S-PCS"
+      ]
+    },
+    {
+      "id": "fnv-1610600",
+      "title": "Mobilsatellitensysteme – S-PCS | sonst. Anwendung: Ultra Wideband-Anwendungen",
+      "start_hz": 1610600000,
+      "stop_hz": 1613800000,
+      "segments": [],
+      "usages": [
+        "Mobilsatellitensysteme – S-PCS",
+        "sonst. Anwendung: Ultra Wideband-Anwendungen"
+      ]
+    },
+    {
+      "id": "fnv-1613800",
+      "title": "Mobilsatellitensysteme – S-PCS | sonst. Anwendung: Ultra Wideband-Anwendungen",
+      "start_hz": 1613800000,
+      "stop_hz": 1621350000,
+      "segments": [],
+      "usages": [
+        "Mobilsatellitensysteme – S-PCS",
+        "sonst. Anwendung: Ultra Wideband-Anwendungen"
+      ]
+    },
+    {
+      "id": "fnv-1621350",
+      "title": "Mobilsatellitensysteme – S-PCS | sonst. Anwendung: Ultra Wideband-Anwendungen",
+      "start_hz": 1621350000,
+      "stop_hz": 1626500000,
+      "segments": [],
+      "usages": [
+        "Mobilsatellitensysteme – S-PCS",
+        "sonst. Anwendung: Ultra Wideband-Anwendungen"
+      ]
+    },
+    {
+      "id": "fnv-1626500",
+      "title": "sonst. Anwendung: Ultra Wideband-Anwendungen",
+      "start_hz": 1626500000,
+      "stop_hz": 1660000000,
+      "segments": [
+        {
+          "title": "Mobilsatellitensysteme – Auch für Not- und Sicherheitsverkehr im Rahmen des GMDSS",
+          "start_hz": 1626500000,
+          "stop_hz": 1645500000
+        },
+        {
+          "title": "Mobilsatellitensysteme – Ausschließlich für den Not- und Sicherheitsverkehr im Rahmen des GMDSS",
+          "start_hz": 1645000000,
+          "stop_hz": 1646500000
+        },
+        {
+          "title": "Mobilsatellitensysteme",
+          "start_hz": 1646500000,
+          "stop_hz": 1660000000
+        }
+      ],
+      "usages": [
+        "sonst. Anwendung: Ultra Wideband-Anwendungen"
+      ]
+    },
+    {
+      "id": "fnv-1660000",
+      "title": "Mobilsatellitensysteme | sonst. Anwendung: Ultra Wideband-Anwendungen",
+      "start_hz": 1660000000,
+      "stop_hz": 1660500000,
+      "segments": [],
+      "usages": [
+        "Mobilsatellitensysteme",
+        "sonst. Anwendung: Ultra Wideband-Anwendungen"
+      ]
+    },
+    {
+      "id": "fnv-1660500",
+      "title": "sonst. Anwendung: Ultra Wideband-Anwendungen",
+      "start_hz": 1660500000,
+      "stop_hz": 1668000000,
+      "segments": [
+        {
+          "title": "Mobilfunk nicht-zivil – sonst. Anwendung: Nichtzivile Funkanwendung",
+          "start_hz": 1661000000,
+          "stop_hz": 1668000000
+        }
+      ],
+      "usages": [
+        "sonst. Anwendung: Ultra Wideband-Anwendungen"
+      ]
+    },
+    {
+      "id": "fnv-1668000",
+      "title": "sonst. Anwendung: Ultra Wideband-Anwendungen",
+      "start_hz": 1668000000,
+      "stop_hz": 1668400000,
+      "segments": [
+        {
+          "title": "Mobilfunk nicht-zivil – sonst. Anwendung: Nichtzivile Funkanwendung",
+          "start_hz": 1668000000,
+          "stop_hz": 1668400000
+        }
+      ],
+      "usages": [
+        "sonst. Anwendung: Ultra Wideband-Anwendungen"
+      ]
+    },
+    {
+      "id": "fnv-1668400",
+      "title": "sonst. Anwendung: Ultra Wideband-Anwendungen",
+      "start_hz": 1668400000,
+      "stop_hz": 1670000000,
+      "segments": [
+        {
+          "title": "Mobilfunk nicht-zivil – sonst. Anwendung: Nichtzivile Funkanwendung",
+          "start_hz": 1668400000,
+          "stop_hz": 1670000000
+        }
+      ],
+      "usages": [
+        "sonst. Anwendung: Ultra Wideband-Anwendungen"
+      ]
+    },
+    {
+      "id": "fnv-1670000",
+      "title": "Wetterhilfenfunksysteme zivil/nicht-zivil – Funksonden | Wetterfunkdienst über Satelliten | Mobilfunk nicht-zivil – sonst. Anwendung: Nichtzivile Funkanwendung | Mobilsatellitensysteme | sonst. Anwendung: Ultra Wideband-Anwendungen",
+      "start_hz": 1670000000,
+      "stop_hz": 1675000000,
+      "segments": [],
+      "usages": [
+        "Wetterhilfenfunksysteme zivil/nicht-zivil – Funksonden",
+        "Wetterfunkdienst über Satelliten",
+        "Mobilfunk nicht-zivil – sonst. Anwendung: Nichtzivile Funkanwendung",
+        "Mobilsatellitensysteme",
+        "sonst. Anwendung: Ultra Wideband-Anwendungen"
+      ]
+    },
+    {
+      "id": "fnv-1675000",
+      "title": "Wetterhilfenfunksysteme zivil/nicht-zivil – Funksonden | Wetterfunkdienst über Satelliten | sonst. Anwendung: Ultra Wideband-Anwendungen",
+      "start_hz": 1675000000,
+      "stop_hz": 1690000000,
+      "segments": [
+        {
+          "title": "Mobilfunk nicht-zivil – sonst. Anwendung: Nichtzivile Funkanwendung",
+          "start_hz": 1675000000,
+          "stop_hz": 1690000000
+        }
+      ],
+      "usages": [
+        "Wetterhilfenfunksysteme zivil/nicht-zivil – Funksonden",
+        "Wetterfunkdienst über Satelliten",
+        "sonst. Anwendung: Ultra Wideband-Anwendungen"
+      ]
+    },
+    {
+      "id": "fnv-1690000",
+      "title": "Wetterfunkdienst über Satelliten | sonst. Anwendung: Ultra Wideband-Anwendungen",
+      "start_hz": 1690000000,
+      "stop_hz": 1700000000,
+      "segments": [
+        {
+          "title": "Mobilfunk nicht-zivil – sonst. Anwendung: Nichtzivile Funkanwendung",
+          "start_hz": 1690000000,
+          "stop_hz": 1700000000
+        }
+      ],
+      "usages": [
+        "Wetterfunkdienst über Satelliten",
+        "sonst. Anwendung: Ultra Wideband-Anwendungen"
+      ]
+    },
+    {
+      "id": "fnv-1700000",
+      "title": "Wetterfunkdienst über Satelliten | sonst. Anwendung: Ultra Wideband-Anwendungen",
+      "start_hz": 1700000000,
+      "stop_hz": 1710000000,
+      "segments": [
+        {
+          "title": "Mobilfunk nicht-zivil – sonst. Anwendung: Nichtzivile Funkanwendung",
+          "start_hz": 1700000000,
+          "stop_hz": 1705000000
+        }
+      ],
+      "usages": [
+        "Wetterfunkdienst über Satelliten",
+        "sonst. Anwendung: Ultra Wideband-Anwendungen"
+      ]
+    },
+    {
+      "id": "fnv-1710000",
+      "title": "sonst. Anwendung: Ultra Wideband-Anwendungen",
+      "start_hz": 1710000000,
+      "stop_hz": 1930000000,
+      "segments": [
+        {
+          "title": "Terrestrische Systeme, die europaweite elektronische Kommunikationsdienste erbringen können – Nutzung in Luftfahrzeugen Nutzung auf Hochseeschiffen",
+          "start_hz": 1710000000,
+          "stop_hz": 1785000000
+        },
+        {
+          "title": "Short Range Devices – Drahtlose Mikrofone",
+          "start_hz": 1785000000,
+          "stop_hz": 1804800000
+        },
+        {
+          "title": "Terrestrische Systeme, die europaweite elektronische Kommunikationsdienste erbringen können – Nutzung in Luftfahrzeugen Nutzung auf Hochseeschiffen",
+          "start_hz": 1805000000,
+          "stop_hz": 1880000000
+        },
+        {
+          "title": "DECT",
+          "start_hz": 1880000000,
+          "stop_hz": 1900000000
+        },
+        {
+          "title": "Digitale Mobilfunksysteme – Digitales Mobilfunksystem für Eisenbahnen (R-GSM und Nachfolgesystem FRMCS/RMR)",
+          "start_hz": 1900000000,
+          "stop_hz": 1910000000
+        },
+        {
+          "title": "Funkkameras – Für befristete Veranstaltungen",
+          "start_hz": 1900000000,
+          "stop_hz": 1920000000
+        },
+        {
+          "title": "Terrestrische Systeme, die elektronische Kommunikationsdienste erbringen können",
+          "start_hz": 1920000000,
+          "stop_hz": 1930000000
+        }
+      ],
+      "usages": [
+        "sonst. Anwendung: Ultra Wideband-Anwendungen"
+      ]
+    },
+    {
+      "id": "fnv-1930000",
+      "title": "Terrestrische Systeme, die elektronische Kommunikationsdienste erbringen können | sonst. Anwendung: Ultra Wideband-Anwendungen",
+      "start_hz": 1930000000,
+      "stop_hz": 1970000000,
+      "segments": [],
+      "usages": [
+        "Terrestrische Systeme, die elektronische Kommunikationsdienste erbringen können",
+        "sonst. Anwendung: Ultra Wideband-Anwendungen"
+      ]
+    },
+    {
+      "id": "fnv-1970000",
+      "title": "Terrestrische Systeme, die elektronische Kommunikationsdienste erbringen können | sonst. Anwendung: Ultra Wideband-Anwendungen",
+      "start_hz": 1970000000,
+      "stop_hz": 1980000000,
+      "segments": [],
+      "usages": [
+        "Terrestrische Systeme, die elektronische Kommunikationsdienste erbringen können",
+        "sonst. Anwendung: Ultra Wideband-Anwendungen"
+      ]
+    },
+    {
+      "id": "fnv-1980000",
+      "title": "Mobilsatellitensysteme – IMT S-PCS | Mobilfunk – Complementary Ground Component (CGC) zu satellitengestützten Mobilfunknetzen | Funkkameras – Für befristete Veranstaltungen | sonst. Anwendung: Ultra Wideband-Anwendungen",
+      "start_hz": 1980000000,
+      "stop_hz": 2010000000,
+      "segments": [],
+      "usages": [
+        "Mobilsatellitensysteme – IMT S-PCS",
+        "Mobilfunk – Complementary Ground Component (CGC) zu satellitengestützten Mobilfunknetzen",
+        "Funkkameras – Für befristete Veranstaltungen",
+        "sonst. Anwendung: Ultra Wideband-Anwendungen"
+      ]
+    },
+    {
+      "id": "fnv-2010000",
+      "title": "Funkkameras | sonst. Anwendung: Ultra Wideband-Anwendungen",
+      "start_hz": 2010000000,
+      "stop_hz": 2025000000,
+      "segments": [],
+      "usages": [
+        "Funkkameras",
+        "sonst. Anwendung: Ultra Wideband-Anwendungen"
+      ]
+    },
+    {
+      "id": "fnv-2025000",
+      "title": "Erderkundungsfunk | Weltraumforschungsfunk | sonst. Anwendung: Ultra Wideband-Anwendungen",
+      "start_hz": 2025000000,
+      "stop_hz": 2110000000,
+      "segments": [
+        {
+          "title": "Richtfunk nicht-zivil",
+          "start_hz": 2025000000,
+          "stop_hz": 2070000000
+        },
+        {
+          "title": "Funkkameras – Für Rundfunkanstalten und Fernsehproduktionsfirmen",
+          "start_hz": 2070000000,
+          "stop_hz": 2090000000
+        },
+        {
+          "title": "Funkkameras – Für öffentliche Bedarfsträger und private Nutzer",
+          "start_hz": 2090000000,
+          "stop_hz": 2110000000
+        }
+      ],
+      "usages": [
+        "Erderkundungsfunk",
+        "Weltraumforschungsfunk",
+        "sonst. Anwendung: Ultra Wideband-Anwendungen"
+      ]
+    },
+    {
+      "id": "fnv-2110000",
+      "title": "Terrestrische Systeme, die elektronische Kommunikationsdienste erbringen können | sonst. Anwendung: Ultra Wideband-Anwendungen",
+      "start_hz": 2110000000,
+      "stop_hz": 2120000000,
+      "segments": [],
+      "usages": [
+        "Terrestrische Systeme, die elektronische Kommunikationsdienste erbringen können",
+        "sonst. Anwendung: Ultra Wideband-Anwendungen"
+      ]
+    },
+    {
+      "id": "fnv-2120000",
+      "title": "Terrestrische Systeme, die elektronische Kommunikationsdienste erbringen können | sonst. Anwendung: Ultra Wideband-Anwendungen",
+      "start_hz": 2120000000,
+      "stop_hz": 2160000000,
+      "segments": [],
+      "usages": [
+        "Terrestrische Systeme, die elektronische Kommunikationsdienste erbringen können",
+        "sonst. Anwendung: Ultra Wideband-Anwendungen"
+      ]
+    },
+    {
+      "id": "fnv-2160000",
+      "title": "Terrestrische Systeme, die elektronische Kommunikationsdienste erbringen können | sonst. Anwendung: Ultra Wideband-Anwendungen",
+      "start_hz": 2160000000,
+      "stop_hz": 2170000000,
+      "segments": [],
+      "usages": [
+        "Terrestrische Systeme, die elektronische Kommunikationsdienste erbringen können",
+        "sonst. Anwendung: Ultra Wideband-Anwendungen"
+      ]
+    },
+    {
+      "id": "fnv-2170000",
+      "title": "Mobilsatellitensysteme – IMT S-PCS | Funkkameras – Für befristete Veranstaltungen | Mobilfunk – Complementary Ground Component (CGC) zu satellitengestützten Mobilfunknetzen | sonst. Anwendung: Ultra Wideband-Anwendungen",
+      "start_hz": 2170000000,
+      "stop_hz": 2200000000,
+      "segments": [],
+      "usages": [
+        "Mobilsatellitensysteme – IMT S-PCS",
+        "Funkkameras – Für befristete Veranstaltungen",
+        "Mobilfunk – Complementary Ground Component (CGC) zu satellitengestützten Mobilfunknetzen",
+        "sonst. Anwendung: Ultra Wideband-Anwendungen"
+      ]
+    },
+    {
+      "id": "fnv-2200000",
+      "title": "Erderkundungsfunk | Weltraumforschungsfunk | sonst. Anwendung: Ultra Wideband-Anwendungen",
+      "start_hz": 2200000000,
+      "stop_hz": 2290000000,
+      "segments": [
+        {
+          "title": "Richtfunk nicht-zivil",
+          "start_hz": 2200000000,
+          "stop_hz": 2245000000
+        },
+        {
+          "title": "Funkkameras – Für Rundfunkanstalten",
+          "start_hz": 2245000000,
+          "stop_hz": 2271000000
+        },
+        {
+          "title": "Telemetrie nicht-zivil",
+          "start_hz": 2271000000,
+          "stop_hz": 2272000000
+        },
+        {
+          "title": "Funkkameras – Für Rundfunkanstalten",
+          "start_hz": 2272000000,
+          "stop_hz": 2290000000
+        }
+      ],
+      "usages": [
+        "Erderkundungsfunk",
+        "Weltraumforschungsfunk",
+        "sonst. Anwendung: Ultra Wideband-Anwendungen"
+      ]
+    },
+    {
+      "id": "fnv-2290000",
+      "title": "Funkkameras – Für Rundfunkanstalten | sonst. Anwendung: Ultra Wideband-Anwendungen",
+      "start_hz": 2290000000,
+      "stop_hz": 2300000000,
+      "segments": [],
+      "usages": [
+        "Funkkameras – Für Rundfunkanstalten",
+        "sonst. Anwendung: Ultra Wideband-Anwendungen"
+      ]
+    },
+    {
+      "id": "fnv-2300000",
+      "title": "sonst. Anwendung: Ultra Wideband-Anwendungen",
+      "start_hz": 2300000000,
+      "stop_hz": 2450000000,
+      "segments": [
+        {
+          "title": "Terrestrische Systeme, die elektronische Kommunikationsdienste erbringen können",
+          "start_hz": 2300000000,
+          "stop_hz": 2360000000
+        },
+        {
+          "title": "Funkkameras – Für Rundfunkanstalten",
+          "start_hz": 2300000000,
+          "stop_hz": 2362000000
+        },
+        {
+          "title": "Telemetrie nicht-zivil",
+          "start_hz": 2362000000,
+          "stop_hz": 2363000000
+        },
+        {
+          "title": "Funkkameras – Für Rundfunkanstalten und öffentliche Bedarfsträger",
+          "start_hz": 2363000000,
+          "stop_hz": 2400000000
+        },
+        {
+          "title": "Short Range Devices",
+          "start_hz": 2400000000,
+          "stop_hz": 2450000000
+        },
+        {
+          "title": "Short Range Devices – Drahtlose lokale Netzwerke (RLAN) Breitband- Datenübertragungssysteme",
+          "start_hz": 2400000000,
+          "stop_hz": 2450000000
+        },
+        {
+          "title": "Short Range Devices – Fahrzeugidentifikationssystem für Eisenbahnen (AVI)",
+          "start_hz": 2446000000,
+          "stop_hz": 2450000000
+        },
+        {
+          "title": "Short Range Devices – Funkfrequenzkennzeichnung (RFID)",
+          "start_hz": 2446000000,
+          "stop_hz": 2450000000
+        },
+        {
+          "title": "Amateurfunk",
+          "start_hz": 2304000000,
+          "stop_hz": 2310000000
+        },
+        {
+          "title": "Amateurfunk",
+          "start_hz": 2320000000,
+          "stop_hz": 2322000000
+        },
+        {
+          "title": "Amateurfunk",
+          "start_hz": 2400000000,
+          "stop_hz": 2450000000
+        },
+        {
+          "title": "Amateurfunk über Satelliten",
+          "start_hz": 2400000000,
+          "stop_hz": 2450000000
+        },
+        {
+          "title": "Short Range Devices – Funkortungsanwendungen",
+          "start_hz": 2400000000,
+          "stop_hz": 2450000000
+        },
+        {
+          "title": "sonst. Anwendung: ISM",
+          "start_hz": 2400000000,
+          "stop_hz": 2450000000
+        }
+      ],
+      "usages": [
+        "sonst. Anwendung: Ultra Wideband-Anwendungen"
+      ]
+    },
+    {
+      "id": "fnv-2450000",
+      "title": "Short Range Devices | Short Range Devices – Drahtlose lokale Netzwerke (RLAN) Breitband- Datenübertragungssysteme | Short Range Devices – Funkortungsanwendungen | sonst. Anwendung: Ultra Wideband-Anwendungen | sonst. Anwendung: ISM",
+      "start_hz": 2450000000,
+      "stop_hz": 2483500000,
+      "segments": [
+        {
+          "title": "Short Range Devices – Funkidentifizierungssysteme (RFID)",
+          "start_hz": 2450000000,
+          "stop_hz": 2454000000
+        },
+        {
+          "title": "Short Range Devices – Fahrzeugidentifikationssystem für Eisenbahnen (AVI)",
+          "start_hz": 2450000000,
+          "stop_hz": 2454000000
+        }
+      ],
+      "usages": [
+        "Short Range Devices",
+        "Short Range Devices – Drahtlose lokale Netzwerke (RLAN) Breitband- Datenübertragungssysteme",
+        "Short Range Devices – Funkortungsanwendungen",
+        "sonst. Anwendung: Ultra Wideband-Anwendungen",
+        "sonst. Anwendung: ISM"
+      ]
+    },
+    {
+      "id": "fnv-2483500",
+      "title": "Short Range Devices – Aktive medizinische Implantate | Mobilsatellitensysteme – S-PCS | Navigationssatellitensysteme – GPS | GALILEO | sonst. Anwendung: Ultra Wideband-Anwendungen | sonst. Anwendung: ISM",
+      "start_hz": 2483500000,
+      "stop_hz": 2500000000,
+      "segments": [],
+      "usages": [
+        "Short Range Devices – Aktive medizinische Implantate",
+        "Mobilsatellitensysteme – S-PCS",
+        "Navigationssatellitensysteme – GPS",
+        "GALILEO",
+        "sonst. Anwendung: Ultra Wideband-Anwendungen",
+        "sonst. Anwendung: ISM"
+      ]
+    },
+    {
+      "id": "fnv-2500000",
+      "title": "Terrestrische Systeme, die elektronische Kommunikationsdienste erbringen können | sonst. Anwendung: Ultra Wideband-Anwendungen",
+      "start_hz": 2500000000,
+      "stop_hz": 2520000000,
+      "segments": [],
+      "usages": [
+        "Terrestrische Systeme, die elektronische Kommunikationsdienste erbringen können",
+        "sonst. Anwendung: Ultra Wideband-Anwendungen"
+      ]
+    },
+    {
+      "id": "fnv-2520000",
+      "title": "Terrestrische Systeme, die elektronische Kommunikationsdienste erbringen können | sonst. Anwendung: Ultra Wideband-Anwendungen",
+      "start_hz": 2520000000,
+      "stop_hz": 2655000000,
+      "segments": [],
+      "usages": [
+        "Terrestrische Systeme, die elektronische Kommunikationsdienste erbringen können",
+        "sonst. Anwendung: Ultra Wideband-Anwendungen"
+      ]
+    },
+    {
+      "id": "fnv-2655000",
+      "title": "Terrestrische Systeme, die elektronische Kommunikationsdienste erbringen können | sonst. Anwendung: Ultra Wideband-Anwendungen",
+      "start_hz": 2655000000,
+      "stop_hz": 2670000000,
+      "segments": [],
+      "usages": [
+        "Terrestrische Systeme, die elektronische Kommunikationsdienste erbringen können",
+        "sonst. Anwendung: Ultra Wideband-Anwendungen"
+      ]
+    },
+    {
+      "id": "fnv-2670000",
+      "title": "Terrestrische Systeme, die elektronische Kommunikationsdienste erbringen können | sonst. Anwendung: Ultra Wideband-Anwendungen",
+      "start_hz": 2670000000,
+      "stop_hz": 2690000000,
+      "segments": [],
+      "usages": [
+        "Terrestrische Systeme, die elektronische Kommunikationsdienste erbringen können",
+        "sonst. Anwendung: Ultra Wideband-Anwendungen"
+      ]
+    },
+    {
+      "id": "fnv-2690000",
+      "title": "sonst. Anwendung: Ultra Wideband-Anwendungen",
+      "start_hz": 2690000000,
+      "stop_hz": 2700000000,
+      "segments": [],
+      "usages": [
+        "sonst. Anwendung: Ultra Wideband-Anwendungen"
+      ]
+    },
+    {
+      "id": "fnv-2700000",
+      "title": "Flugnavigationsanlagen zivil/nicht-zivil | Radar zivil/nicht-zivil | Funkkameras – Für Rundfunkanstalten und öffentliche Bedarfsträger | sonst. Anwendung: Ultra Wideband-Anwendungen",
+      "start_hz": 2700000000,
+      "stop_hz": 2900000000,
+      "segments": [],
+      "usages": [
+        "Flugnavigationsanlagen zivil/nicht-zivil",
+        "Radar zivil/nicht-zivil",
+        "Funkkameras – Für Rundfunkanstalten und öffentliche Bedarfsträger",
+        "sonst. Anwendung: Ultra Wideband-Anwendungen"
+      ]
+    },
+    {
+      "id": "fnv-2900000",
+      "title": "Radar zivil/nicht-zivil – Zivile Nutzung: Radaranlagen auf Seeschiffen",
+      "start_hz": 2900000000,
+      "stop_hz": 3000000000,
+      "segments": [],
+      "usages": [
+        "Radar zivil/nicht-zivil – Zivile Nutzung: Radaranlagen auf Seeschiffen"
+      ]
+    }
+  ],
+  "entries": [
+    {
+      "kind": "channel",
+      "id": "fnv-36640-funk-hoerhilfeanlagen",
+      "label": "Funk-Hörhilfeanlagen",
+      "freq_hz": 36640000,
+      "notes": "FNV Anlage 2: Funk-Hörhilfeanlagen – e (Bereich 30.01-37.5 MHz), Paarfrequenz 37.860 MHz",
+      "pair_hz": 37860000
+    },
+    {
+      "kind": "channel",
+      "id": "fnv-36720-funk-hoerhilfeanlagen",
+      "label": "Funk-Hörhilfeanlagen",
+      "freq_hz": 36720000,
+      "notes": "FNV Anlage 2: Funk-Hörhilfeanlagen – e (Bereich 30.01-37.5 MHz), Paarfrequenz 37.940 MHz",
+      "pair_hz": 37940000
+    },
+    {
+      "kind": "channel",
+      "id": "fnv-36760-funk-hoerhilfeanlagen",
+      "label": "Funk-Hörhilfeanlagen",
+      "freq_hz": 36760000,
+      "notes": "FNV Anlage 2: Funk-Hörhilfeanlagen – e (Bereich 30.01-37.5 MHz), Paarfrequenz 37.980 MHz",
+      "pair_hz": 37980000
+    },
+    {
+      "kind": "channel",
+      "id": "fnv-36700-einwegsprechfunkanlagen",
+      "label": "Einwegsprechfunkanlagen",
+      "freq_hz": 36700000,
+      "notes": "FNV Anlage 2: Einwegsprechfunkanlagen (Bereich 30.01-37.5 MHz)"
+    },
+    {
+      "kind": "channel",
+      "id": "fnv-37100-einwegsprechfunkanlagen",
+      "label": "Einwegsprechfunkanlagen",
+      "freq_hz": 37100000,
+      "notes": "FNV Anlage 2: Einwegsprechfunkanlagen (Bereich 30.01-37.5 MHz)"
+    },
+    {
+      "kind": "channel",
+      "id": "fnv-36800-sprechfunkanlagen",
+      "label": "Sprechfunkanlagen",
+      "freq_hz": 36800000,
+      "notes": "FNV Anlage 2: Sprechfunkanlagen – Für Fahrschulen und andere Arten der Ausbildung (Bereich 30.01-37.5 MHz)"
+    },
+    {
+      "kind": "channel",
+      "id": "fnv-36850-sprechfunkanlagen",
+      "label": "Sprechfunkanlagen",
+      "freq_hz": 36850000,
+      "notes": "FNV Anlage 2: Sprechfunkanlagen – Für Fahrschulen und andere Arten der Ausbildung (Bereich 30.01-37.5 MHz)"
+    },
+    {
+      "kind": "channel",
+      "id": "fnv-37450-sprechfunkanlagen",
+      "label": "Sprechfunkanlagen",
+      "freq_hz": 37450000,
+      "notes": "FNV Anlage 2: Sprechfunkanlagen – Für Fahrschulen und andere Arten der Ausbildung (Bereich 30.01-37.5 MHz)"
+    },
+    {
+      "kind": "channel",
+      "id": "fnv-37500-sprechfunkanlagen",
+      "label": "Sprechfunkanlagen",
+      "freq_hz": 37500000,
+      "notes": "FNV Anlage 2: Sprechfunkanlagen – Für Fahrschulen und andere Arten der Ausbildung (Bereich 30.01-37.5 MHz)"
+    },
+    {
+      "kind": "channel",
+      "id": "fnv-36800-short-range-devices",
+      "label": "Short Range Devices",
+      "freq_hz": 36800000,
+      "notes": "FNV Anlage 2: Short Range Devices – Einwegsprechfunkanlagen (Bereich 30.01-37.5 MHz)"
+    },
+    {
+      "kind": "channel",
+      "id": "fnv-36850-short-range-devices",
+      "label": "Short Range Devices",
+      "freq_hz": 36850000,
+      "notes": "FNV Anlage 2: Short Range Devices – Einwegsprechfunkanlagen (Bereich 30.01-37.5 MHz)"
+    },
+    {
+      "kind": "channel",
+      "id": "fnv-37450-short-range-devices",
+      "label": "Short Range Devices",
+      "freq_hz": 37450000,
+      "notes": "FNV Anlage 2: Short Range Devices – Einwegsprechfunkanlagen (Bereich 30.01-37.5 MHz)"
+    },
+    {
+      "kind": "channel",
+      "id": "fnv-37500-short-range-devices",
+      "label": "Short Range Devices",
+      "freq_hz": 37500000,
+      "notes": "FNV Anlage 2: Short Range Devices – Einwegsprechfunkanlagen (Bereich 30.01-37.5 MHz)"
+    },
+    {
+      "kind": "channel",
+      "id": "fnv-37200-funkfernsteuerungsanlagen",
+      "label": "Funkfernsteuerungsanlagen",
+      "freq_hz": 37200000,
+      "notes": "FNV Anlage 2: Funkfernsteuerungsanlagen –  Steuerung von Verkehrssignalanlagen und  Übertragung medizinischer Messwerte (Bereich 30.01-37.5 MHz)"
+    },
+    {
+      "kind": "channel",
+      "id": "fnv-32250-rundfunkhilfsdienste",
+      "label": "Rundfunkhilfsdienste",
+      "freq_hz": 32250000,
+      "notes": "FNV Anlage 2: Rundfunkhilfsdienste – Drahtlose Mikrophone Reportagefunkanlagen (Bereich 30.01-37.5 MHz)"
+    },
+    {
+      "kind": "channel",
+      "id": "fnv-32300-rundfunkhilfsdienste",
+      "label": "Rundfunkhilfsdienste",
+      "freq_hz": 32300000,
+      "notes": "FNV Anlage 2: Rundfunkhilfsdienste – Drahtlose Mikrophone Reportagefunkanlagen (Bereich 30.01-37.5 MHz)"
+    },
+    {
+      "kind": "channel",
+      "id": "fnv-36950-rundfunkhilfsdienste",
+      "label": "Rundfunkhilfsdienste",
+      "freq_hz": 36950000,
+      "notes": "FNV Anlage 2: Rundfunkhilfsdienste – Drahtlose Mikrophone Reportagefunkanlagen (Bereich 30.01-37.5 MHz)"
+    },
+    {
+      "kind": "channel",
+      "id": "fnv-37300-rundfunkhilfsdienste",
+      "label": "Rundfunkhilfsdienste",
+      "freq_hz": 37300000,
+      "notes": "FNV Anlage 2: Rundfunkhilfsdienste – Drahtlose Mikrophone Reportagefunkanlagen (Bereich 30.01-37.5 MHz)"
+    },
+    {
+      "kind": "channel",
+      "id": "fnv-37860-funk-hoerhilfeanlagen",
+      "label": "Funk-Hörhilfeanlagen",
+      "freq_hz": 37860000,
+      "notes": "FNV Anlage 2: Funk-Hörhilfeanlagen – e (Bereich 37.5-38.25 MHz), Paarfrequenz 36.640 MHz",
+      "pair_hz": 36640000
+    },
+    {
+      "kind": "channel",
+      "id": "fnv-37940-funk-hoerhilfeanlagen",
+      "label": "Funk-Hörhilfeanlagen",
+      "freq_hz": 37940000,
+      "notes": "FNV Anlage 2: Funk-Hörhilfeanlagen – e (Bereich 37.5-38.25 MHz), Paarfrequenz 36.720 MHz",
+      "pair_hz": 36720000
+    },
+    {
+      "kind": "channel",
+      "id": "fnv-37980-funk-hoerhilfeanlagen",
+      "label": "Funk-Hörhilfeanlagen",
+      "freq_hz": 37980000,
+      "notes": "FNV Anlage 2: Funk-Hörhilfeanlagen – e (Bereich 37.5-38.25 MHz), Paarfrequenz 36.760 MHz",
+      "pair_hz": 36760000
+    },
+    {
+      "kind": "channel",
+      "id": "fnv-37550-sprechfunkanlagen",
+      "label": "Sprechfunkanlagen",
+      "freq_hz": 37550000,
+      "notes": "FNV Anlage 2: Sprechfunkanlagen – Für Fahrschulen und andere Arten der Ausbildung (Bereich 37.5-38.25 MHz)"
+    },
+    {
+      "kind": "channel",
+      "id": "fnv-37550-short-range-devices",
+      "label": "Short Range Devices",
+      "freq_hz": 37550000,
+      "notes": "FNV Anlage 2: Short Range Devices – Einwegsprechfunkanlagen (Bereich 37.5-38.25 MHz)"
+    },
+    {
+      "kind": "channel",
+      "id": "fnv-37800-funkfernsteuerungsanlagen",
+      "label": "Funkfernsteuerungsanlagen",
+      "freq_hz": 37800000,
+      "notes": "FNV Anlage 2: Funkfernsteuerungsanlagen –  Steuerung von Verkehrssignalanlagen und  Übertragung medizinischer Messwerte (Bereich 37.5-38.25 MHz)"
+    },
+    {
+      "kind": "channel",
+      "id": "fnv-37700-rundfunkhilfsdienste",
+      "label": "Rundfunkhilfsdienste",
+      "freq_hz": 37700000,
+      "notes": "FNV Anlage 2: Rundfunkhilfsdienste – Drahtlose Mikrophone Reportagefunkanlagen (Bereich 37.5-38.25 MHz)"
+    },
+    {
+      "kind": "channel",
+      "id": "fnv-37900-rundfunkhilfsdienste",
+      "label": "Rundfunkhilfsdienste",
+      "freq_hz": 37900000,
+      "notes": "FNV Anlage 2: Rundfunkhilfsdienste – Drahtlose Mikrophone Reportagefunkanlagen (Bereich 37.5-38.25 MHz)"
+    },
+    {
+      "kind": "channel",
+      "id": "fnv-39025-meteoscatter-system",
+      "label": "Meteoscatter-System",
+      "freq_hz": 39025000,
+      "notes": "FNV Anlage 2: Meteoscatter-System – Sende-/Empfangsfrequenz (Bereich 39-39.5 MHz)"
+    },
+    {
+      "kind": "channel",
+      "id": "fnv-39050-meteoscatter-system",
+      "label": "Meteoscatter-System",
+      "freq_hz": 39050000,
+      "notes": "FNV Anlage 2: Meteoscatter-System – Empfangsfrequenz (Bereich 39-39.5 MHz)"
+    },
+    {
+      "kind": "channel",
+      "id": "fnv-40665-personenrufsender",
+      "label": "Personenrufsender",
+      "freq_hz": 40665000,
+      "notes": "FNV Anlage 2: Personenrufsender (Bereich 40.02-40.98 MHz)"
+    },
+    {
+      "kind": "channel",
+      "id": "fnv-40675-personenrufsender",
+      "label": "Personenrufsender",
+      "freq_hz": 40675000,
+      "notes": "FNV Anlage 2: Personenrufsender (Bereich 40.02-40.98 MHz)"
+    },
+    {
+      "kind": "channel",
+      "id": "fnv-40685-personenrufsender",
+      "label": "Personenrufsender",
+      "freq_hz": 40685000,
+      "notes": "FNV Anlage 2: Personenrufsender (Bereich 40.02-40.98 MHz)"
+    },
+    {
+      "kind": "channel",
+      "id": "fnv-40695-personenrufsender",
+      "label": "Personenrufsender",
+      "freq_hz": 40695000,
+      "notes": "FNV Anlage 2: Personenrufsender (Bereich 40.02-40.98 MHz)"
+    },
+    {
+      "kind": "channel",
+      "id": "fnv-40665-funkfernsteuerungsanlagen",
+      "label": "Funkfernsteuerungsanlagen",
+      "freq_hz": 40665000,
+      "notes": "FNV Anlage 2: Funkfernsteuerungsanlagen – Modellfernsteuerungsanlagen (Bereich 40.02-40.98 MHz)"
+    },
+    {
+      "kind": "channel",
+      "id": "fnv-40675-funkfernsteuerungsanlagen",
+      "label": "Funkfernsteuerungsanlagen",
+      "freq_hz": 40675000,
+      "notes": "FNV Anlage 2: Funkfernsteuerungsanlagen – Modellfernsteuerungsanlagen (Bereich 40.02-40.98 MHz)"
+    },
+    {
+      "kind": "channel",
+      "id": "fnv-40685-funkfernsteuerungsanlagen",
+      "label": "Funkfernsteuerungsanlagen",
+      "freq_hz": 40685000,
+      "notes": "FNV Anlage 2: Funkfernsteuerungsanlagen – Modellfernsteuerungsanlagen (Bereich 40.02-40.98 MHz)"
+    },
+    {
+      "kind": "channel",
+      "id": "fnv-40695-funkfernsteuerungsanlagen",
+      "label": "Funkfernsteuerungsanlagen",
+      "freq_hz": 40695000,
+      "notes": "FNV Anlage 2: Funkfernsteuerungsanlagen – Modellfernsteuerungsanlagen (Bereich 40.02-40.98 MHz)"
+    },
+    {
+      "kind": "channel",
+      "id": "fnv-44550-einwegsprechfunkanlagen",
+      "label": "Einwegsprechfunkanlagen",
+      "freq_hz": 44550000,
+      "notes": "FNV Anlage 2: Einwegsprechfunkanlagen (Bereich 44-47 MHz)"
+    },
+    {
+      "kind": "channel",
+      "id": "fnv-45000-einwegsprechfunkanlagen",
+      "label": "Einwegsprechfunkanlagen",
+      "freq_hz": 45000000,
+      "notes": "FNV Anlage 2: Einwegsprechfunkanlagen (Bereich 44-47 MHz)"
+    },
+    {
+      "kind": "channel",
+      "id": "fnv-72250-funkfernsteuerungsanlagen",
+      "label": "Funkfernsteuerungsanlagen",
+      "freq_hz": 72250000,
+      "notes": "FNV Anlage 2: Funkfernsteuerungsanlagen – Für die Forstwirtschaft (Bereich 68-74.8 MHz)"
+    },
+    {
+      "kind": "channel",
+      "id": "fnv-77425-mobilfunk-ausser-bewegl.-flugfunk-zi",
+      "label": "Mobilfunk außer bewegl. Flugfunk zivil/nicht-zivil",
+      "freq_hz": 77425000,
+      "notes": "FNV Anlage 2: Mobilfunk außer bewegl. Flugfunk zivil/nicht-zivil – Vorführung von Funkanlagen Mietweise Überlassung von Funkanlagen durch Funkfirmen (Bereich 75.2-87.5 MHz), Paarfrequenz 87.225 MHz",
+      "pair_hz": 87225000,
+      "demod": "AM",
+      "bw_hz": 6000
+    },
+    {
+      "kind": "channel",
+      "id": "fnv-87225-mobilfunk-ausser-bewegl.-flugfunk-zi",
+      "label": "Mobilfunk außer bewegl. Flugfunk zivil/nicht-zivil",
+      "freq_hz": 87225000,
+      "notes": "FNV Anlage 2: Mobilfunk außer bewegl. Flugfunk zivil/nicht-zivil – Vorführung von Funkanlagen Mietweise Überlassung von Funkanlagen durch Funkfirmen (Bereich 75.2-87.5 MHz), Paarfrequenz 77.425 MHz",
+      "pair_hz": 77425000,
+      "demod": "AM",
+      "bw_hz": 6000
+    },
+    {
+      "kind": "channel",
+      "id": "fnv-123100-rettungsfunkstellen",
+      "label": "Rettungsfunkstellen",
+      "freq_hz": 123100000,
+      "notes": "FNV Anlage 2: Rettungsfunkstellen – Für Not- und Sicherheitsverkehr im Rahmen des GMDSS (Bereich 117.975-137 MHz)",
+      "demod": "AM",
+      "bw_hz": 6000
+    },
+    {
+      "kind": "channel",
+      "id": "fnv-142000-funkanlagen--ortung-von-tieren",
+      "label": "Funkanlagen  Ortung von Tieren",
+      "freq_hz": 142000000,
+      "notes": "FNV Anlage 2: Funkanlagen  Ortung von Tieren (Bereich 138-143.6 MHz)"
+    },
+    {
+      "kind": "channel",
+      "id": "fnv-142012-funkanlagen--ortung-von-tieren",
+      "label": "Funkanlagen  Ortung von Tieren",
+      "freq_hz": 142012000,
+      "notes": "FNV Anlage 2: Funkanlagen  Ortung von Tieren (Bereich 138-143.6 MHz)"
+    },
+    {
+      "kind": "channel",
+      "id": "fnv-142375-fernausloesung-von-waehleinrichtungen",
+      "label": "Fernauslösung von Wähleinrichtungen",
+      "freq_hz": 142375000,
+      "notes": "FNV Anlage 2: Fernauslösung von Wähleinrichtungen – Haus-Notrufsysteme (Bereich 138-143.6 MHz)"
+    },
+    {
+      "kind": "channel",
+      "id": "fnv-151000-funkfernsteuerungsanlagen",
+      "label": "Funkfernsteuerungsanlagen",
+      "freq_hz": 151000000,
+      "notes": "FNV Anlage 2: Funkfernsteuerungsanlagen –  Übertragung medizinischer Messwerte und  Steuerung von Verkehrssignalanlagen (Bereich 150.05-153 MHz)"
+    },
+    {
+      "kind": "channel",
+      "id": "fnv-151025-funkfernsteuerungsanlagen",
+      "label": "Funkfernsteuerungsanlagen",
+      "freq_hz": 151025000,
+      "notes": "FNV Anlage 2: Funkfernsteuerungsanlagen –  Übertragung medizinischer Messwerte und  Steuerung von Verkehrssignalanlagen (Bereich 150.05-153 MHz)"
+    },
+    {
+      "kind": "channel",
+      "id": "fnv-151100-funkfernsteuerungsanlagen",
+      "label": "Funkfernsteuerungsanlagen",
+      "freq_hz": 151100000,
+      "notes": "FNV Anlage 2: Funkfernsteuerungsanlagen –  Übertragung medizinischer Messwerte und  Steuerung von Verkehrssignalanlagen (Bereich 150.05-153 MHz)"
+    },
+    {
+      "kind": "channel",
+      "id": "fnv-151125-funkfernsteuerungsanlagen",
+      "label": "Funkfernsteuerungsanlagen",
+      "freq_hz": 151125000,
+      "notes": "FNV Anlage 2: Funkfernsteuerungsanlagen –  Übertragung medizinischer Messwerte und  Steuerung von Verkehrssignalanlagen (Bereich 150.05-153 MHz)"
+    },
+    {
+      "kind": "channel",
+      "id": "fnv-151050-funkfernsteuerungsanlagen",
+      "label": "Funkfernsteuerungsanlagen",
+      "freq_hz": 151050000,
+      "notes": "FNV Anlage 2: Funkfernsteuerungsanlagen –  Steuerung von Verkehrssignalanlagen und Kränen (Bereich 150.05-153 MHz)"
+    },
+    {
+      "kind": "channel",
+      "id": "fnv-151075-funkfernsteuerungsanlagen",
+      "label": "Funkfernsteuerungsanlagen",
+      "freq_hz": 151075000,
+      "notes": "FNV Anlage 2: Funkfernsteuerungsanlagen –  Steuerung von Verkehrssignalanlagen und Kränen (Bereich 150.05-153 MHz)"
+    },
+    {
+      "kind": "channel",
+      "id": "fnv-151150-funkfernsteuerungsanlagen",
+      "label": "Funkfernsteuerungsanlagen",
+      "freq_hz": 151150000,
+      "notes": "FNV Anlage 2: Funkfernsteuerungsanlagen –  Steuerung von Verkehrssignalanlagen und Kränen (Bereich 150.05-153 MHz)"
+    },
+    {
+      "kind": "channel",
+      "id": "fnv-156300-bewegl.-seefunk",
+      "label": "bewegl. Seefunk",
+      "freq_hz": 156300000,
+      "notes": "FNV Anlage 2: bewegl. Seefunk – Für Not- und Sicherheitsverkehr im Rahmen des GMDSS (Bereich 154-156.488 MHz)"
+    },
+    {
+      "kind": "channel",
+      "id": "fnv-156500-see-und-binnenschifffahrtsfunk",
+      "label": "See- und Binnenschifffahrtsfunk",
+      "freq_hz": 156500000,
+      "notes": "FNV Anlage 2: See- und Binnenschifffahrtsfunk – Für Not- und Sicherheitsverkehr im Rahmen des Binnenschifffahrtsfunks (Bereich 156.488-156.562 MHz)"
+    },
+    {
+      "kind": "channel",
+      "id": "fnv-156525-seefunk",
+      "label": "Seefunk",
+      "freq_hz": 156525000,
+      "notes": "FNV Anlage 2: Seefunk – Für Not- und Sicherheitsverkehr im Rahmen des GMDSS (Bereich 156.488-156.562 MHz)"
+    },
+    {
+      "kind": "channel",
+      "id": "fnv-156650-seefunk",
+      "label": "Seefunk",
+      "freq_hz": 156650000,
+      "notes": "FNV Anlage 2: Seefunk – Für Not- und Sicherheitsverkehr im Rahmen des GMDSS (Bereich 156.562-156.762 MHz)"
+    },
+    {
+      "kind": "channel",
+      "id": "fnv-156800-seefunk",
+      "label": "Seefunk",
+      "freq_hz": 156800000,
+      "notes": "FNV Anlage 2: Seefunk – Für Not- und Sicherheitsverkehr im Rahmen des GMDSS Internationale Anruf-, Not- und Sicherheitsfrequenz im Seefunkdienst (Bereich 156.787-156.812 MHz)"
+    },
+    {
+      "kind": "channel",
+      "id": "fnv-161618-rueckmelde-und-rueckruf-funkanlagen",
+      "label": "Rückmelde- und Rückruf- Funkanlagen",
+      "freq_hz": 161618750,
+      "notes": "FNV Anlage 2: Rückmelde- und Rückruf- Funkanlagen (Bereich 157.338-161.787 MHz)"
+    },
+    {
+      "kind": "channel",
+      "id": "fnv-161631-rueckmelde-und-rueckruf-funkanlagen",
+      "label": "Rückmelde- und Rückruf- Funkanlagen",
+      "freq_hz": 161631250,
+      "notes": "FNV Anlage 2: Rückmelde- und Rückruf- Funkanlagen (Bereich 157.338-161.787 MHz)"
+    },
+    {
+      "kind": "channel",
+      "id": "fnv-161637-rueckmelde-und-rueckruf-funkanlagen",
+      "label": "Rückmelde- und Rückruf- Funkanlagen",
+      "freq_hz": 161637500,
+      "notes": "FNV Anlage 2: Rückmelde- und Rückruf- Funkanlagen (Bereich 157.338-161.787 MHz)"
+    },
+    {
+      "kind": "channel",
+      "id": "fnv-161643-rueckmelde-und-rueckruf-funkanlagen",
+      "label": "Rückmelde- und Rückruf- Funkanlagen",
+      "freq_hz": 161643750,
+      "notes": "FNV Anlage 2: Rückmelde- und Rückruf- Funkanlagen (Bereich 157.338-161.787 MHz)"
+    },
+    {
+      "kind": "channel",
+      "id": "fnv-161656-rueckmelde-und-rueckruf-funkanlagen",
+      "label": "Rückmelde- und Rückruf- Funkanlagen",
+      "freq_hz": 161656250,
+      "notes": "FNV Anlage 2: Rückmelde- und Rückruf- Funkanlagen (Bereich 157.338-161.787 MHz)"
+    },
+    {
+      "kind": "channel",
+      "id": "fnv-161662-rueckmelde-und-rueckruf-funkanlagen",
+      "label": "Rückmelde- und Rückruf- Funkanlagen",
+      "freq_hz": 161662500,
+      "notes": "FNV Anlage 2: Rückmelde- und Rückruf- Funkanlagen (Bereich 157.338-161.787 MHz)"
+    },
+    {
+      "kind": "channel",
+      "id": "fnv-161668-rueckmelde-und-rueckruf-funkanlagen",
+      "label": "Rückmelde- und Rückruf- Funkanlagen",
+      "freq_hz": 161668750,
+      "notes": "FNV Anlage 2: Rückmelde- und Rückruf- Funkanlagen (Bereich 157.338-161.787 MHz)"
+    },
+    {
+      "kind": "channel",
+      "id": "fnv-161681-rueckmelde-und-rueckruf-funkanlagen",
+      "label": "Rückmelde- und Rückruf- Funkanlagen",
+      "freq_hz": 161681250,
+      "notes": "FNV Anlage 2: Rückmelde- und Rückruf- Funkanlagen (Bereich 157.338-161.787 MHz)"
+    },
+    {
+      "kind": "channel",
+      "id": "fnv-161975-see-und-binnenschifffahrtsfunk",
+      "label": "See- und Binnenschifffahrtsfunk",
+      "freq_hz": 161975000,
+      "notes": "FNV Anlage 2: See- und Binnenschifffahrtsfunk – Automatisches Identifizierungssystem AIS (Bereich 161.963-161.988 MHz)"
+    },
+    {
+      "kind": "channel",
+      "id": "fnv-162000-seefunk-und-binnenschifffahrtsfunk",
+      "label": "Seefunk- und Binnenschifffahrtsfunk",
+      "freq_hz": 162000000,
+      "notes": "FNV Anlage 2: Seefunk- und Binnenschifffahrtsfunk (Bereich 161.988-162.012 MHz)"
+    },
+    {
+      "kind": "channel",
+      "id": "fnv-162025-see-und-binnenschifffahrtsfunk",
+      "label": "See- und Binnenschifffahrtsfunk",
+      "freq_hz": 162025000,
+      "notes": "FNV Anlage 2: See- und Binnenschifffahrtsfunk – Automatisches Identifizierungssystem AIS (Bereich 162.012-162.037 MHz)"
+    },
+    {
+      "kind": "channel",
+      "id": "fnv-164900-mobilfunk-ausser-bewegl.-flugfunk",
+      "label": "Mobilfunk außer bewegl. Flugfunk",
+      "freq_hz": 164900000,
+      "notes": "FNV Anlage 2: Mobilfunk außer bewegl. Flugfunk – Vorführung von Funkanlagen Mietweise Überlassung von Funkanlagen durch Funkfirmen (Bereich 162.037-174 MHz), Paarfrequenz 160.300 MHz",
+      "pair_hz": 160300000,
+      "demod": "AM",
+      "bw_hz": 6000
+    },
+    {
+      "kind": "channel",
+      "id": "fnv-162475-personenrufanlagen",
+      "label": "Personenrufanlagen",
+      "freq_hz": 162475000,
+      "notes": "FNV Anlage 2: Personenrufanlagen – Nur für Pagingnetze für BOS (Bereich 162.037-174 MHz)"
+    },
+    {
+      "kind": "channel",
+      "id": "fnv-169718-mobilfunksysteme",
+      "label": "Mobilfunksysteme",
+      "freq_hz": 169718500,
+      "notes": "FNV Anlage 2: Mobilfunksysteme – Verfolgungs- und Ortungssysteme (Bereich 162.037-174 MHz)"
+    },
+    {
+      "kind": "channel",
+      "id": "fnv-169725-mobilfunksysteme",
+      "label": "Mobilfunksysteme",
+      "freq_hz": 169725000,
+      "notes": "FNV Anlage 2: Mobilfunksysteme – Verfolgungs- und Ortungssysteme (Bereich 162.037-174 MHz)"
+    },
+    {
+      "kind": "channel",
+      "id": "fnv-169731-mobilfunksysteme",
+      "label": "Mobilfunksysteme",
+      "freq_hz": 169731250,
+      "notes": "FNV Anlage 2: Mobilfunksysteme – Verfolgungs- und Ortungssysteme (Bereich 162.037-174 MHz)"
+    },
+    {
+      "kind": "channel",
+      "id": "fnv-173500-funkalarmsysteme",
+      "label": "Funkalarmsysteme",
+      "freq_hz": 173500000,
+      "notes": "FNV Anlage 2: Funkalarmsysteme – Sprachübertragung bei Lawinensprengung (Bereich 162.037-174 MHz)"
+    },
+    {
+      "kind": "channel",
+      "id": "fnv-173725-rueckmelde-und-rueckruf-funkanlagen",
+      "label": "Rückmelde- und Rückruf- Funkanlagen",
+      "freq_hz": 173725000,
+      "notes": "FNV Anlage 2: Rückmelde- und Rückruf- Funkanlagen (Bereich 162.037-174 MHz)"
+    },
+    {
+      "kind": "channel",
+      "id": "fnv-173750-rueckmelde-und-rueckruf-funkanlagen",
+      "label": "Rückmelde- und Rückruf- Funkanlagen",
+      "freq_hz": 173750000,
+      "notes": "FNV Anlage 2: Rückmelde- und Rückruf- Funkanlagen (Bereich 162.037-174 MHz)"
+    },
+    {
+      "kind": "channel",
+      "id": "fnv-173825-rueckmelde-und-rueckruf-funkanlagen",
+      "label": "Rückmelde- und Rückruf- Funkanlagen",
+      "freq_hz": 173825000,
+      "notes": "FNV Anlage 2: Rückmelde- und Rückruf- Funkanlagen (Bereich 162.037-174 MHz)"
+    },
+    {
+      "kind": "channel",
+      "id": "fnv-173850-rueckmelde-und-rueckruf-funkanlagen",
+      "label": "Rückmelde- und Rückruf- Funkanlagen",
+      "freq_hz": 173850000,
+      "notes": "FNV Anlage 2: Rückmelde- und Rückruf- Funkanlagen (Bereich 162.037-174 MHz)"
+    },
+    {
+      "kind": "channel",
+      "id": "fnv-173875-rueckmelde-und-rueckruf-funkanlagen",
+      "label": "Rückmelde- und Rückruf- Funkanlagen",
+      "freq_hz": 173875000,
+      "notes": "FNV Anlage 2: Rückmelde- und Rückruf- Funkanlagen (Bereich 162.037-174 MHz)"
+    },
+    {
+      "kind": "channel",
+      "id": "fnv-173950-rueckmelde-und-rueckruf-funkanlagen",
+      "label": "Rückmelde- und Rückruf- Funkanlagen",
+      "freq_hz": 173950000,
+      "notes": "FNV Anlage 2: Rückmelde- und Rückruf- Funkanlagen (Bereich 162.037-174 MHz)"
+    },
+    {
+      "kind": "channel",
+      "id": "fnv-173975-rueckmelde-und-rueckruf-funkanlagen",
+      "label": "Rückmelde- und Rückruf- Funkanlagen",
+      "freq_hz": 173975000,
+      "notes": "FNV Anlage 2: Rückmelde- und Rückruf- Funkanlagen (Bereich 162.037-174 MHz)"
+    },
+    {
+      "kind": "channel",
+      "id": "fnv-232825-rundfunkhilfsdienste",
+      "label": "Rundfunkhilfsdienste",
+      "freq_hz": 232825000,
+      "notes": "FNV Anlage 2: Rundfunkhilfsdienste – Drahtlose Mikrofone (Bereich 230-235 MHz)"
+    },
+    {
+      "kind": "channel",
+      "id": "fnv-233125-rundfunkhilfsdienste",
+      "label": "Rundfunkhilfsdienste",
+      "freq_hz": 233125000,
+      "notes": "FNV Anlage 2: Rundfunkhilfsdienste – Drahtlose Mikrofone (Bereich 230-235 MHz)"
+    },
+    {
+      "kind": "channel",
+      "id": "fnv-234625-rundfunkhilfsdienste",
+      "label": "Rundfunkhilfsdienste",
+      "freq_hz": 234625000,
+      "notes": "FNV Anlage 2: Rundfunkhilfsdienste – Drahtlose Mikrofone (Bereich 230-235 MHz)"
+    },
+    {
+      "kind": "channel",
+      "id": "fnv-230900-breitband-reportagefunkanlagen",
+      "label": "Breitband- Reportagefunkanlagen",
+      "freq_hz": 230900000,
+      "notes": "FNV Anlage 2: Breitband- Reportagefunkanlagen (Bereich 230-235 MHz)"
+    },
+    {
+      "kind": "channel",
+      "id": "fnv-231500-breitband-reportagefunkanlagen",
+      "label": "Breitband- Reportagefunkanlagen",
+      "freq_hz": 231500000,
+      "notes": "FNV Anlage 2: Breitband- Reportagefunkanlagen (Bereich 230-235 MHz)"
+    },
+    {
+      "kind": "channel",
+      "id": "fnv-231800-breitband-reportagefunkanlagen",
+      "label": "Breitband- Reportagefunkanlagen",
+      "freq_hz": 231800000,
+      "notes": "FNV Anlage 2: Breitband- Reportagefunkanlagen (Bereich 230-235 MHz)"
+    },
+    {
+      "kind": "channel",
+      "id": "fnv-232100-breitband-reportagefunkanlagen",
+      "label": "Breitband- Reportagefunkanlagen",
+      "freq_hz": 232100000,
+      "notes": "FNV Anlage 2: Breitband- Reportagefunkanlagen (Bereich 230-235 MHz)"
+    },
+    {
+      "kind": "channel",
+      "id": "fnv-232400-breitband-reportagefunkanlagen",
+      "label": "Breitband- Reportagefunkanlagen",
+      "freq_hz": 232400000,
+      "notes": "FNV Anlage 2: Breitband- Reportagefunkanlagen (Bereich 230-235 MHz)"
+    },
+    {
+      "kind": "channel",
+      "id": "fnv-232650-breitband-reportagefunkanlagen",
+      "label": "Breitband- Reportagefunkanlagen",
+      "freq_hz": 232650000,
+      "notes": "FNV Anlage 2: Breitband- Reportagefunkanlagen (Bereich 230-235 MHz)"
+    },
+    {
+      "kind": "channel",
+      "id": "fnv-235675-rundfunkhilfsdienste",
+      "label": "Rundfunkhilfsdienste",
+      "freq_hz": 235675000,
+      "notes": "FNV Anlage 2: Rundfunkhilfsdienste – Drahtlose Mikrofone (Bereich 235-267 MHz)"
+    },
+    {
+      "kind": "channel",
+      "id": "fnv-236575-rundfunkhilfsdienste",
+      "label": "Rundfunkhilfsdienste",
+      "freq_hz": 236575000,
+      "notes": "FNV Anlage 2: Rundfunkhilfsdienste – Drahtlose Mikrofone (Bereich 235-267 MHz)"
+    },
+    {
+      "kind": "channel",
+      "id": "fnv-237325-rundfunkhilfsdienste",
+      "label": "Rundfunkhilfsdienste",
+      "freq_hz": 237325000,
+      "notes": "FNV Anlage 2: Rundfunkhilfsdienste – Drahtlose Mikrofone (Bereich 235-267 MHz)"
+    },
+    {
+      "kind": "channel",
+      "id": "fnv-237775-rundfunkhilfsdienste",
+      "label": "Rundfunkhilfsdienste",
+      "freq_hz": 237775000,
+      "notes": "FNV Anlage 2: Rundfunkhilfsdienste – Drahtlose Mikrofone (Bereich 235-267 MHz)"
+    },
+    {
+      "kind": "channel",
+      "id": "fnv-237925-rundfunkhilfsdienste",
+      "label": "Rundfunkhilfsdienste",
+      "freq_hz": 237925000,
+      "notes": "FNV Anlage 2: Rundfunkhilfsdienste – Drahtlose Mikrofone (Bereich 235-267 MHz)"
+    },
+    {
+      "kind": "channel",
+      "id": "fnv-243200-rundfunkhilfsdienste",
+      "label": "Rundfunkhilfsdienste",
+      "freq_hz": 243200000,
+      "notes": "FNV Anlage 2: Rundfunkhilfsdienste – Drahtlose Mikrofone (Bereich 235-267 MHz)"
+    },
+    {
+      "kind": "channel",
+      "id": "fnv-243700-rundfunkhilfsdienste",
+      "label": "Rundfunkhilfsdienste",
+      "freq_hz": 243700000,
+      "notes": "FNV Anlage 2: Rundfunkhilfsdienste – Drahtlose Mikrofone (Bereich 235-267 MHz)"
+    },
+    {
+      "kind": "channel",
+      "id": "fnv-244600-rundfunkhilfsdienste",
+      "label": "Rundfunkhilfsdienste",
+      "freq_hz": 244600000,
+      "notes": "FNV Anlage 2: Rundfunkhilfsdienste – Drahtlose Mikrofone (Bereich 235-267 MHz)"
+    },
+    {
+      "kind": "channel",
+      "id": "fnv-246300-rundfunkhilfsdienste",
+      "label": "Rundfunkhilfsdienste",
+      "freq_hz": 246300000,
+      "notes": "FNV Anlage 2: Rundfunkhilfsdienste – Drahtlose Mikrofone (Bereich 235-267 MHz)"
+    },
+    {
+      "kind": "channel",
+      "id": "fnv-247100-rundfunkhilfsdienste",
+      "label": "Rundfunkhilfsdienste",
+      "freq_hz": 247100000,
+      "notes": "FNV Anlage 2: Rundfunkhilfsdienste – Drahtlose Mikrofone (Bereich 235-267 MHz)"
+    },
+    {
+      "kind": "channel",
+      "id": "fnv-247500-rundfunkhilfsdienste",
+      "label": "Rundfunkhilfsdienste",
+      "freq_hz": 247500000,
+      "notes": "FNV Anlage 2: Rundfunkhilfsdienste – Drahtlose Mikrofone (Bereich 235-267 MHz)"
+    },
+    {
+      "kind": "channel",
+      "id": "fnv-248600-rundfunkhilfsdienste",
+      "label": "Rundfunkhilfsdienste",
+      "freq_hz": 248600000,
+      "notes": "FNV Anlage 2: Rundfunkhilfsdienste – Drahtlose Mikrofone (Bereich 235-267 MHz)"
+    },
+    {
+      "kind": "channel",
+      "id": "fnv-249900-rundfunkhilfsdienste",
+      "label": "Rundfunkhilfsdienste",
+      "freq_hz": 249900000,
+      "notes": "FNV Anlage 2: Rundfunkhilfsdienste – Drahtlose Mikrofone (Bereich 235-267 MHz)"
+    },
+    {
+      "kind": "channel",
+      "id": "fnv-340200-mobilfunk",
+      "label": "Mobilfunk",
+      "freq_hz": 340200000,
+      "notes": "FNV Anlage 2: Mobilfunk – Vorführung von Funkanlagen Mietweise Überlassung von Funkanlagen durch Funkfirmen (Bereich 335.4-387 MHz)"
+    },
+    {
+      "kind": "channel",
+      "id": "fnv-354500-mobilfunk",
+      "label": "Mobilfunk",
+      "freq_hz": 354500000,
+      "notes": "FNV Anlage 2: Mobilfunk – Vorführung von Funkanlagen Mietweise Überlassung von Funkanlagen durch Funkfirmen (Bereich 335.4-387 MHz)"
+    },
+    {
+      "kind": "channel",
+      "id": "fnv-364500-mobilfunk",
+      "label": "Mobilfunk",
+      "freq_hz": 364500000,
+      "notes": "FNV Anlage 2: Mobilfunk – Vorführung von Funkanlagen Mietweise Überlassung von Funkanlagen durch Funkfirmen (Bereich 335.4-387 MHz)"
+    },
+    {
+      "kind": "channel",
+      "id": "fnv-353075-funkfernsteuerungs-und-funkmessanlagen",
+      "label": "Funkfernsteuerungs- und Funkmessanlagen",
+      "freq_hz": 353075000,
+      "notes": "FNV Anlage 2: Funkfernsteuerungs- und Funkmessanlagen (Bereich 335.4-387 MHz), Paarfrequenz 363.075 MHz",
+      "pair_hz": 363075000
+    },
+    {
+      "kind": "channel",
+      "id": "fnv-363075-funkfernsteuerungs-und-funkmessanlagen",
+      "label": "Funkfernsteuerungs- und Funkmessanlagen",
+      "freq_hz": 363075000,
+      "notes": "FNV Anlage 2: Funkfernsteuerungs- und Funkmessanlagen (Bereich 335.4-387 MHz), Paarfrequenz 353.075 MHz",
+      "pair_hz": 353075000
+    },
+    {
+      "kind": "channel",
+      "id": "fnv-439390-datenfunkanwendungen",
+      "label": "Datenfunkanwendungen",
+      "freq_hz": 439390000,
+      "notes": "FNV Anlage 2: Datenfunkanwendungen (Bereich 438-440 MHz)"
+    },
+    {
+      "kind": "channel",
+      "id": "fnv-439410-datenfunkanwendungen",
+      "label": "Datenfunkanwendungen",
+      "freq_hz": 439410000,
+      "notes": "FNV Anlage 2: Datenfunkanwendungen (Bereich 438-440 MHz)"
+    },
+    {
+      "kind": "channel",
+      "id": "fnv-439430-datenfunkanwendungen",
+      "label": "Datenfunkanwendungen",
+      "freq_hz": 439430000,
+      "notes": "FNV Anlage 2: Datenfunkanwendungen (Bereich 438-440 MHz)"
+    },
+    {
+      "kind": "channel",
+      "id": "fnv-440525-funkfernsteuerungs-und-funkfernmessanlag",
+      "label": "Funkfernsteuerungs- und Funkfernmessanlagen",
+      "freq_hz": 440525000,
+      "notes": "FNV Anlage 2: Funkfernsteuerungs- und Funkfernmessanlagen (Bereich 440-450 MHz)"
+    },
+    {
+      "kind": "channel",
+      "id": "fnv-440550-funkfernsteuerungs-und-funkfernmessanlag",
+      "label": "Funkfernsteuerungs- und Funkfernmessanlagen",
+      "freq_hz": 440550000,
+      "notes": "FNV Anlage 2: Funkfernsteuerungs- und Funkfernmessanlagen (Bereich 440-450 MHz)"
+    },
+    {
+      "kind": "channel",
+      "id": "fnv-440625-funkfernsteuerungs-und-funkfernmessanlag",
+      "label": "Funkfernsteuerungs- und Funkfernmessanlagen",
+      "freq_hz": 440625000,
+      "notes": "FNV Anlage 2: Funkfernsteuerungs- und Funkfernmessanlagen (Bereich 440-450 MHz)"
+    },
+    {
+      "kind": "channel",
+      "id": "fnv-440775-funkfernsteuerungs-und-funkfernmessanlag",
+      "label": "Funkfernsteuerungs- und Funkfernmessanlagen",
+      "freq_hz": 440775000,
+      "notes": "FNV Anlage 2: Funkfernsteuerungs- und Funkfernmessanlagen (Bereich 440-450 MHz)"
+    },
+    {
+      "kind": "channel",
+      "id": "fnv-440825-funkfernsteuerungs-und-funkfernmessanlag",
+      "label": "Funkfernsteuerungs- und Funkfernmessanlagen",
+      "freq_hz": 440825000,
+      "notes": "FNV Anlage 2: Funkfernsteuerungs- und Funkfernmessanlagen (Bereich 440-450 MHz)"
+    },
+    {
+      "kind": "channel",
+      "id": "fnv-440750-funkalarmsysteme",
+      "label": "Funkalarmsysteme",
+      "freq_hz": 440750000,
+      "notes": "FNV Anlage 2: Funkalarmsysteme (Bereich 440-450 MHz)"
+    },
+    {
+      "kind": "channel",
+      "id": "fnv-441150-funkfernsteuerungs-und-funkfernmessanlag",
+      "label": "Funkfernsteuerungs- und Funkfernmessanlagen",
+      "freq_hz": 441150000,
+      "notes": "FNV Anlage 2: Funkfernsteuerungs- und Funkfernmessanlagen (Bereich 440-450 MHz)"
+    },
+    {
+      "kind": "channel",
+      "id": "fnv-441300-funkfernsteuerungs-und-funkfernmessanlag",
+      "label": "Funkfernsteuerungs- und Funkfernmessanlagen",
+      "freq_hz": 441300000,
+      "notes": "FNV Anlage 2: Funkfernsteuerungs- und Funkfernmessanlagen (Bereich 440-450 MHz)"
+    },
+    {
+      "kind": "channel",
+      "id": "fnv-441475-funkfernsteuerungs-und-funkfernmessanlag",
+      "label": "Funkfernsteuerungs- und Funkfernmessanlagen",
+      "freq_hz": 441475000,
+      "notes": "FNV Anlage 2: Funkfernsteuerungs- und Funkfernmessanlagen (Bereich 440-450 MHz)"
+    },
+    {
+      "kind": "channel",
+      "id": "fnv-444900-mobilfunk-ausser-bewegl.-flugfunk",
+      "label": "Mobilfunk außer bewegl. Flugfunk",
+      "freq_hz": 444900000,
+      "notes": "FNV Anlage 2: Mobilfunk außer bewegl. Flugfunk – Mietweise Überlassung von Funkanlagen durch Funkfirmen (Bereich 440-450 MHz)",
+      "demod": "AM",
+      "bw_hz": 6000
+    },
+    {
+      "kind": "channel",
+      "id": "fnv-457330-mobilfunk",
+      "label": "Mobilfunk",
+      "freq_hz": 457330000,
+      "notes": "FNV Anlage 2: Mobilfunk – Vorführung von Funkanlagen Mietweise Überlassung von Funkanlagen durch Funkfirmen (Bereich 456-459 MHz)"
+    },
+    {
+      "kind": "channel",
+      "id": "fnv-467330-mobilfunk",
+      "label": "Mobilfunk",
+      "freq_hz": 467330000,
+      "notes": "FNV Anlage 2: Mobilfunk – Vorführung von Funkanlagen Mietweise Überlassung von Funkanlagen durch Funkfirmen (Bereich 460-470 MHz)"
+    },
+    {
+      "kind": "channel",
+      "id": "fnv-469990-fernausloesung-von-waehleinrichtungen",
+      "label": "Fernauslösung von Wähleinrichtungen",
+      "freq_hz": 469990000,
+      "notes": "FNV Anlage 2: Fernauslösung von Wähleinrichtungen – Haus-Notrufsysteme (Bereich 460-470 MHz)"
+    },
+    {
+      "kind": "channel",
+      "id": "fnv-916300-rfid",
+      "label": "RFID",
+      "freq_hz": 916300000,
+      "notes": "FNV Anlage 2: RFID – Short Range Devices (Bereich 890-942 MHz)"
+    },
+    {
+      "kind": "channel",
+      "id": "fnv-917500-rfid",
+      "label": "RFID",
+      "freq_hz": 917500000,
+      "notes": "FNV Anlage 2: RFID – Short Range Devices (Bereich 890-942 MHz)"
+    },
+    {
+      "kind": "channel",
+      "id": "fnv-918700-rfid",
+      "label": "RFID",
+      "freq_hz": 918700000,
+      "notes": "FNV Anlage 2: RFID – Short Range Devices (Bereich 890-942 MHz)"
+    },
+    {
+      "kind": "channel",
+      "id": "fnv-1030000-sekundaerradar",
+      "label": "Sekundärradar",
+      "freq_hz": 1030000000,
+      "notes": "FNV Anlage 2: Sekundärradar – Sendefrequenz für Transponder in der Bodenstation (Bereich 960-1164 MHz)"
+    },
+    {
+      "kind": "channel",
+      "id": "fnv-1090000-sekundaerradar",
+      "label": "Sekundärradar",
+      "freq_hz": 1090000000,
+      "notes": "FNV Anlage 2: Sekundärradar – Empfangsfrequenz der Bodenstation (Bereich 960-1164 MHz)"
+    }
+  ]
+}

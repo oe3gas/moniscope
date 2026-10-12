@@ -1,0 +1,118 @@
+{
+  "version": 1,
+  "meta": {
+    "service": "Amateur radio",
+    "source": "IARU Region 1 band plan",
+    "note": "2 m and 70 cm are already in Amateurfunk_VHF.json and Amateurfunk_UHF.json, 6 m in fup_30_88_mhz.json - therefore not repeated here. Bands above 3 GHz (6 cm, 3 cm) omitted; 13 cm only up to 2450 MHz.",
+    "color": "gruen"
+  },
+  "defaults": {
+    "demod": "USB",
+    "bw_hz": 2400,
+    "antenna": "kw_dipol",
+    "tags": [
+      "ham"
+    ]
+  },
+  "bands": [
+    {
+      "id": "ham-2200m",
+      "title": "Amateur radio 2200 m",
+      "start_hz": 135700,
+      "stop_hz": 137800
+    },
+    {
+      "id": "ham-630m",
+      "title": "Amateur radio 630 m",
+      "start_hz": 472000,
+      "stop_hz": 479000
+    },
+    {
+      "id": "ham-160m",
+      "title": "Amateur radio 160 m",
+      "start_hz": 1810000,
+      "stop_hz": 2000000
+    },
+    {
+      "id": "ham-80m",
+      "title": "Amateur radio 80 m",
+      "start_hz": 3500000,
+      "stop_hz": 3800000
+    },
+    {
+      "id": "ham-60m",
+      "title": "Amateur radio 60 m",
+      "start_hz": 5351500,
+      "stop_hz": 5366500
+    },
+    {
+      "id": "ham-40m",
+      "title": "Amateur radio 40 m",
+      "start_hz": 7000000,
+      "stop_hz": 7200000
+    },
+    {
+      "id": "ham-30m",
+      "title": "Amateur radio 30 m",
+      "start_hz": 10100000,
+      "stop_hz": 10150000
+    },
+    {
+      "id": "ham-20m",
+      "title": "Amateur radio 20 m",
+      "start_hz": 14000000,
+      "stop_hz": 14350000
+    },
+    {
+      "id": "ham-17m",
+      "title": "Amateur radio 17 m",
+      "start_hz": 18068000,
+      "stop_hz": 18168000
+    },
+    {
+      "id": "ham-15m",
+      "title": "Amateur radio 15 m",
+      "start_hz": 21000000,
+      "stop_hz": 21450000
+    },
+    {
+      "id": "ham-12m",
+      "title": "Amateur radio 12 m",
+      "start_hz": 24890000,
+      "stop_hz": 24990000
+    },
+    {
+      "id": "ham-10m",
+      "title": "Amateur radio 10 m",
+      "start_hz": 28000000,
+      "stop_hz": 29700000
+    },
+    {
+      "id": "ham-23cm",
+      "title": "Amateur radio 23 cm",
+      "start_hz": 1240000000,
+      "stop_hz": 1300000000
+    },
+    {
+      "id": "ham-13cm",
+      "title": "Amateur radio 13 cm",
+      "start_hz": 2320000000,
+      "stop_hz": 2450000000
+    },
+    {
+      "id": "ham-6m",
+      "title": "Amateur radio 6 m",
+      "start_hz": 50000000,
+      "stop_hz": 52000000,
+      "segments": [
+        {
+          "title": "FM/digital",
+          "start_hz": 51000000,
+          "stop_hz": 52000000
+        }
+      ],
+      "moved_from": "fup_30_88_mhz.json"
+    }
+  ],
+  "entries": []
+}

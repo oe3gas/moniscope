@@ -1,0 +1,221 @@
+{
+  "version": 1,
+  "meta": {
+    "service": "Amateurfunk 2 m",
+    "region": "IARU Region 1 / OE",
+    "source": "IARU-R1-Bandplan 144-146 MHz (vereinfacht)",
+    "notes": "OE-Relais in Reichweite bitte als channel-Eintraege ergaenzen (Ausgabe = Empfangsfrequenz).",
+    "maintainer": "OE3GAS",
+    "color": "gruen"
+  },
+  "defaults": {
+    "demod": "FM",
+    "bw_hz": 15000,
+    "squelch_dbuv": 15,
+    "antenna": "discone",
+    "tags": [
+      "ham",
+      "2m"
+    ]
+  },
+  "bands": [
+    {
+      "id": "ham-2m",
+      "title": "Amateurfunk 2 m",
+      "start_hz": 144000000,
+      "stop_hz": 146000000,
+      "segments": [
+        {
+          "title": "Satellit",
+          "start_hz": 144000000,
+          "stop_hz": 144025000
+        },
+        {
+          "title": "CW",
+          "start_hz": 144025000,
+          "stop_hz": 144150000
+        },
+        {
+          "title": "SSB",
+          "start_hz": 144150000,
+          "stop_hz": 144400000
+        },
+        {
+          "title": "Baken",
+          "start_hz": 144400000,
+          "stop_hz": 144490000
+        },
+        {
+          "title": "Allmode/MGM",
+          "start_hz": 144490000,
+          "stop_hz": 144962500
+        },
+        {
+          "title": "Relais-Eingabe",
+          "start_hz": 144962500,
+          "stop_hz": 145193500
+        },
+        {
+          "title": "FM Simplex",
+          "start_hz": 145193500,
+          "stop_hz": 145593500
+        },
+        {
+          "title": "Relais-Ausgabe",
+          "start_hz": 145593500,
+          "stop_hz": 145793500
+        },
+        {
+          "title": "Satellit",
+          "start_hz": 145793500,
+          "stop_hz": 146000000
+        }
+      ]
+    }
+  ],
+  "entries": [
+    {
+      "kind": "channel",
+      "id": "ham-2m-cw-anruf",
+      "label": "CW Anruffrequenz",
+      "freq_hz": 144050000,
+      "demod": "CW",
+      "bw_hz": 600
+    },
+    {
+      "kind": "channel",
+      "id": "ham-2m-ssb-anruf",
+      "label": "SSB Anruf",
+      "freq_hz": 144300000,
+      "demod": "USB",
+      "bw_hz": 2400
+    },
+    {
+      "kind": "channel",
+      "id": "ham-2m-aprs",
+      "label": "APRS",
+      "freq_hz": 144800000,
+      "tags": [
+        "ham",
+        "2m",
+        "digital"
+      ]
+    },
+    {
+      "kind": "channel",
+      "id": "ham-2m-fm-anruf",
+      "label": "FM Anruf",
+      "freq_hz": 145500000
+    },
+    {
+      "kind": "channel",
+      "id": "ham-2m-ft8",
+      "label": "FT8",
+      "freq_hz": 144174000,
+      "demod": "USB",
+      "bw_hz": 2400
+    },
+    {
+      "kind": "channel",
+      "id": "ham-2m-notfunk",
+      "label": "Notfunk",
+      "freq_hz": 144260000,
+      "demod": "USB",
+      "bw_hz": 2400
+    },
+    {
+      "kind": "channel",
+      "id": "ham-2m-wspr",
+      "label": "WSPR",
+      "freq_hz": 144492000,
+      "demod": "USB",
+      "bw_hz": 2400
+    },
+    {
+      "kind": "channel",
+      "id": "ham-2m-bild",
+      "label": "Bild",
+      "freq_hz": 144500000,
+      "demod": "FM",
+      "bw_hz": 15000
+    },
+    {
+      "kind": "channel",
+      "id": "ham-2m-daten",
+      "label": "Daten?",
+      "freq_hz": 144600000,
+      "demod": "FM",
+      "bw_hz": 15000
+    },
+    {
+      "kind": "channel",
+      "id": "ham-2m-atv-rueckruf",
+      "label": "ATV-Rückruf",
+      "freq_hz": 144750000,
+      "demod": "FM",
+      "bw_hz": 15000
+    },
+    {
+      "kind": "channel",
+      "id": "ham-2m-dv-anruf",
+      "label": "DV-Anruf",
+      "freq_hz": 145375000,
+      "demod": "FM",
+      "bw_hz": 15000
+    },
+    {
+      "kind": "channel",
+      "id": "ham-2m-simplex-525",
+      "label": "Simplex 145,525",
+      "freq_hz": 145525000,
+      "demod": "FM",
+      "bw_hz": 15000
+    },
+    {
+      "kind": "channel",
+      "id": "ham-2m-simplex-550",
+      "label": "Simplex 145,550",
+      "freq_hz": 145550000,
+      "demod": "FM",
+      "bw_hz": 15000
+    },
+    {
+      "kind": "channel",
+      "id": "ham-2m-iss-sprache",
+      "label": "ISS Sprache",
+      "freq_hz": 145800000,
+      "demod": "FM",
+      "bw_hz": 15000
+    },
+    {
+      "kind": "channel",
+      "id": "ham-2m-iss-packet",
+      "label": "ISS Packet/APRS",
+      "freq_hz": 145825000,
+      "demod": "FM",
+      "bw_hz": 15000
+    },
+    {
+      "kind": "raster",
+      "id_prefix": "ham-2m-rpt",
+      "start_hz": 145600000,
+      "stop_hz": 145787500,
+      "step_hz": 12500,
+      "label_template": "RV{n}",
+      "tags": [
+        "ham",
+        "2m",
+        "relais"
+      ],
+      "notes": "Relais-Ausgaben 12,5-kHz-Raster; Kanalname RV48.. nur als Zaehler n, echte RV-Nummern bei Bedarf nachtragen."
+    },
+    {
+      "kind": "channel",
+      "id": "ADL238",
+      "label": "Hausfrequenz Hollabrunn",
+      "freq_hz": 144637500,
+      "bw_hz": 9000,
+      "notes": "erster Eintrag von mir"
+    }
+  ]
+}

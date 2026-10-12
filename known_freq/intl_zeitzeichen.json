@@ -1,0 +1,56 @@
+{
+  "version": 1,
+  "meta": {
+    "service": "Time signals",
+    "source": "ITU allocations (standard frequency and time signal service)",
+    "color": "graublau"
+  },
+  "defaults": {
+    "demod": "AM",
+    "bw_hz": 6000,
+    "antenna": "kw_dipol",
+    "tags": [
+      "zeitzeichen"
+    ]
+  },
+  "bands": [],
+  "entries": [
+    {
+      "kind": "channel",
+      "id": "time-2500",
+      "label": "2.5 MHz standard frequency",
+      "freq_hz": 2500000,
+      "notes": "WWV/WWVH/BPM and others"
+    },
+    {
+      "kind": "channel",
+      "id": "time-5000",
+      "label": "5 MHz standard frequency",
+      "freq_hz": 5000000,
+      "notes": "WWV/WWVH/BPM and others"
+    },
+    {
+      "kind": "channel",
+      "id": "time-10000",
+      "label": "10 MHz standard frequency",
+      "freq_hz": 10000000,
+      "notes": "WWV/WWVH/BPM and others"
+    },
+    {
+      "kind": "channel",
+      "id": "time-15000",
+      "label": "15 MHz standard frequency",
+      "freq_hz": 15000000,
+      "antenna": "kw_beam",
+      "notes": "WWV/WWVH/BPM and others"
+    },
+    {
+      "kind": "channel",
+      "id": "time-20000",
+      "label": "20 MHz standard frequency",
+      "freq_hz": 20000000,
+      "antenna": "kw_beam",
+      "notes": "WWV/WWVH/BPM and others"
+    }
+  ]
+}

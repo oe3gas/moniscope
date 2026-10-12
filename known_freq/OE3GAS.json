@@ -1,0 +1,32 @@
+{
+  "meta": {
+    "service": "Gerhard's Einträge",
+    "color": "grau"
+  },
+  "defaults": {},
+  "bands": [],
+  "entries": [
+    {
+      "kind": "channel",
+      "id": "HF-APRS",
+      "label": "APRS",
+      "freq_hz": 10147500,
+      "demod": "USB",
+      "bw_hz": 2400,
+      "antenna": "kw_dipol",
+      "tags": [
+        "aprs",
+        "digimode"
+      ]
+    },
+    {
+      "kind": "channel",
+      "id": "oe3gas_HL_HausQRG",
+      "label": "Hausfrequenz Hollabrunn",
+      "freq_hz": 144637500,
+      "demod": "FM",
+      "bw_hz": 9000,
+      "antenna": "discone"
+    }
+  ]
+}

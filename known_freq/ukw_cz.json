@@ -1,0 +1,181 @@
+{
+  "version": 1,
+  "meta": {
+    "service": "UKW CZ",
+    "source": "UKW-Senderliste Tschechien (Südmähren), Stand 08/2026",
+    "note": "Fernempfang. Mehrfachbelegungen einer Frequenz durch Sender verschiedener Laender sind gewollt - die IDs bleiben durch Praefix und Standort eindeutig.",
+    "color": "blau"
+  },
+  "defaults": {
+    "demod": "FM",
+    "bw_hz": 150000,
+    "antenna": "discone",
+    "tags": [
+      "rundfunk",
+      "fernempfang"
+    ]
+  },
+  "bands": [],
+  "entries": [
+    {
+      "kind": "channel",
+      "id": "fm-cz-impuls-kojal",
+      "label": "Radio Impuls (Brno/Kojál)",
+      "freq_hz": 87600000,
+      "notes": "Brno/Kojál"
+    },
+    {
+      "kind": "channel",
+      "id": "fm-cz-kiss-hady",
+      "label": "Kiss (Brno/Hády)",
+      "freq_hz": 88300000,
+      "notes": "Brno/Hády"
+    },
+    {
+      "kind": "channel",
+      "id": "fm-cz-cro-vltava-hady",
+      "label": "ČRo Vltava (Brno/Hády)",
+      "freq_hz": 90400000,
+      "notes": "Brno/Hády"
+    },
+    {
+      "kind": "channel",
+      "id": "fm-cz-country-breclav",
+      "label": "Country Radio (Břeclav)",
+      "freq_hz": 92400000,
+      "notes": "Břeclav"
+    },
+    {
+      "kind": "channel",
+      "id": "fm-cz-cro-dvojka-hady",
+      "label": "ČRo Dvojka (Brno/Hády)",
+      "freq_hz": 92600000,
+      "notes": "Brno/Hády"
+    },
+    {
+      "kind": "channel",
+      "id": "fm-cz-cro-brno-hady",
+      "label": "ČRo Brno (Brno/Hády)",
+      "freq_hz": 93100000,
+      "notes": "Brno/Hády"
+    },
+    {
+      "kind": "channel",
+      "id": "fm-cz-cro-brno-babilom",
+      "label": "ČRo Brno (Hodonín/Babí lom)",
+      "freq_hz": 93600000,
+      "notes": "Hodonín/Babí lom"
+    },
+    {
+      "kind": "channel",
+      "id": "fm-cz-frekvence1-znojmo",
+      "label": "Frekvence 1 (Znojmo)",
+      "freq_hz": 94900000,
+      "notes": "Znojmo"
+    },
+    {
+      "kind": "channel",
+      "id": "fm-cz-cro-radiozurnal-kojal",
+      "label": "ČRo Radiožurnál (Brno/Kojál)",
+      "freq_hz": 95100000,
+      "notes": "Brno/Kojál"
+    },
+    {
+      "kind": "channel",
+      "id": "fm-cz-krokodyl-hodonin",
+      "label": "Radio Krokodýl (Hodonín)",
+      "freq_hz": 95400000,
+      "notes": "Hodonín"
+    },
+    {
+      "kind": "channel",
+      "id": "fm-cz-cro-plus-breclav",
+      "label": "ČRo Plus (Břeclav)",
+      "freq_hz": 96300000,
+      "notes": "Břeclav"
+    },
+    {
+      "kind": "channel",
+      "id": "fm-cz-colormusic-petrov",
+      "label": "Color Music Radio (Brno/Petrov)",
+      "freq_hz": 99400000,
+      "notes": "Brno/Petrov"
+    },
+    {
+      "kind": "channel",
+      "id": "fm-cz-cro-vltava-babilom",
+      "label": "ČRo Vltava (Hodonín/Babí lom)",
+      "freq_hz": 100400000,
+      "notes": "Hodonín/Babí lom"
+    },
+    {
+      "kind": "channel",
+      "id": "fm-cz-cro-dvojka-kojal",
+      "label": "ČRo Dvojka (Brno/Kojál)",
+      "freq_hz": 102000000,
+      "notes": "Brno/Kojál"
+    },
+    {
+      "kind": "channel",
+      "id": "fm-cz-expres-petrov",
+      "label": "Expres FM (Brno/Petrov)",
+      "freq_hz": 102400000,
+      "notes": "Brno/Petrov"
+    },
+    {
+      "kind": "channel",
+      "id": "fm-cz-hitradio-city-znojmo",
+      "label": "Hitrádio City (Znojmo)",
+      "freq_hz": 102700000,
+      "notes": "Znojmo"
+    },
+    {
+      "kind": "channel",
+      "id": "fm-cz-krokodyl-hady",
+      "label": "Radio Krokodýl (Brno/Hády)",
+      "freq_hz": 103000000,
+      "notes": "Brno/Hády"
+    },
+    {
+      "kind": "channel",
+      "id": "fm-cz-blanik-hady",
+      "label": "Rádio Blaník (Brno/Hády)",
+      "freq_hz": 103400000,
+      "notes": "Brno/Hády"
+    },
+    {
+      "kind": "channel",
+      "id": "fm-cz-frekvence1-kojal",
+      "label": "Frekvence 1 (Brno/Kojál)",
+      "freq_hz": 104500000,
+      "notes": "Brno/Kojál"
+    },
+    {
+      "kind": "channel",
+      "id": "fm-cz-evropa2-hady",
+      "label": "Evropa 2 (Brno/Hády)",
+      "freq_hz": 105500000,
+      "notes": "Brno/Hády"
+    },
+    {
+      "kind": "channel",
+      "id": "fm-cz-cro-brno-kojal",
+      "label": "ČRo Brno (Brno/Kojál)",
+      "freq_hz": 106500000,
+      "notes": "Brno/Kojál"
+    },
+    {
+      "kind": "channel",
+      "id": "fm-cz-proglas-hady",
+      "label": "Radio Proglas (Brno/Hády)",
+      "freq_hz": 107500000,
+      "notes": "Brno/Hády"
+    },
+    {
+      "kind": "channel",
+      "id": "CZ_RadioZurnal",
+      "label": "Radio Zurnal CZ",
+      "freq_hz": 90700000
+    }
+  ]
+}

@@ -1,0 +1,378 @@
+{
+  "version": 1,
+  "meta": {
+    "service": "FUP 30-88 MHz",
+    "source": "Frequenznutzungsplan AT (Auszug), IARU-R1 für 6 m",
+    "note": "40,660-40,700 MHz erscheint bewusst doppelt: hier als nationales FUP-Segment, in intl_ism_srd.json als internationales ISM-Band. Segmente überlappen sich absichtlich - der FUP weist denselben Bereich mehrfach zu.",
+    "color": "grau"
+  },
+  "defaults": {
+    "demod": "FM",
+    "bw_hz": 15000,
+    "antenna": "discone",
+    "tags": [
+      "fup"
+    ]
+  },
+  "bands": [],
+  "entries": [
+    {
+      "kind": "channel",
+      "id": "fup-32250",
+      "label": "Funkmikrofon 32.250 MHz",
+      "freq_hz": 32250000,
+      "notes": "Funkmikrofone"
+    },
+    {
+      "kind": "channel",
+      "id": "fup-32300",
+      "label": "Funkmikrofon 32.300 MHz",
+      "freq_hz": 32300000,
+      "notes": "Funkmikrofone"
+    },
+    {
+      "kind": "channel",
+      "id": "fup-36950",
+      "label": "Funkmikrofon 36.950 MHz",
+      "freq_hz": 36950000,
+      "notes": "Funkmikrofone"
+    },
+    {
+      "kind": "channel",
+      "id": "fup-37300",
+      "label": "Funkmikrofon 37.300 MHz",
+      "freq_hz": 37300000,
+      "notes": "Funkmikrofone"
+    },
+    {
+      "kind": "channel",
+      "id": "fup-37700",
+      "label": "Funkmikrofon 37.700 MHz",
+      "freq_hz": 37700000,
+      "notes": "Funkmikrofone"
+    },
+    {
+      "kind": "channel",
+      "id": "fup-37900",
+      "label": "Funkmikrofon 37.900 MHz",
+      "freq_hz": 37900000,
+      "notes": "Funkmikrofone"
+    },
+    {
+      "kind": "channel",
+      "id": "fup-36640",
+      "label": "Hörhilfe 36.640 MHz",
+      "freq_hz": 36640000,
+      "notes": "Hörhilfen-Paar"
+    },
+    {
+      "kind": "channel",
+      "id": "fup-37860",
+      "label": "Hörhilfe 37.860 MHz",
+      "freq_hz": 37860000,
+      "notes": "Hörhilfen-Paar"
+    },
+    {
+      "kind": "channel",
+      "id": "fup-36720",
+      "label": "Hörhilfe 36.720 MHz",
+      "freq_hz": 36720000,
+      "notes": "Hörhilfen-Paar"
+    },
+    {
+      "kind": "channel",
+      "id": "fup-37940",
+      "label": "Hörhilfe 37.940 MHz",
+      "freq_hz": 37940000,
+      "notes": "Hörhilfen-Paar"
+    },
+    {
+      "kind": "channel",
+      "id": "fup-36760",
+      "label": "Hörhilfe 36.760 MHz",
+      "freq_hz": 36760000,
+      "notes": "Hörhilfen-Paar"
+    },
+    {
+      "kind": "channel",
+      "id": "fup-37980",
+      "label": "Hörhilfe 37.980 MHz",
+      "freq_hz": 37980000,
+      "notes": "Hörhilfen-Paar"
+    },
+    {
+      "kind": "channel",
+      "id": "fup-36700",
+      "label": "Einwegsprechfunk 36.700 MHz",
+      "freq_hz": 36700000,
+      "notes": "Einwegsprechfunk"
+    },
+    {
+      "kind": "channel",
+      "id": "fup-37100",
+      "label": "Einwegsprechfunk 37.100 MHz",
+      "freq_hz": 37100000,
+      "notes": "Einwegsprechfunk"
+    },
+    {
+      "kind": "channel",
+      "id": "fup-44550",
+      "label": "Einwegsprechfunk 44.550 MHz",
+      "freq_hz": 44550000,
+      "notes": "Einwegsprechfunk"
+    },
+    {
+      "kind": "channel",
+      "id": "fup-45000",
+      "label": "Einwegsprechfunk 45.000 MHz",
+      "freq_hz": 45000000,
+      "notes": "Einwegsprechfunk"
+    },
+    {
+      "kind": "channel",
+      "id": "fup-36800",
+      "label": "Fahrschulfunk 36.800 MHz",
+      "freq_hz": 36800000,
+      "notes": "Fahrschul-/Einwegsprechfunk"
+    },
+    {
+      "kind": "channel",
+      "id": "fup-36850",
+      "label": "Fahrschulfunk 36.850 MHz",
+      "freq_hz": 36850000,
+      "notes": "Fahrschul-/Einwegsprechfunk"
+    },
+    {
+      "kind": "channel",
+      "id": "fup-37450",
+      "label": "Fahrschulfunk 37.450 MHz",
+      "freq_hz": 37450000,
+      "notes": "Fahrschul-/Einwegsprechfunk"
+    },
+    {
+      "kind": "channel",
+      "id": "fup-37500",
+      "label": "Fahrschulfunk 37.500 MHz",
+      "freq_hz": 37500000,
+      "notes": "Fahrschul-/Einwegsprechfunk"
+    },
+    {
+      "kind": "channel",
+      "id": "fup-37550",
+      "label": "Fahrschulfunk 37.550 MHz",
+      "freq_hz": 37550000,
+      "notes": "Fahrschul-/Einwegsprechfunk"
+    },
+    {
+      "kind": "channel",
+      "id": "fup-37200",
+      "label": "Verkehrssignal 37.200 MHz",
+      "freq_hz": 37200000,
+      "notes": "Verkehrssignale/Medizin"
+    },
+    {
+      "kind": "channel",
+      "id": "fup-37800",
+      "label": "Verkehrssignal 37.800 MHz",
+      "freq_hz": 37800000,
+      "notes": "Verkehrssignale/Medizin"
+    },
+    {
+      "kind": "channel",
+      "id": "fup-39025",
+      "label": "Meteorscatter 39,025",
+      "freq_hz": 39025000,
+      "notes": "Meteorscatter TX/RX",
+      "demod": "CW",
+      "bw_hz": 600
+    },
+    {
+      "kind": "channel",
+      "id": "fup-39050",
+      "label": "Meteorscatter 39,050",
+      "freq_hz": 39050000,
+      "notes": "Meteorscatter RX",
+      "demod": "CW",
+      "bw_hz": 600
+    },
+    {
+      "kind": "channel",
+      "id": "fup-40665",
+      "label": "Personenruf 40.665 MHz",
+      "freq_hz": 40665000,
+      "notes": "Personenruf/Modellfernsteuerung"
+    },
+    {
+      "kind": "channel",
+      "id": "fup-40675",
+      "label": "Personenruf 40.675 MHz",
+      "freq_hz": 40675000,
+      "notes": "Personenruf/Modellfernsteuerung"
+    },
+    {
+      "kind": "channel",
+      "id": "fup-40685",
+      "label": "Personenruf 40.685 MHz",
+      "freq_hz": 40685000,
+      "notes": "Personenruf/Modellfernsteuerung"
+    },
+    {
+      "kind": "channel",
+      "id": "fup-40695",
+      "label": "Personenruf 40.695 MHz",
+      "freq_hz": 40695000,
+      "notes": "Personenruf/Modellfernsteuerung"
+    },
+    {
+      "kind": "channel",
+      "id": "fup-72250",
+      "label": "Forst-Fernsteuerung",
+      "freq_hz": 72250000,
+      "notes": "Forst-Fernsteuerung"
+    },
+    {
+      "kind": "channel",
+      "id": "fup-77425",
+      "label": "Testfrequenz 77.425 MHz",
+      "freq_hz": 77425000,
+      "notes": "Vorführ-/Testfrequenzen"
+    },
+    {
+      "kind": "channel",
+      "id": "fup-87225",
+      "label": "Testfrequenz 87.225 MHz",
+      "freq_hz": 87225000,
+      "notes": "Vorführ-/Testfrequenzen"
+    },
+    {
+      "kind": "channel",
+      "id": "ham-6m-cw",
+      "label": "CW Anruf",
+      "freq_hz": 50090000,
+      "demod": "CW",
+      "bw_hz": 600,
+      "antenna": "yagi_6m",
+      "tags": [
+        "ham",
+        "6m"
+      ]
+    },
+    {
+      "kind": "channel",
+      "id": "ham-6m-dx",
+      "label": "DX-Anruf",
+      "freq_hz": 50110000,
+      "demod": "USB",
+      "bw_hz": 2400,
+      "antenna": "yagi_6m",
+      "tags": [
+        "ham",
+        "6m"
+      ]
+    },
+    {
+      "kind": "channel",
+      "id": "ham-6m-ssb",
+      "label": "SSB Anruf",
+      "freq_hz": 50150000,
+      "demod": "USB",
+      "bw_hz": 2400,
+      "antenna": "yagi_6m",
+      "tags": [
+        "ham",
+        "6m"
+      ]
+    },
+    {
+      "kind": "channel",
+      "id": "ham-6m-cross",
+      "label": "Cross-Band",
+      "freq_hz": 50185000,
+      "demod": "USB",
+      "bw_hz": 2400,
+      "antenna": "yagi_6m",
+      "tags": [
+        "ham",
+        "6m"
+      ]
+    },
+    {
+      "kind": "channel",
+      "id": "ham-6m-ms",
+      "label": "Meteorscatter",
+      "freq_hz": 50280000,
+      "demod": "USB",
+      "bw_hz": 2400,
+      "antenna": "yagi_6m",
+      "tags": [
+        "ham",
+        "6m"
+      ]
+    },
+    {
+      "kind": "channel",
+      "id": "ham-6m-ft8",
+      "label": "FT8",
+      "freq_hz": 50313000,
+      "demod": "USB",
+      "bw_hz": 2400,
+      "antenna": "yagi_6m",
+      "tags": [
+        "ham",
+        "6m"
+      ]
+    },
+    {
+      "kind": "channel",
+      "id": "ham-6m-ft8-dx",
+      "label": "FT8 DX",
+      "freq_hz": 50320000,
+      "demod": "USB",
+      "bw_hz": 2400,
+      "antenna": "yagi_6m",
+      "tags": [
+        "ham",
+        "6m"
+      ]
+    },
+    {
+      "kind": "channel",
+      "id": "ham-6m-baken",
+      "label": "Baken",
+      "freq_hz": 50400000,
+      "demod": "CW",
+      "bw_hz": 600,
+      "antenna": "yagi_6m",
+      "tags": [
+        "ham",
+        "6m"
+      ]
+    },
+    {
+      "kind": "channel",
+      "id": "ham-6m-sstv",
+      "label": "SSTV",
+      "freq_hz": 50510000,
+      "demod": "USB",
+      "bw_hz": 2400,
+      "antenna": "yagi_6m",
+      "tags": [
+        "ham",
+        "6m"
+      ]
+    },
+    {
+      "kind": "channel",
+      "id": "ham-6m-fax",
+      "label": "FAX",
+      "freq_hz": 50550000,
+      "demod": "USB",
+      "bw_hz": 2400,
+      "antenna": "yagi_6m",
+      "tags": [
+        "ham",
+        "6m"
+      ]
+    }
+  ]
+}

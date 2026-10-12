@@ -1,0 +1,133 @@
+{
+  "version": 1,
+  "meta": {
+    "service": "UKW SK",
+    "source": "UKW-Senderliste Slowakei (Bratislava/Kamzík), Stand 08/2026",
+    "note": "Fernempfang. Mehrfachbelegungen einer Frequenz durch Sender verschiedener Laender sind gewollt - die IDs bleiben durch Praefix und Standort eindeutig.",
+    "color": "blau"
+  },
+  "defaults": {
+    "demod": "FM",
+    "bw_hz": 150000,
+    "antenna": "discone",
+    "tags": [
+      "rundfunk",
+      "fernempfang"
+    ]
+  },
+  "bands": [],
+  "entries": [
+    {
+      "kind": "channel",
+      "id": "fm-sk-viva-bratislava",
+      "label": "Rádio Viva (Bratislava)",
+      "freq_hz": 88000000,
+      "notes": "Bratislava"
+    },
+    {
+      "kind": "channel",
+      "id": "fm-sk-maria-bratislava",
+      "label": "Rádio Mária Slovensko (Bratislava)",
+      "freq_hz": 88800000,
+      "notes": "Bratislava"
+    },
+    {
+      "kind": "channel",
+      "id": "fm-sk-fm-kamzik",
+      "label": "Rádio_FM (Kamzík)",
+      "freq_hz": 89300000,
+      "notes": "Kamzík"
+    },
+    {
+      "kind": "channel",
+      "id": "fm-sk-devin-bratislava",
+      "label": "Rádio Devín (Bratislava)",
+      "freq_hz": 90100000,
+      "notes": "Bratislava"
+    },
+    {
+      "kind": "channel",
+      "id": "fm-sk-melody-bratislava",
+      "label": "Rádio Melody (Bratislava)",
+      "freq_hz": 91700000,
+      "notes": "Bratislava"
+    },
+    {
+      "kind": "channel",
+      "id": "fm-sk-expres-bratislava",
+      "label": "Rádio Expres (Bratislava)",
+      "freq_hz": 92600000,
+      "notes": "Bratislava"
+    },
+    {
+      "kind": "channel",
+      "id": "fm-sk-lumen-kamzik",
+      "label": "Rádio Lumen (Kamzík)",
+      "freq_hz": 93800000,
+      "notes": "Kamzík"
+    },
+    {
+      "kind": "channel",
+      "id": "fm-sk-fun-kamzik",
+      "label": "Fun Rádio (Kamzík)",
+      "freq_hz": 94300000,
+      "notes": "Kamzík"
+    },
+    {
+      "kind": "channel",
+      "id": "fm-sk-slovensko-kamzik",
+      "label": "Rádio Slovensko (Kamzík)",
+      "freq_hz": 96600000,
+      "notes": "Kamzík"
+    },
+    {
+      "kind": "channel",
+      "id": "fm-sk-vlna-bratislava",
+      "label": "Rádio Vlna (Bratislava)",
+      "freq_hz": 97200000,
+      "notes": "Bratislava"
+    },
+    {
+      "kind": "channel",
+      "id": "fm-sk-regina-kamzik",
+      "label": "Rádio Regina Západ (Kamzík)",
+      "freq_hz": 99300000,
+      "notes": "Kamzík"
+    },
+    {
+      "kind": "channel",
+      "id": "fm-sk-vlna-kamzik",
+      "label": "Rádio Vlna (Kamzík)",
+      "freq_hz": 101800000,
+      "notes": "Kamzík"
+    },
+    {
+      "kind": "channel",
+      "id": "fm-sk-devin-kamzik",
+      "label": "Rádio Devín (Kamzík)",
+      "freq_hz": 104400000,
+      "notes": "Kamzík"
+    },
+    {
+      "kind": "channel",
+      "id": "fm-sk-europa2-kamzik",
+      "label": "Europa 2 (Kamzík)",
+      "freq_hz": 104800000,
+      "notes": "Kamzík"
+    },
+    {
+      "kind": "channel",
+      "id": "fm-sk-melody-kamzik",
+      "label": "Rádio Melody (Kamzík)",
+      "freq_hz": 106600000,
+      "notes": "Kamzík"
+    },
+    {
+      "kind": "channel",
+      "id": "fm-sk-expres-kamzik",
+      "label": "Rádio Expres (Kamzík)",
+      "freq_hz": 107600000,
+      "notes": "Kamzík"
+    }
+  ]
+}

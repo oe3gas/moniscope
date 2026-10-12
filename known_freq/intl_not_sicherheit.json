@@ -1,0 +1,74 @@
+{
+  "version": 1,
+  "meta": {
+    "service": "Distress/safety",
+    "source": "ITU allocations, GMDSS",
+    "note": "121.500 MHz deliberately not included - already present as air-guard in Air.json (a frequency appears only once in the catalog).",
+    "color": "rot"
+  },
+  "defaults": {
+    "demod": "AM",
+    "bw_hz": 6000,
+    "antenna": "discone",
+    "tags": [
+      "notfunk"
+    ]
+  },
+  "bands": [],
+  "entries": [
+    {
+      "kind": "channel",
+      "id": "sos-mil-guard",
+      "label": "243.000 Mil-Guard",
+      "freq_hz": 243000000,
+      "notes": "military aeronautical emergency frequency"
+    },
+    {
+      "kind": "channel",
+      "id": "sos-gw-2182",
+      "label": "2182 maritime distress",
+      "freq_hz": 2182000,
+      "demod": "USB",
+      "bw_hz": 2400,
+      "antenna": "kw_dipol",
+      "notes": "international maritime distress telephony (MF)"
+    },
+    {
+      "kind": "channel",
+      "id": "sos-dsc-2187",
+      "label": "2187.5 DSC",
+      "freq_hz": 2187500,
+      "demod": "USB",
+      "bw_hz": 2400,
+      "antenna": "kw_dipol",
+      "notes": "GMDSS DSC alerting"
+    },
+    {
+      "kind": "channel",
+      "id": "sos-marine-16",
+      "label": "Marine channel 16",
+      "freq_hz": 156800000,
+      "demod": "FM",
+      "bw_hz": 15000,
+      "notes": "distress, calling and safety traffic"
+    },
+    {
+      "kind": "channel",
+      "id": "sos-ais-1",
+      "label": "AIS 1",
+      "freq_hz": 161975000,
+      "demod": "FM",
+      "bw_hz": 30000,
+      "notes": "GMSK 9.6 kBd"
+    },
+    {
+      "kind": "channel",
+      "id": "sos-ais-2",
+      "label": "AIS 2",
+      "freq_hz": 162025000,
+      "demod": "FM",
+      "bw_hz": 30000,
+      "notes": "GMSK 9.6 kBd"
+    }
+  ]
+}

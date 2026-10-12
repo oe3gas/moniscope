@@ -1,0 +1,116 @@
+{
+  "version": 1,
+  "meta": {
+    "service": "Flugfunk VHF",
+    "region": "ICAO / Europa",
+    "source": "ICAO Annex 10 Vol. V (8,33-kHz-Kanalraster); NAV-Band nur als Bereich",
+    "notes": "Wiener Frequenzen (LOWW TWR/GND/ATIS, Wien Approach) bitte als channel-Eintraege ergaenzen.",
+    "maintainer": "OE3GAS",
+    "color": "petrol"
+  },
+  "defaults": {
+    "demod": "AM",
+    "bw_hz": 6000,
+    "squelch_dbuv": 20,
+    "antenna": "discone",
+    "tags": [
+      "air",
+      "voice"
+    ]
+  },
+  "bands": [],
+  "entries": [
+    {
+      "kind": "raster",
+      "id_prefix": "air",
+      "start_hz": 118000000,
+      "stop_hz": 136975000,
+      "step_scheme": "airband_8k33",
+      "notes": "Kanalname = ICAO-Bezeichner (z. B. 118.010), nicht die Frequenz."
+    },
+    {
+      "kind": "raster",
+      "id_prefix": "air25",
+      "start_hz": 118000000,
+      "stop_hz": 136975000,
+      "step_hz": 25000,
+      "label_template": "{mhz:.3f}",
+      "bw_hz": 9000,
+      "enabled": false,
+      "notes": "Alt-25-kHz-Raster, gleiche Frequenzen wie Sub-0 des 8,33-Rasters, nur breiteres Filter. Fuer M-SCAN redundant."
+    },
+    {
+      "kind": "channel",
+      "id": "air-guard",
+      "label": "121.500 Guard",
+      "freq_hz": 121500000,
+      "bw_hz": 9000,
+      "tags": [
+        "air",
+        "voice",
+        "distress"
+      ],
+      "notes": "Internationale Notfrequenz"
+    },
+    {
+      "kind": "channel",
+      "id": "VIE_info",
+      "label": "Wien Information – VFR/TFI",
+      "freq_hz": 118525000
+    },
+    {
+      "kind": "channel",
+      "id": "VIE_Radar",
+      "label": "Wien Radar",
+      "freq_hz": 118775000
+    },
+    {
+      "kind": "channel",
+      "id": "VIE_Radar_2",
+      "label": "Wien Radar",
+      "freq_hz": 125175000
+    },
+    {
+      "kind": "channel",
+      "id": "Praha_unid_1",
+      "label": "Praha unidentified",
+      "freq_hz": 127125000
+    },
+    {
+      "kind": "channel",
+      "id": "unid_2",
+      "label": "UNID",
+      "freq_hz": 125150000
+    },
+    {
+      "kind": "channel",
+      "id": "LOAU_Stockerau",
+      "label": "LOAU_Stockerau",
+      "freq_hz": 122855000
+    },
+    {
+      "kind": "channel",
+      "id": "LOXT_tower_primary",
+      "label": "Tulln Langenlebarn Tower",
+      "freq_hz": 118905000
+    },
+    {
+      "kind": "channel",
+      "id": "LOXT_tower_secondary",
+      "label": "Langenlebarn Tower",
+      "freq_hz": 136630000
+    },
+    {
+      "kind": "channel",
+      "id": "LOXT_radar",
+      "label": "Langelebarn Radar",
+      "freq_hz": 136130000
+    },
+    {
+      "kind": "channel",
+      "id": "LOXT_radar_2nd",
+      "label": "Langelebarn Radar",
+      "freq_hz": 129880000
+    }
+  ]
+}

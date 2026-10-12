@@ -1,0 +1,182 @@
+{
+  "version": 1,
+  "meta": {
+    "service": "UKW HU",
+    "source": "UKW-Senderliste Ungarn (Győr/Sopron/Kab-hegy), Stand 08/2026",
+    "note": "Fernempfang. Mehrfachbelegungen einer Frequenz durch Sender verschiedener Laender sind gewollt - die IDs bleiben durch Praefix und Standort eindeutig.",
+    "color": "blau"
+  },
+  "defaults": {
+    "demod": "FM",
+    "bw_hz": 150000,
+    "antenna": "discone",
+    "tags": [
+      "rundfunk",
+      "fernempfang"
+    ]
+  },
+  "bands": [],
+  "entries": [
+    {
+      "kind": "channel",
+      "id": "fm-hu-hirfm-gyor",
+      "label": "Hír FM (Győr)",
+      "freq_hz": 88100000,
+      "notes": "Győr"
+    },
+    {
+      "kind": "channel",
+      "id": "fm-hu-hirfm-mosonmagyarovar",
+      "label": "Hír FM (Mosonmagyaróvár)",
+      "freq_hz": 90900000,
+      "notes": "Mosonmagyaróvár"
+    },
+    {
+      "kind": "channel",
+      "id": "fm-hu-petofi-gyor",
+      "label": "Petőfi (Győr)",
+      "freq_hz": 93100000,
+      "notes": "Győr"
+    },
+    {
+      "kind": "channel",
+      "id": "fm-hu-petofi-kabhegy",
+      "label": "Petőfi (Kab-hegy)",
+      "freq_hz": 93900000,
+      "notes": "Kab-hegy"
+    },
+    {
+      "kind": "channel",
+      "id": "fm-hu-radio1-sopron",
+      "label": "Rádió 1 (Sopron)",
+      "freq_hz": 94100000,
+      "notes": "Sopron"
+    },
+    {
+      "kind": "channel",
+      "id": "fm-hu-kossuth-mosonmagyarovar",
+      "label": "Kossuth (Mosonmagyaróvár)",
+      "freq_hz": 95000000,
+      "notes": "Mosonmagyaróvár"
+    },
+    {
+      "kind": "channel",
+      "id": "fm-hu-katolikus-gyor",
+      "label": "Magyar Katolikus Rádió (Győr)",
+      "freq_hz": 96400000,
+      "notes": "Győr"
+    },
+    {
+      "kind": "channel",
+      "id": "fm-hu-kossuth-sopron",
+      "label": "Kossuth (Sopron)",
+      "freq_hz": 96800000,
+      "notes": "Sopron"
+    },
+    {
+      "kind": "channel",
+      "id": "fm-hu-hirfm-sopron",
+      "label": "Hír FM (Sopron)",
+      "freq_hz": 98400000,
+      "notes": "Sopron"
+    },
+    {
+      "kind": "channel",
+      "id": "fm-hu-petofi-sopron",
+      "label": "Petőfi (Sopron)",
+      "freq_hz": 99500000,
+      "notes": "Sopron"
+    },
+    {
+      "kind": "channel",
+      "id": "fm-hu-gyorplus-gyor",
+      "label": "Győr+ Rádió (Győr)",
+      "freq_hz": 100100000,
+      "notes": "Győr"
+    },
+    {
+      "kind": "channel",
+      "id": "fm-hu-retro-kabhegy",
+      "label": "Retro (Kab-hegy)",
+      "freq_hz": 100500000,
+      "notes": "Kab-hegy"
+    },
+    {
+      "kind": "channel",
+      "id": "fm-hu-retro-gyor",
+      "label": "Retro (Győr)",
+      "freq_hz": 101400000,
+      "notes": "Győr"
+    },
+    {
+      "kind": "channel",
+      "id": "fm-hu-danko-sopron",
+      "label": "Dankó (Sopron)",
+      "freq_hz": 101600000,
+      "notes": "Sopron"
+    },
+    {
+      "kind": "channel",
+      "id": "fm-hu-retro-sopron",
+      "label": "Retro (Sopron)",
+      "freq_hz": 102000000,
+      "notes": "Sopron"
+    },
+    {
+      "kind": "channel",
+      "id": "fm-hu-danko-kabhegy",
+      "label": "Dankó (Kab-hegy)",
+      "freq_hz": 102300000,
+      "notes": "Kab-hegy"
+    },
+    {
+      "kind": "channel",
+      "id": "fm-hu-radio1-gyor",
+      "label": "Rádió 1 (Győr)",
+      "freq_hz": 103100000,
+      "notes": "Győr"
+    },
+    {
+      "kind": "channel",
+      "id": "fm-hu-katolikus-sopron",
+      "label": "Magyar Katolikus Rádió (Sopron)",
+      "freq_hz": 104600000,
+      "notes": "Sopron"
+    },
+    {
+      "kind": "channel",
+      "id": "fm-hu-bartok-kabhegy",
+      "label": "Bartók (Kab-hegy)",
+      "freq_hz": 105000000,
+      "notes": "Kab-hegy"
+    },
+    {
+      "kind": "channel",
+      "id": "fm-hu-danko-gyor",
+      "label": "Dankó (Győr)",
+      "freq_hz": 106400000,
+      "notes": "Győr"
+    },
+    {
+      "kind": "channel",
+      "id": "fm-hu-bartok-gyor",
+      "label": "Bartók (Győr)",
+      "freq_hz": 106800000,
+      "notes": "Győr"
+    },
+    {
+      "kind": "channel",
+      "id": "fm-hu-kossuth-kabhegy",
+      "label": "Kossuth (Kab-hegy)",
+      "freq_hz": 107200000,
+      "notes": "Kab-hegy"
+    },
+    {
+      "kind": "channel",
+      "id": "fm-hu-bartok-sopron",
+      "label": "Bartók (Sopron)",
+      "freq_hz": 107900000,
+      "notes": "Sopron"
+    }
+  ]
+}

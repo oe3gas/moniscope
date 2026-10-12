@@ -1,0 +1,79 @@
+{
+  "commit": "7278bc8",
+  "dateien": {
+    "analyze_audio.py": {
+      "ausgenommen_zeilen": 0,
+      "maskiert_zeilen": 396,
+      "stufe_a": 391,
+      "stufe_a_zeilen": 206,
+      "stufe_b": 17,
+      "stufe_b_zeilen": 11
+    },
+    "analyze_mscan.py": {
+      "ausgenommen_zeilen": 0,
+      "maskiert_zeilen": 182,
+      "stufe_a": 163,
+      "stufe_a_zeilen": 96,
+      "stufe_b": 6,
+      "stufe_b_zeilen": 5
+    },
+    "analyze_sessions.py": {
+      "ausgenommen_zeilen": 0,
+      "maskiert_zeilen": 531,
+      "stufe_a": 128,
+      "stufe_a_zeilen": 96,
+      "stufe_b": 11,
+      "stufe_b_zeilen": 8
+    },
+    "analyze_spectrum.py": {
+      "ausgenommen_zeilen": 0,
+      "maskiert_zeilen": 533,
+      "stufe_a": 159,
+      "stufe_a_zeilen": 105,
+      "stufe_b": 17,
+      "stufe_b_zeilen": 9
+    },
+    "eb200_core\\block_admin.py": {
+      "ausgenommen_zeilen": 0,
+      "maskiert_zeilen": 41,
+      "stufe_a": 426,
+      "stufe_a_zeilen": 206,
+      "stufe_b": 248,
+      "stufe_b_zeilen": 125
+    },
+    "eb200_core\\ui_theme.py": {
+      "ausgenommen_zeilen": 18,
+      "maskiert_zeilen": 19,
+      "stufe_a": 1,
+      "stufe_a_zeilen": 1,
+      "stufe_b": 7,
+      "stufe_b_zeilen": 1
+    },
+    "manage_jobs.py": {
+      "ausgenommen_zeilen": 0,
+      "maskiert_zeilen": 355,
+      "stufe_a": 430,
+      "stufe_a_zeilen": 218,
+      "stufe_b": 26,
+      "stufe_b_zeilen": 9
+    },
+    "sdr_waterfall.py": {
+      "ausgenommen_zeilen": 0,
+      "maskiert_zeilen": 338,
+      "stufe_a": 61,
+      "stufe_a_zeilen": 48,
+      "stufe_b": 8,
+      "stufe_b_zeilen": 4
+    },
+    "waterfall.py": {
+      "ausgenommen_zeilen": 0,
+      "maskiert_zeilen": 1788,
+      "stufe_a": 358,
+      "stufe_a_zeilen": 190,
+      "stufe_b": 99,
+      "stufe_b_zeilen": 56
+    }
+  },
+  "erhoben": "2026-09-21",
+  "format": "eb200-uilang-v1"
+}

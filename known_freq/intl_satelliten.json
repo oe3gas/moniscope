@@ -1,0 +1,105 @@
+{
+  "version": 1,
+  "meta": {
+    "service": "Satellites",
+    "source": "ITU allocations, operator data",
+    "note": "The GNSS bands are symbolic 2 MHz windows around the carrier frequency - the signals are spread spectrum and actually occupy more. Everything above 3 GHz omitted (receive range of the EB200).",
+    "color": "graublau"
+  },
+  "defaults": {
+    "demod": "IQ",
+    "bw_hz": 150000,
+    "antenna": "discone",
+    "tags": [
+      "sat"
+    ]
+  },
+  "bands": [
+    {
+      "id": "sat-gnss-l5",
+      "title": "GPS L5 / Galileo E5a",
+      "start_hz": 1175450000,
+      "stop_hz": 1177450000
+    },
+    {
+      "id": "sat-gnss-e5b",
+      "title": "Galileo E5b",
+      "start_hz": 1206140000,
+      "stop_hz": 1208140000
+    },
+    {
+      "id": "sat-gnss-l2",
+      "title": "GPS L2",
+      "start_hz": 1226600000,
+      "stop_hz": 1228600000
+    },
+    {
+      "id": "sat-gnss-e6",
+      "title": "Galileo E6",
+      "start_hz": 1277750000,
+      "stop_hz": 1279750000
+    },
+    {
+      "id": "sat-gnss-l1",
+      "title": "GPS L1 / Galileo E1",
+      "start_hz": 1574420000,
+      "stop_hz": 1576420000
+    },
+    {
+      "id": "sat-wx-137",
+      "title": "Weather satellite downlinks",
+      "start_hz": 137000000,
+      "stop_hz": 138000000
+    },
+    {
+      "id": "sat-wx-400",
+      "title": "Radiosondes/meteorological aids",
+      "start_hz": 400150000,
+      "stop_hz": 406000000
+    },
+    {
+      "id": "sat-wx-1670",
+      "title": "Meteorological satellites",
+      "start_hz": 1670000000,
+      "stop_hz": 1710000000
+    }
+  ],
+  "entries": [
+    {
+      "kind": "channel",
+      "id": "sat-noaa19-apt",
+      "label": "NOAA-19 APT",
+      "freq_hz": 137100000,
+      "demod": "FM",
+      "bw_hz": 50000,
+      "notes": "APT downlink; check satellite status before receiving"
+    },
+    {
+      "kind": "channel",
+      "id": "sat-noaa15-apt",
+      "label": "NOAA-15 APT",
+      "freq_hz": 137620000,
+      "demod": "FM",
+      "bw_hz": 50000,
+      "notes": "APT downlink; check satellite status before receiving"
+    },
+    {
+      "kind": "channel",
+      "id": "sat-meteor-lrpt",
+      "label": "Meteor-M LRPT",
+      "freq_hz": 137900000,
+      "demod": "FM",
+      "bw_hz": 120000,
+      "notes": "APT downlink; check satellite status before receiving"
+    },
+    {
+      "kind": "channel",
+      "id": "sat-noaa18-apt",
+      "label": "NOAA-18 APT",
+      "freq_hz": 137912500,
+      "demod": "FM",
+      "bw_hz": 50000,
+      "notes": "APT downlink; check satellite status before receiving"
+    }
+  ]
+}

@@ -1,0 +1,109 @@
+{
+  "format": "eb200-modes-fsk-v1",
+  "table_version": 1,
+  "defaults": {
+    "shift_tol_hz": 15.0,
+    "baud_tol_rel": 0.06,
+    "spacing_cv_max": 0.05,
+    "near_factor": 2.0
+  },
+  "modes": [
+    {
+      "id": "rtty_amateur_170_4545",
+      "label": "RTTY amateur",
+      "level_count": 2,
+      "shift_hz": 170,
+      "baud": 45.45,
+      "note": "Amateur radio, 60 WPM"
+    },
+    {
+      "id": "rtty_kommerziell_425_50",
+      "label": "RTTY commercial (425 Hz)",
+      "level_count": 2,
+      "shift_hz": 425,
+      "baud": 50,
+      "note": "Weather and news services"
+    },
+    {
+      "id": "rtty_kommerziell_450_50",
+      "label": "RTTY commercial (450 Hz)",
+      "level_count": 2,
+      "shift_hz": 450,
+      "baud": 50,
+      "note": "Weather and news services"
+    },
+    {
+      "id": "rtty_presse_850_75",
+      "label": "RTTY press",
+      "level_count": 2,
+      "shift_hz": 850,
+      "baud": 75,
+      "note": "Long-haul traffic"
+    },
+    {
+      "id": "sitor_b_100_170",
+      "label": "SITOR-B / NAVTEX / DSC",
+      "level_count": 2,
+      "shift_hz": 170,
+      "baud": 100,
+      "note": "Family; the parameters do not separate the three - that needs time structure and frequency"
+    },
+    {
+      "id": "pocsag_512",
+      "label": "POCSAG 512",
+      "level_count": 2,
+      "shift_hz": 9000,
+      "baud": 512,
+      "note": "Paging, +-4.5 kHz"
+    },
+    {
+      "id": "pocsag_1200",
+      "label": "POCSAG 1200",
+      "level_count": 2,
+      "shift_hz": 9000,
+      "baud": 1200,
+      "note": "Paging, +-4.5 kHz"
+    },
+    {
+      "id": "pocsag_2400",
+      "label": "POCSAG 2400",
+      "level_count": 2,
+      "shift_hz": 9000,
+      "baud": 2400,
+      "note": "Paging, +-4.5 kHz"
+    },
+    {
+      "id": "flex_1600",
+      "label": "FLEX 1600",
+      "level_count": 2,
+      "shift_hz": 9000,
+      "baud": 1600,
+      "note": "Paging"
+    },
+    {
+      "id": "flex_3200",
+      "label": "FLEX 3200",
+      "shift_hz": 9000,
+      "baud": 3200,
+      "note": "Paging, 2- or 4-level, hence without level_count"
+    },
+    {
+      "id": "dmr_4800",
+      "label": "DMR",
+      "level_count": 4,
+      "shift_hz": 3888,
+      "baud": 4800,
+      "spacing_cv_max": 0.05,
+      "note": "4-level, +-1.944 kHz; hint only, confirmation belongs in iqscan"
+    },
+    {
+      "id": "p25_c4fm_4800",
+      "label": "P25 Phase 1 C4FM",
+      "level_count": 4,
+      "shift_hz": 3600,
+      "baud": 4800,
+      "spacing_cv_max": 0.05,
+      "note": "4-level, +-1.8 kHz; hint only"
+    }
+  ]
+}
