@@ -6010,6 +6010,48 @@ Statusseite (EB200 Status) eingestellt.
 - [ ] T-2017 Session-Liste :8020 (Punkt 11): Label-Feld so hoch wie Dateiname plus
       Thumbnail, waechst nach unten, kein Resize-Griff; alle Zellen oben buendig.
 
+## Meilenstein 23: Veroeffentlichung (GitHub, Lizenz, Release)
+
+Seit 2026-10-12 liegt MoniScope als oe3gas/moniscope oeffentlich auf GitHub,
+GPL-3.0, Release v1.0.0 auf Commit 675756f. Das Veroeffentlichungs-Repo ist
+ein Export dieses Repos: EB200repo bleibt die Werkstatt, moniscope die
+Auslieferung. Nicht mit ausgeliefert werden docs/prompts/, docs/berichte/,
+docs/abnahme/, docs/messungen/, jobs/ und .claude/.
+
+- [x] T-2018 (2026-10-12, Commit 17ea663) SPDX-Lizenzkopf in allen 66 versionierten *.py:
+      zwei Zeilen nach der Shebang-Zeile bzw. am Dateianfang, einzeiliger
+      SPDX-Hinweis statt vollem GPL-Kopfkommentar. Ohne ihn ist eine
+      abgetrennte Einzeldatei lizenzlos.
+- [x] T-2019 (2026-10-12, Commits f017800 und 0b6eecc) Exportwerkzeug tools/export_public.py: schreibt den
+      Veroeffentlichungsbaum reproduzierbar aus HEAD, statt ihn wie bei v1.0.0
+      von Hand zusammenzustellen. Ausgeschlossen sind docs/prompts/,
+      docs/berichte/, docs/abnahme/, docs/messungen/, jobs/, .claude/,
+      publish/, die alte .gitignore, die beiden known_freq_abgleich-Dateien und
+      die vier Streutestskripte (audio_test6/7/8.py, SDR_probe_test.py).
+      LICENSE, README.md und .gitignore des oeffentlichen Repos liegen unter
+      publish/ und werden darueber gelegt; publish/** steht in .gitattributes
+      auf -text, damit die Pruefsummen ueber Klone hinweg halten.
+      Neu dabei: device.example.json schliesst die Vorlagenluecke aus T-2013.
+      publish/bilder/ wird als Verzeichnis nach bilder/ ueberlagert - dort
+      liegen die sieben Bildschirmfotos des README, auf 1800 px gebracht
+      (19 MB Originale auf 6,9 MB), weil sie dauerhaft in der Historie
+      bleiben. Probelauf 2026-10-12: 147 Dateien, alle sechs Selbsttests
+      gegen den exportierten Baum gruen; gegen 0b6eecc bestaetigt (G5 147
+      Dateien und sechsmal OK, G6 0, G7 dreimal True und 7).
+      Befund aus dem ersten Lauf: der Auftrag stellte das Exportgate VOR den
+      Commit, das Werkzeug liest aber aus HEAD - git show HEAD:publish/LICENSE
+      endete mit 128 und der Export brach ab. Die Dateien waren richtig, der
+      Auftrag falsch; CC hat korrekt gestoppt. Verworfen wurde die naechst-
+      liegende Abhilfe, eine Option zum Export aus dem Index: sie naehme dem
+      Werkzeug genau die Eigenschaft, aus einem Arbeitsbaum kein Release
+      entstehen zu lassen. Die Regel daraus steht in CLAUDE.md.
+- [x] T-2020 (2026-10-12) Bildschirmfotos im README des Veroeffentlichungs-
+      Repos (dort Commit 80e737b): der D-SCAN-Wasserfall als Aufmacher, dazu
+      IFPAN-Zoom, Spektrumauswertung, Signalvermessung, Aufnahmetabelle,
+      MSCAN-Scandefinitionen und Sessionliste in einem zugeklappten
+      details-Block. Quellen unter publish/bilder/, auf 1800 px Breite
+      gebracht (19 MB auf 6,9 MB), weil sie dauerhaft in der Historie bleiben.
+
 ## View-/Menübaum (Stand 2026-08, Ziel nach Meilenstein 12)
 ```
 :8000  D-SCAN Live (waterfall.py) — IFPAN-Zoom — Long-Run-Job planen (DSCAN/IFPAN)

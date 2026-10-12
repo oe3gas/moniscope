@@ -1,3 +1,5 @@
+# SPDX-License-Identifier: GPL-3.0-or-later
+# Copyright (C) 2026 Gerhard Amon (OE3GAS)
 """
 eb200_core/signal_detect.py - Signaldetektion auf fertigen D-SCAN-Sweeps (T-505).
 

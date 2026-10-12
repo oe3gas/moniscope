@@ -167,6 +167,27 @@ auf eine umbenannte Methode nicht erfasst, sodass ein Gate mit Soll 0 zu Recht
 anschlug. Wieder war in allen Fällen die Datei richtig und der Prompt falsch.
 Daraus die beiden Regeln zu Zählbereich und Umbenennungen.
 
+Nachtrag 2026-10-12 (T-2019): ein Gate muss in dem Zustand erfüllbar sein, in
+dem es läuft. Das Exportgate rief ein Werkzeug auf, das über
+`git show HEAD:<pfad>` liest, stand im Auftrag aber VOR dem Commit — dort
+existierten die neuen Dateien in HEAD noch nicht, `git show` endete mit 128.
+Derselbe Fehler kleiner bei einem Gate mit `git ls-files`: das kennt nur den
+Index, vor `git add` ist sein Soll nicht erreichbar. Feste Reihenfolge ab
+jetzt:
+
+- Gates auf den ARBEITSBAUM (`ast.parse`, Select-String auf Dateien,
+  Byte-Proben) laufen vor dem Stagen.
+- Gates auf den INDEX (`git ls-files`) laufen nach `git add`.
+- Gates auf HEAD (`git show HEAD:`, `git ls-tree HEAD`, alles, was einen
+  Commit voraussetzt) laufen NACH dem Commit. Schlägt dort eines fehl, wird
+  der Commit mit `git reset --soft HEAD~1` zurückgenommen und berichtet — der
+  gestagte Zustand ist danach unverändert.
+
+Zweiter Befund derselben Sitzung: ein Probelauf, der die Schritte in anderer
+Reihenfolge ausführt als der Auftrag, prüft den Auftrag nicht. Der Probelauf
+zu T-2019 hatte im Testrepo zuerst committet und dann exportiert und war
+deshalb grün, während der Auftrag selbst die umgekehrte Reihenfolge vorgab.
+
 ## Task-ID-Gates
 
 `\bT-NNNN\b` nur verwenden, wenn die Task keine Unter-IDs hat. Bei Familien mit

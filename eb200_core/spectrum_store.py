@@ -1,4 +1,6 @@
 #!/usr/bin/env python3
+# SPDX-License-Identifier: GPL-3.0-or-later
+# Copyright (C) 2026 Gerhard Amon (OE3GAS)
 """
 eb200_core/spectrum_store.py
 

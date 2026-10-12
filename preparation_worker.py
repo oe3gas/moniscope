@@ -1,4 +1,6 @@
 #!/usr/bin/env python3
+# SPDX-License-Identifier: GPL-3.0-or-later
+# Copyright (C) 2026 Gerhard Amon (OE3GAS)
 """
 preparation_worker.py - Aufbereitungs-Worker (T-1603, Meilenstein 16), Port 8090.
 

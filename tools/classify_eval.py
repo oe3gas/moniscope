@@ -1,4 +1,6 @@
 #!/usr/bin/env python3
+# SPDX-License-Identifier: GPL-3.0-or-later
+# Copyright (C) 2026 Gerhard Amon (OE3GAS)
 """
 tools/classify_eval.py - Automatik (audio_classify) vs. Handlabel: Konfusions-
 matrix, Trefferquoten, Merkmalswerte der Fehlklassifikationen und Perzentile

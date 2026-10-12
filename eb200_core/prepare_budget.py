@@ -1,4 +1,6 @@
 #!/usr/bin/env python3
+# SPDX-License-Identifier: GPL-3.0-or-later
+# Copyright (C) 2026 Gerhard Amon (OE3GAS)
 """
 eb200_core/prepare_budget.py - Vorhersage und Budgetpruefung fuer den
 Aufbereitungs-Worker (T-1602, Meilenstein 16).
